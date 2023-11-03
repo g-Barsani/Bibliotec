@@ -1,0 +1,52 @@
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\repos\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\repos\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\repos\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\repos\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\repos\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
