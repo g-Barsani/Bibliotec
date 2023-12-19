@@ -1,0 +1,1 @@
+Observação: Antes de extrair clicar com o botão direito do mouse no arquivo .zip, abrir as propriedades e marcar opção "Desbloquear" para permitir executar os formulários dentro do Visual Studio.
