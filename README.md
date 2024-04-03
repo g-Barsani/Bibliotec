@@ -13,21 +13,6 @@ Permitir a execução dos formulários dentro do Visual Studio:
 - Na janela de Propriedades, marcar a checkbox "Desbloquear"  
 - Clicar em "Aplicar" depois em "OK"  
 
-## Cronograma
-
-- [x] 28/11 - Entrega do Projeto
-- [ ] 19/12 - Reunião com Cliente
-
-## Backlog
-
-| Cargo          | Tarefa                                                     | Tecnologias                      | Status   |
-| ---            | ---                                                        | ---                              | ---      |
-| Analistas      | Diagrama de caso de uso                                    | Word; Ferramenta para Diagramas  | ☑️      |
-| Documentadores | Atualização da documentação conforme alterações            | Word; Formatos .docx e .pdf      | ☑️      |
-| Programadores  |  Conexão da interface com o BD; Ajustes necessários        | Windows Forms; C#                | ☑️      |
-| Banco de Dados | Definir estrutura de dados; Montar os DataBase             | SQL Server ou Access             | ☑️      |
-| Testadores     | Desenvolver documento de roteiro de teste                  |                                  | ☑️      |
-
 ## Cargos
 
 **Analistas:** Alan, Geraldo  

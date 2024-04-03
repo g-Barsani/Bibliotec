@@ -1,0 +1,400 @@
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\Alan Marques\Desktop\Bibliotec\Main\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\repos\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\repos\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\repos\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\repos\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\repos\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\repos\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Cadastrar.resources
+C:\Users\lucks\OneDrive\Desktop\Bruno Faculdade\Faculdade\Projetos\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Pesquisar.resources
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\Devart.Data.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\bin\Debug\net6.0-windows\Devart.Data.xml
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Cadastrar.resources
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Pesquisar.resources
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CopyComplete
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\Arthu\Desktop\Fatec_\teste\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Cadastrar.resources
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Pesquisar.resources
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CopyComplete
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\lucks\Downloads\artzi\teste\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Cadastrar.resources
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Pesquisar.resources
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CopyComplete
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\sarar\Downloads\Bibliotec (1)\teste\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Cadastrar.resources
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Pesquisar.resources
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CopyComplete
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\sarar\Downloads\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Cadastrar.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Pesquisar.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CopyComplete
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\teste\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Cadastrar.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Pesquisar.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CopyComplete
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Form1.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Cadastrar.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Pesquisar.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CopyComplete
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\sarar\Downloads\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.sourcelink.json
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.Up2Date
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.MainForm.resources
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Pesquisa.resources
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec V1.0 - 28-11-2023\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.CadastrarMaterial.resources
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.exe
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.deps.json
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.runtimeconfig.json
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.CadastrarMaterial.resources
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Pesquisa.resources
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.MainForm.resources
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.GenerateResource.cache
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfoInputs.cache
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.AssemblyInfo.cs
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.sourcelink.json
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.Up2Date
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\refint\Bibliotec.dll
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.pdb
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
+C:\Users\Gabriella\Documents\GitHub\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
