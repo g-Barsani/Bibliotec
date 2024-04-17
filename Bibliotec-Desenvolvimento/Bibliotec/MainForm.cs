@@ -4,7 +4,7 @@ namespace Bibliotec
     {
         private Form activeForm = null!; // define como não nulo
         private Button lastButton = null!;
-        
+
 
         public MainForm()
         {
@@ -18,9 +18,9 @@ namespace Bibliotec
 
         // Abrir Forms filhos
         private void OpenChildForm(Form childForm, Button btn)
-        {    
-             activeForm?.Close(); // se activeForme for diferente de nulo
-            
+        {
+            activeForm?.Close(); // se activeForme for diferente de nulo
+
 
             if (lastButton != null)
             {
@@ -63,6 +63,11 @@ namespace Bibliotec
         private void CloseBtn_Click(object sender, EventArgs e) //Botão criado para fechar formulário
         {
             this.Close(); //Comando para fechar Form
+        }
+
+        private void registerUserBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.CadastrarUsuario(), registerUserBtn);
         }
     }
 }

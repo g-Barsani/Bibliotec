@@ -62,7 +62,7 @@
             optionsPanel.Controls.Add(helpLabel);
             optionsPanel.Location = new Point(0, 191);
             optionsPanel.Name = "optionsPanel";
-            optionsPanel.Size = new Size(1192, 19);
+            optionsPanel.Size = new Size(1192, 25);
             optionsPanel.TabIndex = 12;
             // 
             // logInLabel
@@ -72,7 +72,7 @@
             logInLabel.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             logInLabel.ForeColor = Color.White;
             logInLabel.LinkColor = Color.White;
-            logInLabel.Location = new Point(1118, 0);
+            logInLabel.Location = new Point(1111, -1);
             logInLabel.Name = "logInLabel";
             logInLabel.Size = new Size(43, 17);
             logInLabel.TabIndex = 9;
@@ -252,6 +252,7 @@
             registerUserBtn.TabIndex = 4;
             registerUserBtn.Text = "          Cadastrar Usuário";
             registerUserBtn.UseVisualStyleBackColor = false;
+            registerUserBtn.Click += registerUserBtn_Click;
             // 
             // logo
             // 

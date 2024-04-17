@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\",
+  "WorkspaceRootPath": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\gabriella\\documents\\github\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\bibliotec\\forms\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|g:\\repos\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\cadastrarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|g:\\repos\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|g:\\repos\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,50 +46,112 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec\\MainForm.cs",
+              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.cs",
               "RelativeDocumentMoniker": "Bibliotec\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec\\MainForm.cs",
+              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.cs",
               "RelativeToolTip": "Bibliotec\\MainForm.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAJAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAEUAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T21:30:36.473Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec\\MainForm.cs",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.cs",
               "RelativeDocumentMoniker": "Bibliotec\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec V1.0 - 28-11-2023\\Bibliotec\\Bibliotec\\MainForm.cs [Projeto]",
-              "RelativeToolTip": "..\\..\\Bibliotec V1.0 - 28-11-2023\\Bibliotec\\Bibliotec\\MainForm.cs [Projeto]",
+              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.cs [Design]",
+              "RelativeToolTip": "Bibliotec\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T23:00:44.411Z"
+              "WhenOpened": "2024-04-17T16:13:49.362Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pesquisa.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec\\Forms\\Pesquisa.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Forms\\Pesquisa.cs",
-              "ToolTip": "C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec\\Forms\\Pesquisa.cs [Projeto]",
-              "RelativeToolTip": "Bibliotec\\Forms\\Pesquisa.cs [Projeto]",
+              "Title": "CadastrarUsuario.cs [Design]",
+              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarUsuario.cs",
+              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs [Design]",
+              "RelativeToolTip": "Bibliotec\\Forms\\CadastrarUsuario.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T22:53:01.78Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-04-17T15:56:19.626Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\MainForm.Designer.cs",
+              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.Designer.cs",
+              "RelativeToolTip": "Bibliotec\\MainForm.Designer.cs",
+              "ViewState": "AQIAABUBAAAAAAAAAAAowBYBAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T16:13:23.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadastrarUsuario.Designer.cs",
+              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.Designer.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarUsuario.Designer.cs",
+              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.Designer.cs",
+              "RelativeToolTip": "Bibliotec\\Forms\\CadastrarUsuario.Designer.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAGwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T16:01:36.359Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CadastrarMaterial.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec\\Forms\\CadastrarMaterial.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarMaterial.cs",
-              "ToolTip": "C:\\Users\\Gabriella\\Documents\\GitHub\\Bibliotec\\Bibliotec V1.0 - 28-11-2023\\Bibliotec\\Bibliotec\\Forms\\CadastrarMaterial.cs [Projeto]",
-              "RelativeToolTip": "..\\..\\Bibliotec V1.0 - 28-11-2023\\Bibliotec\\Bibliotec\\Forms\\CadastrarMaterial.cs [Projeto]",
+              "Title": "CadastrarUsuario.cs",
+              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarUsuario.cs",
+              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs",
+              "RelativeToolTip": "Bibliotec\\Forms\\CadastrarUsuario.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABUAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T22:18:53.015Z"
+              "WhenOpened": "2024-04-17T15:58:19.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pesquisa.cs [Design]",
+              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Pesquisa.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\Pesquisa.cs",
+              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Pesquisa.cs [Design]",
+              "RelativeToolTip": "Bibliotec\\Forms\\Pesquisa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T22:53:01.78Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CadastrarMaterial.cs [Design]",
+              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarMaterial.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarMaterial.cs",
+              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarMaterial.cs [Design]",
+              "RelativeToolTip": "Bibliotec\\Forms\\CadastrarMaterial.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T22:18:53.015Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
