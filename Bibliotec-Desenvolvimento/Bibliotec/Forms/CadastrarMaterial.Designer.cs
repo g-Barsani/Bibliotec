@@ -293,6 +293,7 @@
             registerMaterialBtn.Name = "registerMaterialBtn";
             registerMaterialBtn.Size = new Size(191, 60);
             registerMaterialBtn.TabIndex = 15;
+            registerMaterialBtn.TabStop = false;
             registerMaterialBtn.Text = "  Cadastrar";
             registerMaterialBtn.UseVisualStyleBackColor = false;
             registerMaterialBtn.Click += RegisterMaterialBtn_Click;
@@ -380,7 +381,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ButtonFace;
+            BackColor = SystemColors.Control;
             ClientSize = new Size(1176, 521);
             Controls.Add(subtitleLbl);
             Controls.Add(subtitleTextB);

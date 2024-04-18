@@ -17,7 +17,7 @@ namespace Bibliotec.Forms
             InitializeComponent();
         }
 
-        private void SignInBtn_Click(object sender, EventArgs e)
+        private void registerUserlBtn_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Inserir funcionalidade 👍");
         }

@@ -41,7 +41,6 @@ namespace Bibliotec
 
         }
 
-
         private void SearchBtn_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.Pesquisa(), searchBtn);
@@ -59,15 +58,14 @@ namespace Bibliotec
         {
             OpenChildForm(new Forms.CadastrarMaterial(), registerMaterialBtn);
         }
+        private void registerUserBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.CadastrarUsuario(), registerUserBtn);
+        }
 
         private void CloseBtn_Click(object sender, EventArgs e) //Botão criado para fechar formulário
         {
             this.Close(); //Comando para fechar Form
-        }
-
-        private void registerUserBtn_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Forms.CadastrarUsuario(), registerUserBtn);
         }
     }
 }
