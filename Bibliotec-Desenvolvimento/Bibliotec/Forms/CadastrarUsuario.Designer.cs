@@ -229,7 +229,7 @@
             userPhoneMskTxtB.Anchor = AnchorStyles.None;
             userPhoneMskTxtB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             userPhoneMskTxtB.Location = new Point(675, 302);
-            userPhoneMskTxtB.Mask = "(99) 00000-0000";
+            userPhoneMskTxtB.Mask = "(99)00000-0000";
             userPhoneMskTxtB.Name = "userPhoneMskTxtB";
             userPhoneMskTxtB.Size = new Size(378, 26);
             userPhoneMskTxtB.TabIndex = 35;
