@@ -32,13 +32,11 @@ namespace Bibliotec.Forms
                 {
                     connection.Open();
 
-                    string tituloBusca = titleTextB.Text; // Título do livro que você quer buscar
-
                     string sql = "SELECT * FROM tb_livros WHERE titulo = @titulo";
 
                     using (MySqlCommand command = new MySqlCommand(sql, connection))
                     {
-                        command.Parameters.AddWithValue("@titulo", tituloBusca);
+                        command.Parameters.AddWithValue("@titulo", titleTextB.Text);
 
                         using (MySqlDataReader reader = command.ExecuteReader())
                         {
@@ -49,7 +47,7 @@ namespace Bibliotec.Forms
                                 string palavraChave = reader.GetString("palavra_chave");
                                 string assunto = reader.GetString("assunto");
                                 string localPublicacao = reader.GetString("local_publicacao");
-                                string anoPublicacao = reader.GetDateTime("ano_publicacao").ToString("yyyy"); // Converte ano para string
+                                string anoPublicacao = reader.GetDateTime("ano_publicacao").ToString("yyyy-MM-dd"); // Converte ano para string
                                 bool disponibilidade = reader.GetBoolean("disponibilidade");
                                 bool tarjaVermelha = reader.GetBoolean("tarja_vermelha");
                                 string autor = reader.GetString("autor");
