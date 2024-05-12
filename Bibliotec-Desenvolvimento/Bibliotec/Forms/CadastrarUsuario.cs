@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic.Devices;
+﻿using Bibliotec.Classes.Usuarios;
+using Microsoft.VisualBasic.Devices;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -24,41 +25,35 @@ namespace Bibliotec.Forms
         private void registerUserlBtn_Click(object sender, EventArgs e)
         {
             // Configuração da string de conexão com o banco de dados MySQL
-            var strConection = "server=localhost;uid=root;password=root;pwd=;database=biblioteca";
+            var strConection = "server=localhost;uid=root;password=root;pwd=;database=db_bibliotec";
             var conec = new MySqlConnection(strConection);
             try
             {
                 // Abre a conexão com o banco de dados
                 conec.Open();
 
-                // Obtenção dos valores dos campos do formulário
-                string name = userNameTxtB.Text;
-                string ra = RATxtB.Text;
-                string rg = RGTxtB.Text;
-                string emailInstitucional = schoolEmailTxtB.Text;
-                string emailPessoal = personalEmailTxtB.Text;
-                string numeroCelular = userPhoneMskTxtB.Text;
-
+                // Obtenção dos valores dos campos do formulário e criando objeto
                 string tipoUsuario = userTypeComboB.Text; //Pode estar errado
-                Console.WriteLine("celular" + numeroCelular);
-
-                // Construção da string SQL para inserir um novo livro
-
                 string strSQL;
+
                 if (tipoUsuario == "Aluno") {
-                    strSQL = $"CALL insereAluno('{name}', '{ra}', '{rg}', '{emailInstitucional}', '{emailPessoal}', '{numeroCelular}')";
+                    Aluno aluno = new Aluno(userNameTxtB.Text, schoolEmailTxtB.Text, userPhoneMskTxtB.Text, RATxtB.Text);
+                    // Construção da string SQL para inserir um novo livro
+                    strSQL = aluno.cadastrarAluno();
                 }
                 else if (tipoUsuario == "Professor")
                 {
-                    strSQL = $"CALL insere_professor_novo('')";
+                    Professor professor = new Professor(userNameTxtB.Text, schoolEmailTxtB.Text, userPhoneMskTxtB.Text, RATxtB.Text);
+                    // Construção da string SQL para inserir um novo livro
+                    strSQL = professor.cadastrarProfessor();
                 }
                 else
                 {
-                    strSQL = $"CALL insere_funcionario_novo('')";
+                    Funcionario funcionario = new Funcionario(userNameTxtB.Text, schoolEmailTxtB.Text, userPhoneMskTxtB.Text, RATxtB.Text);
+                    // Construção da string SQL para inserir um novo livro
+                    strSQL = funcionario.cadastrarFuncionario();
 
                 }
-
-                //string strSQL = $"CALL insere_livro_novo('{title}', '{publishDate}', '{gender}', '{publisher}', {availability}, '{author}', '{acquisition}', '{subtitle}', '{keyWord}', '{subject}', '{edition}', '{isbn}' , '{publishLocal}' )";
 
                 // Criação do comando SQL e execução
                 var insertBook = new MySqlCommand(strSQL, conec);
@@ -66,6 +61,13 @@ namespace Bibliotec.Forms
 
                 // Exibe uma mensagem de sucesso
                 MessageBox.Show("Usuário cadastrado com sucesso!");
+
+                // Limpa os campos do formulário após o cadastro
+                userNameTxtB.Text = null;
+                RATxtB.Text = null;
+                schoolEmailTxtB.Text = null;
+                userPhoneMskTxtB.Text = null;
+                userTypeComboB.Text = null;
             }
             catch (Exception er)
             {
@@ -79,14 +81,7 @@ namespace Bibliotec.Forms
                 conec.Close();
             }
 
-            // Limpa os campos do formulário após o cadastro
-            userNameTxtB.Text = null;
-            RATxtB.Text = null;
-            RGTxtB.Text = null;
-            schoolEmailTxtB.Text = null ;
-            personalEmailTxtB.Text = null;
-            userPhoneMskTxtB.Text= null;
-            userTypeComboB.Text = null;
+            
 
             }
         }

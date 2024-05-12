@@ -32,17 +32,13 @@
             RALbl = new Label();
             schoolEmailLbl = new Label();
             userPhoneLbl = new Label();
-            RGLbl = new Label();
             userNamelbl = new Label();
             schoolEmailTxtB = new TextBox();
             userNameTxtB = new TextBox();
             RATxtB = new TextBox();
-            RGTxtB = new TextBox();
             userTypeComboB = new ComboBox();
             userTypeLbl = new Label();
             registerUserlBtn = new Button();
-            personalEmailTxtB = new TextBox();
-            personalEmailLbl = new Label();
             userPhoneMskTxtB = new MaskedTextBox();
             SuspendLayout();
             // 
@@ -52,11 +48,11 @@
             RALbl.AutoSize = true;
             RALbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             RALbl.ForeColor = Color.Black;
-            RALbl.Location = new Point(170, 191);
+            RALbl.Location = new Point(167, 228);
             RALbl.Name = "RALbl";
-            RALbl.Size = new Size(32, 20);
+            RALbl.Size = new Size(178, 20);
             RALbl.TabIndex = 11;
-            RALbl.Text = "RA";
+            RALbl.Text = "Número de Registro/RA";
             // 
             // schoolEmailLbl
             // 
@@ -76,23 +72,11 @@
             userPhoneLbl.AutoSize = true;
             userPhoneLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             userPhoneLbl.ForeColor = Color.Black;
-            userPhoneLbl.Location = new Point(675, 276);
+            userPhoneLbl.Location = new Point(673, 228);
             userPhoneLbl.Name = "userPhoneLbl";
             userPhoneLbl.Size = new Size(153, 20);
             userPhoneLbl.TabIndex = 13;
             userPhoneLbl.Text = "Número de Telefone";
-            // 
-            // RGLbl
-            // 
-            RGLbl.Anchor = AnchorStyles.None;
-            RGLbl.AutoSize = true;
-            RGLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            RGLbl.ForeColor = Color.Black;
-            RGLbl.Location = new Point(172, 276);
-            RGLbl.Name = "RGLbl";
-            RGLbl.Size = new Size(34, 20);
-            RGLbl.TabIndex = 15;
-            RGLbl.Text = "RG";
             // 
             // userNamelbl
             // 
@@ -126,7 +110,7 @@
             userNameTxtB.BorderStyle = BorderStyle.FixedSingle;
             userNameTxtB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             userNameTxtB.ForeColor = Color.Black;
-            userNameTxtB.Location = new Point(167, 133);
+            userNameTxtB.Location = new Point(164, 133);
             userNameTxtB.Multiline = true;
             userNameTxtB.Name = "userNameTxtB";
             userNameTxtB.Size = new Size(378, 26);
@@ -139,32 +123,18 @@
             RATxtB.BorderStyle = BorderStyle.FixedSingle;
             RATxtB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             RATxtB.ForeColor = Color.Black;
-            RATxtB.Location = new Point(167, 214);
+            RATxtB.Location = new Point(164, 251);
             RATxtB.Multiline = true;
             RATxtB.Name = "RATxtB";
             RATxtB.Size = new Size(378, 26);
             RATxtB.TabIndex = 24;
             // 
-            // RGTxtB
-            // 
-            RGTxtB.Anchor = AnchorStyles.None;
-            RGTxtB.BackColor = Color.White;
-            RGTxtB.BorderStyle = BorderStyle.FixedSingle;
-            RGTxtB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            RGTxtB.ForeColor = Color.Black;
-            RGTxtB.Location = new Point(169, 299);
-            RGTxtB.Multiline = true;
-            RGTxtB.Name = "RGTxtB";
-            RGTxtB.Size = new Size(378, 26);
-            RGTxtB.TabIndex = 25;
-            // 
             // userTypeComboB
             // 
-            userTypeComboB.Anchor = AnchorStyles.None;
             userTypeComboB.ForeColor = Color.Black;
             userTypeComboB.FormattingEnabled = true;
             userTypeComboB.Items.AddRange(new object[] { "Aluno", "Professor", "Funcionário" });
-            userTypeComboB.Location = new Point(171, 390);
+            userTypeComboB.Location = new Point(164, 354);
             userTypeComboB.Name = "userTypeComboB";
             userTypeComboB.Size = new Size(210, 23);
             userTypeComboB.TabIndex = 29;
@@ -175,7 +145,7 @@
             userTypeLbl.AutoSize = true;
             userTypeLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Underline, GraphicsUnit.Point);
             userTypeLbl.ForeColor = Color.Black;
-            userTypeLbl.Location = new Point(216, 360);
+            userTypeLbl.Location = new Point(169, 331);
             userTypeLbl.Name = "userTypeLbl";
             userTypeLbl.Size = new Size(120, 20);
             userTypeLbl.TabIndex = 30;
@@ -199,36 +169,11 @@
             registerUserlBtn.UseVisualStyleBackColor = false;
             registerUserlBtn.Click += registerUserlBtn_Click;
             // 
-            // personalEmailTxtB
-            // 
-            personalEmailTxtB.Anchor = AnchorStyles.None;
-            personalEmailTxtB.BackColor = Color.White;
-            personalEmailTxtB.BorderStyle = BorderStyle.FixedSingle;
-            personalEmailTxtB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            personalEmailTxtB.ForeColor = Color.Black;
-            personalEmailTxtB.Location = new Point(673, 214);
-            personalEmailTxtB.Multiline = true;
-            personalEmailTxtB.Name = "personalEmailTxtB";
-            personalEmailTxtB.Size = new Size(378, 26);
-            personalEmailTxtB.TabIndex = 34;
-            // 
-            // personalEmailLbl
-            // 
-            personalEmailLbl.Anchor = AnchorStyles.None;
-            personalEmailLbl.AutoSize = true;
-            personalEmailLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            personalEmailLbl.ForeColor = Color.Black;
-            personalEmailLbl.Location = new Point(675, 191);
-            personalEmailLbl.Name = "personalEmailLbl";
-            personalEmailLbl.Size = new Size(108, 20);
-            personalEmailLbl.TabIndex = 33;
-            personalEmailLbl.Text = "Email Pessoal";
-            // 
             // userPhoneMskTxtB
             // 
             userPhoneMskTxtB.Anchor = AnchorStyles.None;
             userPhoneMskTxtB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            userPhoneMskTxtB.Location = new Point(675, 302);
+            userPhoneMskTxtB.Location = new Point(673, 251);
             userPhoneMskTxtB.Mask = "(99)00000-0000";
             userPhoneMskTxtB.Name = "userPhoneMskTxtB";
             userPhoneMskTxtB.Size = new Size(378, 26);
@@ -241,19 +186,15 @@
             BackColor = SystemColors.Control;
             ClientSize = new Size(1176, 521);
             Controls.Add(userPhoneMskTxtB);
-            Controls.Add(personalEmailTxtB);
-            Controls.Add(personalEmailLbl);
             Controls.Add(registerUserlBtn);
             Controls.Add(userTypeLbl);
             Controls.Add(userTypeComboB);
-            Controls.Add(RGTxtB);
             Controls.Add(RATxtB);
             Controls.Add(userNameTxtB);
             Controls.Add(schoolEmailTxtB);
             Controls.Add(RALbl);
             Controls.Add(schoolEmailLbl);
             Controls.Add(userPhoneLbl);
-            Controls.Add(RGLbl);
             Controls.Add(userNamelbl);
             Location = new Point(804, 441);
             Name = "CadastrarUsuario";
@@ -266,17 +207,13 @@
         private Label RALbl;
         private Label schoolEmailLbl;
         private Label userPhoneLbl;
-        private Label RGLbl;
         private Label userNamelbl;
         private TextBox schoolEmailTxtB;
         private TextBox userNameTxtB;
         private TextBox RATxtB;
-        private TextBox RGTxtB;
         private ComboBox userTypeComboB;
         private Label userTypeLbl;
         private Button registerUserlBtn;
-        private TextBox personalEmailTxtB;
-        private Label personalEmailLbl;
         private MaskedTextBox userPhoneMskTxtB;
     }
 }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aliss\\OneDrive\\Área de Trabalho\\Projetos\\Biblioteca Fatec\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj": {}
+    "C:\\Users\\gerra\\OneDrive\\Área de Trabalho\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aliss\\OneDrive\\Área de Trabalho\\Projetos\\Biblioteca Fatec\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj": {
+    "C:\\Users\\gerra\\OneDrive\\Área de Trabalho\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aliss\\OneDrive\\Área de Trabalho\\Projetos\\Biblioteca Fatec\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
+        "projectUniqueName": "C:\\Users\\gerra\\OneDrive\\Área de Trabalho\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
         "projectName": "Bibliotec",
-        "projectPath": "C:\\Users\\aliss\\OneDrive\\Área de Trabalho\\Projetos\\Biblioteca Fatec\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
-        "packagesPath": "C:\\Users\\aliss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aliss\\OneDrive\\Área de Trabalho\\Projetos\\Biblioteca Fatec\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\obj\\",
+        "projectPath": "C:\\Users\\gerra\\OneDrive\\Área de Trabalho\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
+        "packagesPath": "C:\\Users\\gerra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gerra\\OneDrive\\Área de Trabalho\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aliss\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\gerra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

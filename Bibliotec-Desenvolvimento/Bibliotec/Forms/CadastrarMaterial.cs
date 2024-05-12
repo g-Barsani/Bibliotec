@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Bibliotec.Classes.Materiais;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,7 +20,7 @@ namespace Bibliotec.Forms
         private void Register()
         {
             // Configuração da string de conexão com o banco de dados MySQL
-            var strConection = "server=localhost;uid=root;pwd=;database=biblioteca";
+            var strConection = "server=localhost;uid=root;password=root;pwd=;database=db_bibliotec";
             var conec = new MySqlConnection(strConection);
 
 
@@ -29,30 +30,13 @@ namespace Bibliotec.Forms
                 conec.Open();
 
                 // Obtenção dos valores dos campos do formulário
-                string title = titleTextB.Text;
-                string subtitle = subtitleTextB.Text;
-                string author = authorTextB.Text;
-                string edition = editionTextB.Text; //title do BD do Arthur - Arrumar depois
-                string publisher = publisherTextB.Text;
-                string publishDate = publishDateTextB.Text;
-                string publishLocal = publishLocalTextB.Text;
-                string isbn = isbnTextB.Text;
-                string gender = genderTextB.Text;
-                string subject = subjectTextB.Text;
-                string keyWord = keyWordsTextB.Text;
-                string acquisition = acquisitionTextB.Text;
-                bool availability = false;
-              
+                bool tarjaVermelha = true;
 
-                // Verifica se o livro está disponível
-                if (availableRBtn.Checked == true)
-                    availability = true;
-                else
-                    availability = false;
-
+                Livro livro = new Livro(titleTextB.Text, keyWordsTextB.Text, subjectTextB.Text, publishLocalTextB.Text, publishDateTextB.Text, availableRBtn.Checked == true, tarjaVermelha, authorTextB.Text,
+                    publisherTextB.Text, acquisitionTextB.Text, isbnTextB.Text, editionTextB.Text, genderTextB.Text, subtitleTextB.Text);
 
                 // Construção da string SQL para inserir um novo livro
-                string strSQL = $"CALL insere_livro_novo('{title}', '{publishDate}', '{gender}', '{publisher}', {availability}, '{author}', '{acquisition}', '{subtitle}', '{keyWord}', '{subject}', '{edition}', '{isbn}' , '{publishLocal}' )";
+                string strSQL = livro.cadastrarLivro();
 
                 // Criação do comando SQL e execução
                 var insertBook = new MySqlCommand(strSQL, conec);
@@ -60,6 +44,21 @@ namespace Bibliotec.Forms
 
                 // Exibe uma mensagem de sucesso
                 MessageBox.Show("Livro cadastrado com sucesso!");
+
+                // Limpa os campos do formulário após o cadastro
+                titleTextB.Text = "";
+                authorTextB.Text = "";
+                publisherTextB.Text = "";
+                keyWordsTextB.Text = "";
+                acquisitionTextB.Text = "";
+                isbnTextB.Text = "";
+                editionTextB.Text = "";
+                publishLocalTextB.Text = "";
+                subjectTextB.Text = "";
+                genderTextB.Text = "";
+                availableRBtn.Checked = false;
+                nonAvailableRBtn.Checked = false;
+                publishDateTextB.Text = "";
             }
             catch (Exception er)
             {
@@ -73,20 +72,7 @@ namespace Bibliotec.Forms
                 conec.Close();
             }
 
-            // Limpa os campos do formulário após o cadastro
-            titleTextB.Text= "";
-            authorTextB.Text= "";
-            publisherTextB.Text= "";
-            keyWordsTextB.Text= "";
-            acquisitionTextB.Text= "";
-            isbnTextB.Text= "";
-            editionTextB.Text= "";
-            publishLocalTextB.Text= "";
-            subjectTextB.Text= "";
-            genderTextB.Text= "";
-            availableRBtn.Checked= false;
-            nonAvailableRBtn.Checked= false;
-            publishDateTextB.Text= "";
+            
         }
 
         // Método chamado quando o botão de cadastrar é clicado
