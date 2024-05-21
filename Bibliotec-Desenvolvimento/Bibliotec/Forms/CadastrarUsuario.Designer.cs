@@ -131,6 +131,7 @@
             // 
             // userTypeComboB
             // 
+            userTypeComboB.Anchor = AnchorStyles.None;
             userTypeComboB.ForeColor = Color.Black;
             userTypeComboB.FormattingEnabled = true;
             userTypeComboB.Items.AddRange(new object[] { "Aluno", "Professor", "Funcionário" });

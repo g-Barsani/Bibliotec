@@ -67,5 +67,10 @@ namespace Bibliotec
         {
             this.Close(); //Comando para fechar Form
         }
+
+        private void borrowingBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.Emprestimo(), borrowingBtn);
+        }
     }
 }

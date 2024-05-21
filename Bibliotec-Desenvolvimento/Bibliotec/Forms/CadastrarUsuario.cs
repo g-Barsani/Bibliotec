@@ -36,7 +36,8 @@ namespace Bibliotec.Forms
                 string tipoUsuario = userTypeComboB.Text; //Pode estar errado
                 string strSQL;
 
-                if (tipoUsuario == "Aluno") {
+                if (tipoUsuario == "Aluno")
+                {
                     Aluno aluno = new Aluno(userNameTxtB.Text, schoolEmailTxtB.Text, userPhoneMskTxtB.Text, RATxtB.Text);
                     // Construção da string SQL para inserir um novo livro
                     strSQL = aluno.cadastrarAluno();
@@ -81,9 +82,9 @@ namespace Bibliotec.Forms
                 conec.Close();
             }
 
-            
 
-            }
+
         }
     }
+}
 

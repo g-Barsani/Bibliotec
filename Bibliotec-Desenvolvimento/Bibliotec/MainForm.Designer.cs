@@ -39,7 +39,7 @@
             searchBtn = new Button();
             repositoryBtn = new Button();
             registerMaterialBtn = new Button();
-            booksBtn = new Button();
+            borrowingBtn = new Button();
             headerBox = new PictureBox();
             navigationPanel = new Panel();
             registerUserBtn = new Button();
@@ -187,22 +187,24 @@
             registerMaterialBtn.UseVisualStyleBackColor = false;
             registerMaterialBtn.Click += CadastrarMaterialBtn_Click;
             // 
-            // booksBtn
+            // borrowingBtn
             // 
-            booksBtn.Anchor = AnchorStyles.Top;
-            booksBtn.AutoSize = true;
-            booksBtn.BackColor = Color.Maroon;
-            booksBtn.FlatStyle = FlatStyle.Popup;
-            booksBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            booksBtn.ForeColor = Color.White;
-            booksBtn.Image = (Image)resources.GetObject("booksBtn.Image");
-            booksBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            booksBtn.Location = new Point(927, 128);
-            booksBtn.Name = "booksBtn";
-            booksBtn.Size = new Size(265, 60);
-            booksBtn.TabIndex = 6;
-            booksBtn.Text = "        Levantamentos Bibliográficos";
-            booksBtn.UseVisualStyleBackColor = false;
+            borrowingBtn.Anchor = AnchorStyles.Top;
+            borrowingBtn.AutoSize = true;
+            borrowingBtn.BackColor = Color.Maroon;
+            borrowingBtn.FlatStyle = FlatStyle.Popup;
+            borrowingBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            borrowingBtn.ForeColor = Color.White;
+            borrowingBtn.Image = (Image)resources.GetObject("borrowingBtn.Image");
+            borrowingBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            borrowingBtn.Location = new Point(927, 128);
+            borrowingBtn.Name = "borrowingBtn";
+            borrowingBtn.Size = new Size(265, 60);
+            borrowingBtn.TabIndex = 6;
+            borrowingBtn.Text = "            Emprestimo";
+            borrowingBtn.TextAlign = ContentAlignment.MiddleLeft;
+            borrowingBtn.UseVisualStyleBackColor = false;
+            borrowingBtn.Click += borrowingBtn_Click;
             // 
             // headerBox
             // 
@@ -226,7 +228,7 @@
             navigationPanel.Controls.Add(closeBtn);
             navigationPanel.Controls.Add(optionsPanel);
             navigationPanel.Controls.Add(headerBox);
-            navigationPanel.Controls.Add(booksBtn);
+            navigationPanel.Controls.Add(borrowingBtn);
             navigationPanel.Controls.Add(registerMaterialBtn);
             navigationPanel.Controls.Add(repositoryBtn);
             navigationPanel.Controls.Add(searchBtn);
@@ -310,7 +312,7 @@
         private Button homeBtn;
         private Button repositoryBtn;
         private Button registerMaterialBtn;
-        private Button booksBtn;
+        private Button borrowingBtn;
         private PictureBox headerBox;
         private Panel navigationPanel;
         private Button closeBtn;
