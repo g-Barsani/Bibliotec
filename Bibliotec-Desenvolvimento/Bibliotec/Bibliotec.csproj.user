@@ -7,6 +7,9 @@
     <Compile Update="Forms\Emprestimo.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\EmprestimoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

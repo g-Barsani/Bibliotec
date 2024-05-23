@@ -70,7 +70,7 @@ namespace Bibliotec
 
         private void borrowingBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.Emprestimo(), borrowingBtn);
+            OpenChildForm(new Forms.EmprestimoForm(), borrowingBtn);
         }
     }
 }
