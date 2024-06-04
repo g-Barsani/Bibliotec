@@ -17,11 +17,11 @@ namespace Bibliotec.Forms
         }
 
         // Método para realizar o cadastro de livros
-        private void Register()
+        private void cadastrarMaterial()
         {
             // Configuração da string de conexão com o banco de dados MySQL
-            var strConection = "server=localhost;uid=root;password=root;pwd=;database=db_bibliotec";
-            var conec = new MySqlConnection(strConection);
+            String strConection = "server=localhost;uid=root;password=root;pwd=;database=db_bibliotec";
+            MySqlConnection conec = new MySqlConnection(strConection);
 
 
             try
@@ -39,7 +39,7 @@ namespace Bibliotec.Forms
                 string strSQL = livro.cadastrarLivro();
 
                 // Criação do comando SQL e execução
-                var insertBook = new MySqlCommand(strSQL, conec);
+                MySqlCommand insertBook = new MySqlCommand(strSQL, conec);
                 insertBook.ExecuteNonQuery();
 
                 // Exibe uma mensagem de sucesso
@@ -79,7 +79,7 @@ namespace Bibliotec.Forms
         private void RegisterMaterialBtn_Click(object sender, EventArgs e)
         {
             // Chama o método de cadastro
-            Register();
+            cadastrarMaterial();
         }
 
    

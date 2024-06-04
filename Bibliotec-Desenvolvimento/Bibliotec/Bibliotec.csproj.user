@@ -4,9 +4,6 @@
     <Compile Update="Forms\CadastrarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\Emprestimo.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms\EmprestimoForm.cs">
       <SubType>Form</SubType>
     </Compile>

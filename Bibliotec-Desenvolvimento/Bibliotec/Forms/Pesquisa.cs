@@ -23,18 +23,18 @@ namespace Bibliotec.Forms
         private void Pesquisar()
         {
             // Configuração da string de conexão com o banco de dados MySQL
-            var strConection = "server=localhost;uid=root;password=root;pwd=;database=db_bibliotec";
-            MySqlConnection connection = new MySqlConnection(strConection);
+            String strConection = "server=localhost;uid=root;password=root;pwd=;database=db_bibliotec";
+            MySqlConnection connec = new MySqlConnection(strConection);
             try
             {
                 // Abre a conexão com o banco de dados
-                using (connection)
+                using (connec)
                 {
-                    connection.Open();
+                    connec.Open();
 
                     string sql = "SELECT * FROM tb_livros WHERE titulo = @titulo";
 
-                    using (MySqlCommand command = new MySqlCommand(sql, connection))
+                    using (MySqlCommand command = new MySqlCommand(sql, connec))
                     {
                         command.Parameters.AddWithValue("@titulo", titleTextB.Text);
 
@@ -87,7 +87,7 @@ namespace Bibliotec.Forms
             finally
             {
                 // Fecha a conexão com o banco de dados
-                connection.Close();
+                connec.Close();
             }
 
 

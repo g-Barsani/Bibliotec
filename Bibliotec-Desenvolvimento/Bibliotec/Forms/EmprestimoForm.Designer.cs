@@ -29,31 +29,31 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmprestimoForm));
-            registerMaterialBtn = new Button();
+            realizarEmprestimoBtn = new Button();
             isbnLbl = new Label();
-            isbnTextB = new TextBox();
-            titleLbl = new Label();
-            titleTextB = new TextBox();
+            isbnTxtB = new TextBox();
+            registroLbl = new Label();
+            registroTxtB = new TextBox();
             SuspendLayout();
             // 
-            // registerMaterialBtn
+            // realizarEmprestimoBtn
             // 
-            registerMaterialBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            registerMaterialBtn.AutoSize = true;
-            registerMaterialBtn.BackColor = Color.Maroon;
-            registerMaterialBtn.FlatStyle = FlatStyle.Popup;
-            registerMaterialBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            registerMaterialBtn.ForeColor = Color.White;
-            registerMaterialBtn.Image = (Image)resources.GetObject("registerMaterialBtn.Image");
-            registerMaterialBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            registerMaterialBtn.Location = new Point(804, 441);
-            registerMaterialBtn.Name = "registerMaterialBtn";
-            registerMaterialBtn.Size = new Size(191, 60);
-            registerMaterialBtn.TabIndex = 20;
-            registerMaterialBtn.TabStop = false;
-            registerMaterialBtn.Text = "          Realizar Emprestimo";
-            registerMaterialBtn.UseVisualStyleBackColor = false;
-            registerMaterialBtn.Click += registerMaterialBtn_Click;
+            realizarEmprestimoBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            realizarEmprestimoBtn.AutoSize = true;
+            realizarEmprestimoBtn.BackColor = Color.Maroon;
+            realizarEmprestimoBtn.FlatStyle = FlatStyle.Popup;
+            realizarEmprestimoBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            realizarEmprestimoBtn.ForeColor = Color.White;
+            realizarEmprestimoBtn.Image = (Image)resources.GetObject("realizarEmprestimoBtn.Image");
+            realizarEmprestimoBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            realizarEmprestimoBtn.Location = new Point(804, 441);
+            realizarEmprestimoBtn.Name = "realizarEmprestimoBtn";
+            realizarEmprestimoBtn.Size = new Size(191, 60);
+            realizarEmprestimoBtn.TabIndex = 20;
+            realizarEmprestimoBtn.TabStop = false;
+            realizarEmprestimoBtn.Text = "          Realizar Emprestimo";
+            realizarEmprestimoBtn.UseVisualStyleBackColor = false;
+            realizarEmprestimoBtn.Click += registerMaterialBtn_Click;
             // 
             // isbnLbl
             // 
@@ -66,50 +66,50 @@
             isbnLbl.TabIndex = 16;
             isbnLbl.Text = "*ID do Livro";
             // 
-            // isbnTextB
+            // isbnTxtB
             // 
-            isbnTextB.Anchor = AnchorStyles.None;
-            isbnTextB.BorderStyle = BorderStyle.FixedSingle;
-            isbnTextB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            isbnTextB.Location = new Point(617, 251);
-            isbnTextB.Multiline = true;
-            isbnTextB.Name = "isbnTextB";
-            isbnTextB.Size = new Size(378, 26);
-            isbnTextB.TabIndex = 19;
+            isbnTxtB.Anchor = AnchorStyles.None;
+            isbnTxtB.BorderStyle = BorderStyle.FixedSingle;
+            isbnTxtB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            isbnTxtB.Location = new Point(617, 251);
+            isbnTxtB.Multiline = true;
+            isbnTxtB.Name = "isbnTxtB";
+            isbnTxtB.Size = new Size(378, 26);
+            isbnTxtB.TabIndex = 19;
             // 
-            // titleLbl
+            // registroLbl
             // 
-            titleLbl.Anchor = AnchorStyles.None;
-            titleLbl.AutoSize = true;
-            titleLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            titleLbl.Location = new Point(182, 228);
-            titleLbl.Name = "titleLbl";
-            titleLbl.Size = new Size(157, 20);
-            titleLbl.TabIndex = 17;
-            titleLbl.Text = "*Numero do Registro";
+            registroLbl.Anchor = AnchorStyles.None;
+            registroLbl.AutoSize = true;
+            registroLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            registroLbl.Location = new Point(182, 228);
+            registroLbl.Name = "registroLbl";
+            registroLbl.Size = new Size(157, 20);
+            registroLbl.TabIndex = 17;
+            registroLbl.Text = "*Numero do Registro";
             // 
-            // titleTextB
+            // registroTxtB
             // 
-            titleTextB.Anchor = AnchorStyles.None;
-            titleTextB.BorderStyle = BorderStyle.FixedSingle;
-            titleTextB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            titleTextB.Location = new Point(182, 251);
-            titleTextB.Multiline = true;
-            titleTextB.Name = "titleTextB";
-            titleTextB.Size = new Size(378, 26);
-            titleTextB.TabIndex = 18;
+            registroTxtB.Anchor = AnchorStyles.None;
+            registroTxtB.BorderStyle = BorderStyle.FixedSingle;
+            registroTxtB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            registroTxtB.Location = new Point(182, 251);
+            registroTxtB.Multiline = true;
+            registroTxtB.Name = "registroTxtB";
+            registroTxtB.Size = new Size(378, 26);
+            registroTxtB.TabIndex = 18;
             // 
-            // Emprestimo
+            // EmprestimoForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1176, 521);
-            Controls.Add(registerMaterialBtn);
+            Controls.Add(realizarEmprestimoBtn);
             Controls.Add(isbnLbl);
-            Controls.Add(isbnTextB);
-            Controls.Add(titleLbl);
-            Controls.Add(titleTextB);
-            Name = "Emprestimo";
+            Controls.Add(isbnTxtB);
+            Controls.Add(registroLbl);
+            Controls.Add(registroTxtB);
+            Name = "EmprestimoForm";
             Text = "Emprestimo";
             ResumeLayout(false);
             PerformLayout();
@@ -117,10 +117,10 @@
 
         #endregion
 
-        private Button registerMaterialBtn;
+        private Button realizarEmprestimoBtn;
         private Label isbnLbl;
-        private TextBox isbnTextB;
-        private Label titleLbl;
-        private TextBox titleTextB;
+        private TextBox isbnTxtB;
+        private Label registroLbl;
+        private TextBox registroTxtB;
     }
 }

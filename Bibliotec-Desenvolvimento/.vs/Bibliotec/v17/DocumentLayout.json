@@ -1,42 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\",
+  "WorkspaceRootPath": "C:\\Users\\Gabriella\\Documents\\GitHub\\Projeto-Bibliotec\\Bibliotec-Desenvolvimento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|g:\\repos\\bibliotec\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\classes\\usuarios\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\classes\\usuarios\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|g:\\repos\\bibliotec\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\emprestimoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\gabriella\\documents\\github\\projeto-bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\emprestimoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\emprestimoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\classes\\materiais\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\gabriella\\documents\\github\\projeto-bibliotec\\bibliotec-desenvolvimento\\bibliotec\\classes\\materiais\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\classes\\materiais\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\classes\\materiais\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\classes\\materiais\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\classes\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\classes\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\emprestimoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\emprestimoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\emprestimoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\emprestimoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,126 +17,34 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 202,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 205,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Usuarios\\Usuario.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Classes\\Usuarios\\Usuario.cs",
-              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Usuarios\\Usuario.cs",
-              "RelativeToolTip": "Bibliotec\\Classes\\Usuarios\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Emprestimo.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriella\\Documents\\GitHub\\Projeto-Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Materiais\\Emprestimo.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Classes\\Materiais\\Emprestimo.cs",
+              "ToolTip": "C:\\Users\\Gabriella\\Documents\\GitHub\\Projeto-Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Materiais\\Emprestimo.cs",
+              "RelativeToolTip": "Bibliotec\\Classes\\Materiais\\Emprestimo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T15:54:53.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Materiais\\Livro.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Classes\\Materiais\\Livro.cs",
-              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Materiais\\Livro.cs",
-              "RelativeToolTip": "Bibliotec\\Classes\\Materiais\\Livro.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAwwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T15:33:15.346Z"
+              "WhenOpened": "2024-06-04T00:10:30.321Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Aluno.cs",
-              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Usuarios\\Aluno.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Classes\\Usuarios\\Aluno.cs",
-              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Usuarios\\Aluno.cs",
-              "RelativeToolTip": "Bibliotec\\Classes\\Usuarios\\Aluno.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBAAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T15:32:32.418Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 198,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmprestimoForm.Designer.cs",
-              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\EmprestimoForm.Designer.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Forms\\EmprestimoForm.Designer.cs",
-              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\EmprestimoForm.Designer.cs",
-              "RelativeToolTip": "Bibliotec\\Forms\\EmprestimoForm.Designer.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwGQAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:35:20.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CadastrarUsuario.cs [Design]",
-              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarUsuario.cs",
-              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec-frontEnd-emprestimo\\Bibliotec-frontEnd-emprestimo\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs [Design]",
-              "RelativeToolTip": "..\\..\\Bibliotec-frontEnd-emprestimo\\Bibliotec-frontEnd-emprestimo\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:25:24.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "EmprestimoForm.cs",
-              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\EmprestimoForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriella\\Documents\\GitHub\\Projeto-Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\EmprestimoForm.cs",
               "RelativeDocumentMoniker": "Bibliotec\\Forms\\EmprestimoForm.cs",
-              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\EmprestimoForm.cs",
+              "ToolTip": "C:\\Users\\Gabriella\\Documents\\GitHub\\Projeto-Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\EmprestimoForm.cs",
               "RelativeToolTip": "Bibliotec\\Forms\\EmprestimoForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA2AAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowD4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:12:43.721Z",
+              "WhenOpened": "2024-06-03T22:24:39.712Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Emprestimo.cs",
-              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Materiais\\Emprestimo.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Classes\\Materiais\\Emprestimo.cs",
-              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Materiais\\Emprestimo.cs",
-              "RelativeToolTip": "Bibliotec\\Classes\\Materiais\\Emprestimo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T15:31:47.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CadastrarUsuario.cs",
-              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarUsuario.cs",
-              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs",
-              "RelativeToolTip": "Bibliotec\\Forms\\CadastrarUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:25:27.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmprestimoForm.cs [Design]",
-              "DocumentMoniker": "G:\\Repos\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\EmprestimoForm.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Forms\\EmprestimoForm.cs",
-              "ToolTip": "G:\\Repos\\Bibliotec\\Bibliotec-frontEnd-emprestimo\\Bibliotec-frontEnd-emprestimo\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\EmprestimoForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\Bibliotec-frontEnd-emprestimo\\Bibliotec-frontEnd-emprestimo\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\EmprestimoForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:12:32.327Z"
             }
           ]
         }

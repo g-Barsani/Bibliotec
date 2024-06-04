@@ -5,28 +5,32 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
+
 namespace Bibliotec.Classes.Materiais
 {
     internal class Emprestimo 
     {
         private string ra;
-        private int isbn;
+        private long isbn;
+        DateTime dataEmprestimo;
+        DateTime dataDevolucao;
 
         // Construtor para empréstimo
-        public Emprestimo(string ra, int isbn)
+        public Emprestimo(string ra, long isbn)
         {
             this.ra = ra;
             this.isbn = isbn;
+            dataEmprestimo = DateTime.Now;
+            // Conta uma semana apartir da data do Empréstimo
+            dataDevolucao = dataEmprestimo.AddDays(7);
         }
 
-        // Métodos CRUD
+        // Método CRUD
         public String realizarEmprestimo()
         {
-            // Implementar
-            MessageBox.Show("Implementar empréstimo");
-            MessageBox.Show($"ra = {this.ra}     " +
-                $"isbn = {this.isbn}" );
-            return "teste";
+           
+           return $"INSERT INTO tb_alunos(id_aluno, id_livro, data_emprestimo, devolucao_emprestimo) VALUES ('{ra}', '{isbn}', '{dataEmprestimo}', '{dataDevolucao}')";
+
         }
     }
 
