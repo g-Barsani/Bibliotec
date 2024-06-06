@@ -12,24 +12,28 @@ namespace Bibliotec.Classes.Materiais
     {
         private string ra;
         private long isbn;
-        DateTime dataEmprestimo;
-        DateTime dataDevolucao;
+        private DateTime dataEmprestimo;
+        private DateTime dataDevolucao;
+        private DateTime? dataDevolucaoEmprestimo;
+
+        public Emprestimo() { }
 
         // Construtor para empréstimo
-        public Emprestimo(string ra, long isbn)
+        public Emprestimo(string ra, long isbn, int tempoEmprestimo)
         {
             this.ra = ra;
             this.isbn = isbn;
             dataEmprestimo = DateTime.Now;
             // Conta uma semana apartir da data do Empréstimo
-            dataDevolucao = dataEmprestimo.AddDays(7);
+            dataDevolucao = dataEmprestimo.AddDays(tempoEmprestimo*7);
+            dataDevolucaoEmprestimo = null;
         }
 
         // Método CRUD
-        public String realizarEmprestimo()
+        public String realizarEmprestimo(int id_aluno, int id_livro)
         {
            
-           return $"INSERT INTO tb_alunos(id_aluno, id_livro, data_emprestimo, devolucao_emprestimo) VALUES ('{ra}', '{isbn}', '{dataEmprestimo}', '{dataDevolucao}')";
+           return $"INSERT INTO tb_emprestimos(id_aluno, id_livro, data_emprestimo, devolucao_emprestimo, data_devolucao_emprestimo) VALUES ('{id_aluno}', '{id_livro}', '{dataEmprestimo.ToString("yyyy-MM-dd")}', '{dataDevolucao.ToString("yyyy-MM-dd")}', NULL)";
 
         }
     }

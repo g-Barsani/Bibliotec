@@ -37,7 +37,7 @@ namespace Bibliotec.Classes.Usuarios
         //métodos CRUD
         public String cadastrarProfessor()
         {
-            return $"INSERT INTO tb_professores(nome, email, celular, registro) VALUES ('{nome}', '{email}', '{celular}', '{registro}')";
+            return $"INSERT INTO tb_professores(nome, email, celular, registro, quantidade_emprestimo, tempo_emprestimo_semanas) VALUES ('{nome}', '{email}', '{celular}', '{registro}', '{quantidadeEmprestimo}', '{tempoEmprestimoSemanas}')";
         }
     }
 }

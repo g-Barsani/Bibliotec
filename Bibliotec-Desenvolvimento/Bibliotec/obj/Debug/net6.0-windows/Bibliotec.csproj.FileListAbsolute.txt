@@ -721,3 +721,4 @@ G:\Repos\Bibliotec\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.
 G:\Repos\Bibliotec\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
 G:\Repos\Bibliotec\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
 C:\Users\Gabriella\Documents\GitHub\Projeto-Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.EmprestimoForm.resources
+C:\Users\gerra\OneDrive\Área de Trabalho\Bibliotec\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.EmprestimoForm.resources
