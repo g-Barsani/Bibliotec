@@ -1,3 +1,5 @@
+using Bibliotec.Forms;
+
 namespace Bibliotec
 {
     public partial class MainForm : Form
@@ -17,7 +19,7 @@ namespace Bibliotec
         }
 
         // Abrir Forms filhos
-        private void OpenChildForm(Form childForm, Button btn)
+        protected void OpenChildForm(Form childForm, Button btn)
         {
             activeForm?.Close(); // se activeForme for diferente de nulo
 
@@ -43,7 +45,7 @@ namespace Bibliotec
 
         private void SearchBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.Pesquisa(), searchBtn);
+            
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -56,11 +58,11 @@ namespace Bibliotec
 
         private void CadastrarMaterialBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.CadastrarMaterial(), registerMaterialBtn);
+            OpenChildBtnForm(registerMaterialBtn);
         }
         private void registerUserBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.CadastrarUsuario(), registerUserBtn);
+            OpenChildBtnForm(registerUserBtn);
         }
 
         private void CloseBtn_Click(object sender, EventArgs e) //Botão criado para fechar formulário
@@ -70,7 +72,43 @@ namespace Bibliotec
 
         private void borrowingBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.EmprestimoForm(), borrowingBtn);
+            OpenChildBtnForm(borrowingBtn);
+        }
+
+        private void btnsPanel_Paint(object sender, PaintEventArgs e)
+        {
+           
+        }
+
+        private void homePanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        // Abrir forms da barra de botões CRUD
+        private void OpenChildBtnForm(Button btn)
+        {
+            BotoesCrud formBtns = new BotoesCrud();
+            activeForm?.Close(); // se activeForme for diferente de nulo
+
+
+            if (lastButton != null)
+            {
+                lastButton.BackColor = Color.Maroon;
+            }
+
+            activeForm = formBtns;
+            formBtns.TopLevel = false;
+            formBtns.FormBorderStyle = FormBorderStyle.None;
+            formBtns.Dock = DockStyle.Fill;
+            this.btnsPanel.Controls.Add(formBtns);
+            this.btnsPanel.Tag = formBtns;
+            formBtns.BringToFront();
+            formBtns.Show();
+            btn.BackColor = Color.Gray;
+
+            lastButton = btn;
+
         }
     }
 }

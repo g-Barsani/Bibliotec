@@ -1792,19 +1792,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerra\\.nuget\\packages\\": {}
+    "C:\\Users\\Pichau\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gerra\\OneDrive\\Área de Trabalho\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
+      "projectUniqueName": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
       "projectName": "Bibliotec",
-      "projectPath": "C:\\Users\\gerra\\OneDrive\\Área de Trabalho\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
-      "packagesPath": "C:\\Users\\gerra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gerra\\OneDrive\\Área de Trabalho\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\obj\\",
+      "projectPath": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
+      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gerra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1824,6 +1824,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1846,6 +1851,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x86",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -1854,7 +1877,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
