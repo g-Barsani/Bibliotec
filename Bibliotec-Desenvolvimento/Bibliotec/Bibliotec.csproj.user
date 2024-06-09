@@ -7,7 +7,7 @@
     <Compile Update="Forms\CadastrarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\EmprestimoForm.cs">
+    <Compile Update="Forms\CadastrarEmprestimo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MainForm.cs">

@@ -15,14 +15,13 @@ namespace Bibliotec
 
         private void HomeBtn_Click(object sender, EventArgs e)
         {
-            homePanel.Visible = true;
+            //homePanel.Visible = true;
         }
 
         // Abrir Forms filhos
         protected void OpenChildForm(Form childForm, Button btn)
         {
             activeForm?.Close(); // se activeForme for diferente de nulo
-
 
             if (lastButton != null)
             {
@@ -33,8 +32,8 @@ namespace Bibliotec
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            this.homePanel.Controls.Add(childForm);
-            this.homePanel.Tag = childForm;
+            //this.homePanel.Controls.Add(childForm);
+            //this.homePanel.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
             btn.BackColor = Color.Gray;
@@ -45,7 +44,7 @@ namespace Bibliotec
 
         private void SearchBtn_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -58,11 +57,11 @@ namespace Bibliotec
 
         private void CadastrarMaterialBtn_Click(object sender, EventArgs e)
         {
-            OpenChildBtnForm(registerMaterialBtn);
+            OpenChildBtnForm(materialBtn);
         }
         private void registerUserBtn_Click(object sender, EventArgs e)
         {
-            OpenChildBtnForm(registerUserBtn);
+            OpenChildBtnForm(userBtn);
         }
 
         private void CloseBtn_Click(object sender, EventArgs e) //Botão criado para fechar formulário
@@ -77,7 +76,7 @@ namespace Bibliotec
 
         private void btnsPanel_Paint(object sender, PaintEventArgs e)
         {
-           
+
         }
 
         private void homePanel_Paint(object sender, PaintEventArgs e)
@@ -88,7 +87,7 @@ namespace Bibliotec
         // Abrir forms da barra de botões CRUD
         private void OpenChildBtnForm(Button btn)
         {
-            BotoesCrud formBtns = new BotoesCrud();
+            BotoesCrud formBtns = new BotoesCrud(btn.Name);
             activeForm?.Close(); // se activeForme for diferente de nulo
 
 

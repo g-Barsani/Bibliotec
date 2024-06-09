@@ -32,6 +32,7 @@
             readBtn = new Button();
             editBtn = new Button();
             deleteBtn = new Button();
+            crudPanel = new Panel();
             SuspendLayout();
             // 
             // createBtn
@@ -68,6 +69,7 @@
             readBtn.TabIndex = 7;
             readBtn.Text = "Ler";
             readBtn.UseVisualStyleBackColor = false;
+            readBtn.Click += readBtn_Click;
             // 
             // editBtn
             // 
@@ -85,6 +87,7 @@
             editBtn.TabIndex = 8;
             editBtn.Text = "Editar";
             editBtn.UseVisualStyleBackColor = false;
+            editBtn.Click += editBtn_Click;
             // 
             // deleteBtn
             // 
@@ -102,18 +105,30 @@
             deleteBtn.TabIndex = 9;
             deleteBtn.Text = "Deletar";
             deleteBtn.UseVisualStyleBackColor = false;
+            deleteBtn.Click += deleteBtn_Click;
+            // 
+            // crudPanel
+            // 
+            crudPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            crudPanel.BackColor = SystemColors.Control;
+            crudPanel.Location = new Point(-4, 121);
+            crudPanel.Name = "crudPanel";
+            crudPanel.Size = new Size(984, 419);
+            crudPanel.TabIndex = 10;
             // 
             // BotoesCrud
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(982, 88);
+            ClientSize = new Size(982, 537);
+            Controls.Add(crudPanel);
             Controls.Add(deleteBtn);
             Controls.Add(editBtn);
             Controls.Add(readBtn);
             Controls.Add(createBtn);
             Name = "BotoesCrud";
             Text = "BotoesCrud";
+            Load += BotoesCrud_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -124,5 +139,6 @@
         private Button readBtn;
         private Button editBtn;
         private Button deleteBtn;
+        private Panel crudPanel;
     }
 }

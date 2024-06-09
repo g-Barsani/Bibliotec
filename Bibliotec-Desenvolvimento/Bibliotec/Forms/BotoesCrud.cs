@@ -13,21 +13,23 @@ namespace Bibliotec.Forms
 {
     public partial class BotoesCrud : Form
     {
+        private string btnPressed;
         private Form activeForm = null!; // define como não nulo
         private Button lastButton = null!;
 
-        public BotoesCrud()
+        public BotoesCrud(string btnPressed)
         {
+            this.btnPressed = btnPressed;
             InitializeComponent();
         }
 
         private void createBtn_Click(object sender, EventArgs e)
         {
-           OpenChildForm(new CadastrarMaterial(), createBtn);
+            openCrudForm(this.btnPressed, "create");
         }
+
         protected void OpenChildForm(Form childForm, Button btn)
         {
-            MainForm mainForm = new MainForm();
             activeForm?.Close(); // se activeForme for diferente de nulo
 
             if (lastButton != null)
@@ -39,15 +41,54 @@ namespace Bibliotec.Forms
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            mainForm.homePanel.Controls.Add(childForm);
-            mainForm.homePanel.Tag = childForm;
+            this.crudPanel.Controls.Add(childForm);
+            this.crudPanel.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
             btn.BackColor = Color.Gray;
-
             lastButton = btn;
+        }
+
+        private void BotoesCrud_Load(object sender, EventArgs e)
+        {
 
         }
 
+        private void readBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void editBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void deleteBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openCrudForm(string btnPressed, string crudType)
+        {
+            if(crudType.Equals("create"))
+            {
+                switch (this.btnPressed)
+                {
+                    case "materialBtn":
+                        OpenChildForm(new CadastrarMaterial(), createBtn);
+                        break;
+                    case "userBtn":
+                        OpenChildForm(new CadastrarUsuario(), createBtn);
+                        break;
+                    case "borrowingBtn":
+                        OpenChildForm(new CadastrarEmprestimo(), createBtn);
+                        break;
+                    default:
+                        MessageBox.Show(this.btnPressed);
+                        break;
+                }
+            }
+        }
     }
 }
