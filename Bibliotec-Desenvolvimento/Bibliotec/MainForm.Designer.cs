@@ -34,17 +34,16 @@
             logInLabel = new LinkLabel();
             accessLabel = new LinkLabel();
             helpLabel = new LinkLabel();
-            homePanel = new Panel();
             homeBtn = new Button();
-            searchBtn = new Button();
-            repositoryBtn = new Button();
-            registerMaterialBtn = new Button();
-            borrowingBtn = new Button();
+            materialBtn = new Button();
+            collectionBtn = new Button();
             headerBox = new PictureBox();
             navigationPanel = new Panel();
-            registerUserBtn = new Button();
+            userBtn = new Button();
             logo = new PictureBox();
             closeBtn = new Button();
+            borrowingBtn = new Button();
+            btnsPanel = new Panel();
             optionsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)headerBox).BeginInit();
             navigationPanel.SuspendLayout();
@@ -105,15 +104,6 @@
             helpLabel.TabStop = true;
             helpLabel.Text = "Ajuda";
             // 
-            // homePanel
-            // 
-            homePanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            homePanel.BackColor = SystemColors.ButtonFace;
-            homePanel.Location = new Point(0, 212);
-            homePanel.Name = "homePanel";
-            homePanel.Size = new Size(1192, 515);
-            homePanel.TabIndex = 0;
-            // 
             // homeBtn
             // 
             homeBtn.Anchor = AnchorStyles.Top;
@@ -127,84 +117,45 @@
             homeBtn.ImageAlign = ContentAlignment.MiddleLeft;
             homeBtn.Location = new Point(2, 128);
             homeBtn.Name = "homeBtn";
-            homeBtn.Size = new Size(140, 60);
+            homeBtn.Size = new Size(220, 60);
             homeBtn.TabIndex = 1;
             homeBtn.Text = "      Home";
             homeBtn.UseVisualStyleBackColor = false;
             // 
-            // searchBtn
+            // materialBtn
             // 
-            searchBtn.Anchor = AnchorStyles.Top;
-            searchBtn.AutoSize = true;
-            searchBtn.BackColor = Color.Maroon;
-            searchBtn.BackgroundImageLayout = ImageLayout.Center;
-            searchBtn.FlatStyle = FlatStyle.Popup;
-            searchBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            searchBtn.ForeColor = Color.White;
-            searchBtn.Image = (Image)resources.GetObject("searchBtn.Image");
-            searchBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            searchBtn.Location = new Point(151, 128);
-            searchBtn.Name = "searchBtn";
-            searchBtn.Size = new Size(139, 60);
-            searchBtn.TabIndex = 2;
-            searchBtn.Text = "         Pesquisa";
-            searchBtn.UseVisualStyleBackColor = false;
-            searchBtn.Click += SearchBtn_Click;
+            materialBtn.Anchor = AnchorStyles.Top;
+            materialBtn.AutoSize = true;
+            materialBtn.BackColor = Color.Maroon;
+            materialBtn.FlatStyle = FlatStyle.Popup;
+            materialBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            materialBtn.ForeColor = Color.White;
+            materialBtn.Image = (Image)resources.GetObject("materialBtn.Image");
+            materialBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            materialBtn.Location = new Point(228, 128);
+            materialBtn.Name = "materialBtn";
+            materialBtn.Size = new Size(262, 60);
+            materialBtn.TabIndex = 3;
+            materialBtn.Text = "   Material";
+            materialBtn.UseVisualStyleBackColor = false;
+            materialBtn.Click += CadastrarMaterialBtn_Click;
             // 
-            // repositoryBtn
+            // collectionBtn
             // 
-            repositoryBtn.Anchor = AnchorStyles.Top;
-            repositoryBtn.AutoSize = true;
-            repositoryBtn.BackColor = Color.Maroon;
-            repositoryBtn.BackgroundImageLayout = ImageLayout.Center;
-            repositoryBtn.FlatStyle = FlatStyle.Popup;
-            repositoryBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            repositoryBtn.ForeColor = Color.White;
-            repositoryBtn.Image = (Image)resources.GetObject("repositoryBtn.Image");
-            repositoryBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            repositoryBtn.Location = new Point(699, 128);
-            repositoryBtn.Name = "repositoryBtn";
-            repositoryBtn.Size = new Size(220, 60);
-            repositoryBtn.TabIndex = 5;
-            repositoryBtn.Text = "           Repositório Institucional";
-            repositoryBtn.UseVisualStyleBackColor = false;
-            // 
-            // registerMaterialBtn
-            // 
-            registerMaterialBtn.Anchor = AnchorStyles.Top;
-            registerMaterialBtn.AutoSize = true;
-            registerMaterialBtn.BackColor = Color.Maroon;
-            registerMaterialBtn.FlatStyle = FlatStyle.Popup;
-            registerMaterialBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            registerMaterialBtn.ForeColor = Color.White;
-            registerMaterialBtn.Image = (Image)resources.GetObject("registerMaterialBtn.Image");
-            registerMaterialBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            registerMaterialBtn.Location = new Point(299, 128);
-            registerMaterialBtn.Name = "registerMaterialBtn";
-            registerMaterialBtn.Size = new Size(191, 60);
-            registerMaterialBtn.TabIndex = 3;
-            registerMaterialBtn.Text = "          Cadastrar Material";
-            registerMaterialBtn.UseVisualStyleBackColor = false;
-            registerMaterialBtn.Click += CadastrarMaterialBtn_Click;
-            // 
-            // borrowingBtn
-            // 
-            borrowingBtn.Anchor = AnchorStyles.Top;
-            borrowingBtn.AutoSize = true;
-            borrowingBtn.BackColor = Color.Maroon;
-            borrowingBtn.FlatStyle = FlatStyle.Popup;
-            borrowingBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            borrowingBtn.ForeColor = Color.White;
-            borrowingBtn.Image = (Image)resources.GetObject("borrowingBtn.Image");
-            borrowingBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            borrowingBtn.Location = new Point(927, 128);
-            borrowingBtn.Name = "borrowingBtn";
-            borrowingBtn.Size = new Size(265, 60);
-            borrowingBtn.TabIndex = 6;
-            borrowingBtn.Text = "            Emprestimo";
-            borrowingBtn.TextAlign = ContentAlignment.MiddleLeft;
-            borrowingBtn.UseVisualStyleBackColor = false;
-            borrowingBtn.Click += borrowingBtn_Click;
+            collectionBtn.Anchor = AnchorStyles.Top;
+            collectionBtn.AutoSize = true;
+            collectionBtn.BackColor = Color.Maroon;
+            collectionBtn.FlatStyle = FlatStyle.Popup;
+            collectionBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            collectionBtn.ForeColor = Color.White;
+            collectionBtn.Image = (Image)resources.GetObject("collectionBtn.Image");
+            collectionBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            collectionBtn.Location = new Point(927, 128);
+            collectionBtn.Name = "collectionBtn";
+            collectionBtn.Size = new Size(265, 60);
+            collectionBtn.TabIndex = 6;
+            collectionBtn.Text = "Acervo";
+            collectionBtn.UseVisualStyleBackColor = false;
             // 
             // headerBox
             // 
@@ -223,38 +174,37 @@
             // 
             navigationPanel.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             navigationPanel.BackColor = SystemColors.ButtonFace;
-            navigationPanel.Controls.Add(registerUserBtn);
+            navigationPanel.Controls.Add(userBtn);
             navigationPanel.Controls.Add(logo);
             navigationPanel.Controls.Add(closeBtn);
             navigationPanel.Controls.Add(optionsPanel);
             navigationPanel.Controls.Add(headerBox);
+            navigationPanel.Controls.Add(collectionBtn);
+            navigationPanel.Controls.Add(materialBtn);
             navigationPanel.Controls.Add(borrowingBtn);
-            navigationPanel.Controls.Add(registerMaterialBtn);
-            navigationPanel.Controls.Add(repositoryBtn);
-            navigationPanel.Controls.Add(searchBtn);
             navigationPanel.Controls.Add(homeBtn);
             navigationPanel.Location = new Point(0, 0);
             navigationPanel.Name = "navigationPanel";
             navigationPanel.Size = new Size(1192, 210);
             navigationPanel.TabIndex = 30;
             // 
-            // registerUserBtn
+            // userBtn
             // 
-            registerUserBtn.Anchor = AnchorStyles.Top;
-            registerUserBtn.AutoSize = true;
-            registerUserBtn.BackColor = Color.Maroon;
-            registerUserBtn.FlatStyle = FlatStyle.Popup;
-            registerUserBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            registerUserBtn.ForeColor = Color.White;
-            registerUserBtn.Image = (Image)resources.GetObject("registerUserBtn.Image");
-            registerUserBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            registerUserBtn.Location = new Point(499, 128);
-            registerUserBtn.Name = "registerUserBtn";
-            registerUserBtn.Size = new Size(191, 60);
-            registerUserBtn.TabIndex = 4;
-            registerUserBtn.Text = "          Cadastrar Usuário";
-            registerUserBtn.UseVisualStyleBackColor = false;
-            registerUserBtn.Click += registerUserBtn_Click;
+            userBtn.Anchor = AnchorStyles.Top;
+            userBtn.AutoSize = true;
+            userBtn.BackColor = Color.Maroon;
+            userBtn.FlatStyle = FlatStyle.Popup;
+            userBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            userBtn.ForeColor = Color.White;
+            userBtn.Image = (Image)resources.GetObject("userBtn.Image");
+            userBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            userBtn.Location = new Point(499, 128);
+            userBtn.Name = "userBtn";
+            userBtn.Size = new Size(194, 60);
+            userBtn.TabIndex = 4;
+            userBtn.Text = " Usuário";
+            userBtn.UseVisualStyleBackColor = false;
+            userBtn.Click += registerUserBtn_Click;
             // 
             // logo
             // 
@@ -280,13 +230,42 @@
             closeBtn.UseVisualStyleBackColor = false;
             closeBtn.Click += CloseBtn_Click;
             // 
+            // borrowingBtn
+            // 
+            borrowingBtn.Anchor = AnchorStyles.Top;
+            borrowingBtn.AutoSize = true;
+            borrowingBtn.BackColor = Color.Maroon;
+            borrowingBtn.BackgroundImageLayout = ImageLayout.Center;
+            borrowingBtn.FlatStyle = FlatStyle.Popup;
+            borrowingBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            borrowingBtn.ForeColor = Color.White;
+            borrowingBtn.Image = (Image)resources.GetObject("borrowingBtn.Image");
+            borrowingBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            borrowingBtn.Location = new Point(699, 128);
+            borrowingBtn.Name = "borrowingBtn";
+            borrowingBtn.Size = new Size(220, 60);
+            borrowingBtn.TabIndex = 5;
+            borrowingBtn.Text = "Empréstimos";
+            borrowingBtn.UseVisualStyleBackColor = false;
+            borrowingBtn.Click += borrowingBtn_Click;
+            // 
+            // btnsPanel
+            // 
+            btnsPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            btnsPanel.BackColor = SystemColors.Control;
+            btnsPanel.Location = new Point(2, 212);
+            btnsPanel.Name = "btnsPanel";
+            btnsPanel.Size = new Size(1190, 518);
+            btnsPanel.TabIndex = 0;
+            btnsPanel.Paint += btnsPanel_Paint;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1192, 727);
+            Controls.Add(btnsPanel);
             Controls.Add(navigationPanel);
-            Controls.Add(homePanel);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MinimumSize = new Size(1208, 766);
             Name = "MainForm";
@@ -307,16 +286,15 @@
         private LinkLabel accessLabel;
         private LinkLabel helpLabel;
         private LinkLabel logInLabel;
-        private Panel homePanel;
-        private Button searchBtn;
         private Button homeBtn;
-        private Button repositoryBtn;
-        private Button registerMaterialBtn;
-        private Button borrowingBtn;
+        private Button materialBtn;
+        private Button collectionBtn;
         private PictureBox headerBox;
         private Panel navigationPanel;
         private Button closeBtn;
         private PictureBox logo;
-        private Button registerUserBtn;
+        private Button userBtn;
+        private Button borrowingBtn;
+        private Panel btnsPanel;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Bibliotec.Forms
 {
-    partial class EmprestimoForm
+    partial class CadastrarEmprestimo
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmprestimoForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastrarEmprestimo));
             realizarEmprestimoBtn = new Button();
             isbnLbl = new Label();
             isbnTxtB = new TextBox();

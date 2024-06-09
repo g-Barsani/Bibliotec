@@ -1792,19 +1792,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gerra\\.nuget\\packages\\": {}
+    "C:\\Users\\lucks\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gerra\\OneDrive\\Área de Trabalho\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
+      "projectUniqueName": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
       "projectName": "Bibliotec",
-      "projectPath": "C:\\Users\\gerra\\OneDrive\\Área de Trabalho\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
-      "packagesPath": "C:\\Users\\gerra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gerra\\OneDrive\\Área de Trabalho\\Bibliotec\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\obj\\",
+      "projectPath": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
+      "packagesPath": "C:\\Users\\lucks\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gerra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lucks\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1854,7 +1854,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

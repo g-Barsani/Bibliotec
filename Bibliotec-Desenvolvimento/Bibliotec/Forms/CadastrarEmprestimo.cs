@@ -3,9 +3,9 @@ using MySql.Data.MySqlClient;
 
 namespace Bibliotec.Forms
 {
-    public partial class EmprestimoForm : Form
+    public partial class CadastrarEmprestimo : Form
     {
-        public EmprestimoForm()
+        public CadastrarEmprestimo()
         {
             InitializeComponent();
         }
