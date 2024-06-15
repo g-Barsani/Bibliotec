@@ -415,6 +415,7 @@
             MaximizeBox = false;
             Name = "CadastrarMaterial";
             Text = "Cadastrar";
+            Load += CadastrarMaterial_Load;
             ResumeLayout(false);
             PerformLayout();
         }

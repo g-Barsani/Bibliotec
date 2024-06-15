@@ -56,7 +56,7 @@ namespace Bibliotec.Forms
 
         private void readBtn_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new DataGridLer(this.btnPressed), readBtn);
         }
 
         private void editBtn_Click(object sender, EventArgs e)

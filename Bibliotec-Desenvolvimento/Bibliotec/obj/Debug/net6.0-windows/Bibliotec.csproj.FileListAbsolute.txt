@@ -746,7 +746,6 @@ C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenv
 C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.csproj.AssemblyReference.cache
 C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.CadastrarMaterial.resources
 C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.CadastrarUsuario.resources
-C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.EmprestimoForm.resources
 C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Pesquisa.resources
 C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.MainForm.resources
 C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Properties.Resources.resources
@@ -765,3 +764,5 @@ C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenv
 C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.BotoesCrud.resources
 C:\Users\lucks\OneDrive\Desktop\Bibliotec\Bibliotec Atualizado\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.BotoesCrud.resources
 C:\Users\lucks\OneDrive\Desktop\Bibliotec\Bibliotec Atualizado\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.CadastrarEmprestimo.resources
+C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.CadastrarEmprestimo.resources
+C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.DataGridLer.resources

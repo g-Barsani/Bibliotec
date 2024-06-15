@@ -72,7 +72,7 @@ namespace Bibliotec.Forms
                 conec.Close();
             }
 
-            
+
         }
 
         // Método chamado quando o botão de cadastrar é clicado
@@ -82,6 +82,9 @@ namespace Bibliotec.Forms
             cadastrarMaterial();
         }
 
-   
+        private void CadastrarMaterial_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
