@@ -30,6 +30,7 @@
         {
             Dtgv = new DataGridView();
             searchBtn = new Button();
+            camposPanel = new Panel();
             ((System.ComponentModel.ISupportInitialize)Dtgv).BeginInit();
             SuspendLayout();
             // 
@@ -59,11 +60,21 @@
             searchBtn.UseVisualStyleBackColor = false;
             searchBtn.Click += button1_Click;
             // 
+            // camposPanel
+            // 
+            camposPanel.Anchor = AnchorStyles.None;
+            camposPanel.BackColor = SystemColors.ActiveCaption;
+            camposPanel.Location = new Point(0, 124);
+            camposPanel.Name = "camposPanel";
+            camposPanel.Size = new Size(963, 166);
+            camposPanel.TabIndex = 2;
+            // 
             // DataGridLer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1103, 602);
+            Controls.Add(camposPanel);
             Controls.Add(searchBtn);
             Controls.Add(Dtgv);
             Name = "DataGridLer";
@@ -76,5 +87,6 @@
 
         private DataGridView Dtgv;
         private Button searchBtn;
+        private Panel camposPanel;
     }
 }

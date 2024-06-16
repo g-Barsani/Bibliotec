@@ -766,3 +766,6 @@ C:\Users\lucks\OneDrive\Desktop\Bibliotec\Bibliotec Atualizado\Bibliotec\Bibliot
 C:\Users\lucks\OneDrive\Desktop\Bibliotec\Bibliotec Atualizado\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.CadastrarEmprestimo.resources
 C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.CadastrarEmprestimo.resources
 C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.DataGridLer.resources
+C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Data_grid_forms.CamposUsuario.resources
+C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Data_grid_forms.CamposEmprestimo.resources
+C:\Users\Pichau\OneDrive\Documentos\Fatec\Bibiliotech\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Data_grid_forms.CamposMaterial.resources
