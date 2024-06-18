@@ -95,6 +95,7 @@
             Controls.Add(RALbl);
             Name = "CamposUsuario";
             Text = "CamposUsuario";
+            Load += CamposUsuario_Load;
             ResumeLayout(false);
             PerformLayout();
         }

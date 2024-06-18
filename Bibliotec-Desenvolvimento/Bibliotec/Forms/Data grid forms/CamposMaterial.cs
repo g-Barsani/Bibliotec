@@ -16,5 +16,16 @@ namespace Bibliotec.Forms.Data_grid_forms
         {
             InitializeComponent();
         }
+
+        private void titleTextB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public string[] getFieldsValue()
+        {
+            string[] campos = { titleTextB.Text, isbnTextB.Text };
+            return campos;
+        }
     }
 }

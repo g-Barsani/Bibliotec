@@ -376,6 +376,7 @@
             subtitleTextB.Name = "subtitleTextB";
             subtitleTextB.Size = new Size(378, 26);
             subtitleTextB.TabIndex = 2;
+            subtitleTextB.TextChanged += subtitleTextB_TextChanged;
             // 
             // CadastrarMaterial
             // 

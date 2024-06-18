@@ -16,5 +16,16 @@ namespace Bibliotec.Forms.Data_grid_forms
         {
             InitializeComponent();
         }
+
+        private void CamposUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public string[] getFieldsValue()
+        {
+            string[] campos = { RATxtB.Text, schoolEmailTxtB.Text };
+            return campos;
+        }
     }
 }

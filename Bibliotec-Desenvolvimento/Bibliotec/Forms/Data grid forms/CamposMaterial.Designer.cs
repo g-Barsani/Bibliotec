@@ -77,8 +77,9 @@
             titleTextB.Name = "titleTextB";
             titleTextB.Size = new Size(378, 26);
             titleTextB.TabIndex = 13;
+            titleTextB.TextChanged += titleTextB_TextChanged;
             // 
-            // CamposUsuario
+            // CamposMaterial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -87,7 +88,7 @@
             Controls.Add(isbnTextB);
             Controls.Add(titleLbl);
             Controls.Add(titleTextB);
-            Name = "CamposUsuario";
+            Name = "CamposMaterial";
             Text = "CamposUsuario";
             ResumeLayout(false);
             PerformLayout();

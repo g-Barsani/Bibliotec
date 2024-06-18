@@ -47,6 +47,7 @@ namespace Bibliotec.Forms
 
                 // Limpa os campos do formulário após o cadastro
                 titleTextB.Text = "";
+                subtitleTextB.Text = "";
                 authorTextB.Text = "";
                 publisherTextB.Text = "";
                 keyWordsTextB.Text = "";
@@ -83,6 +84,11 @@ namespace Bibliotec.Forms
         }
 
         private void CadastrarMaterial_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void subtitleTextB_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -62,9 +62,9 @@
             isbnLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             isbnLbl.Location = new Point(617, 228);
             isbnLbl.Name = "isbnLbl";
-            isbnLbl.Size = new Size(91, 20);
+            isbnLbl.Size = new Size(112, 20);
             isbnLbl.TabIndex = 16;
-            isbnLbl.Text = "*ID do Livro";
+            isbnLbl.Text = "*ISBN do Livro";
             // 
             // isbnTxtB
             // 
@@ -99,7 +99,7 @@
             registroTxtB.Size = new Size(378, 26);
             registroTxtB.TabIndex = 18;
             // 
-            // EmprestimoForm
+            // CadastrarEmprestimo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -109,7 +109,7 @@
             Controls.Add(isbnTxtB);
             Controls.Add(registroLbl);
             Controls.Add(registroTxtB);
-            Name = "EmprestimoForm";
+            Name = "CadastrarEmprestimo";
             Text = "Emprestimo";
             ResumeLayout(false);
             PerformLayout();
