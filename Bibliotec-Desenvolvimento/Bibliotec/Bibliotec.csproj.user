@@ -22,13 +22,13 @@
     <Compile Update="Forms\Data grid forms\DataGridLer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms\CadastrarMaterial.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\Pesquisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

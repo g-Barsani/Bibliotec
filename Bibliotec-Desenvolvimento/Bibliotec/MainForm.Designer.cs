@@ -59,7 +59,7 @@
             optionsPanel.Controls.Add(logInLabel);
             optionsPanel.Controls.Add(accessLabel);
             optionsPanel.Controls.Add(helpLabel);
-            optionsPanel.Location = new Point(0, 191);
+            optionsPanel.Location = new Point(16, 191);
             optionsPanel.Name = "optionsPanel";
             optionsPanel.Size = new Size(1192, 25);
             optionsPanel.TabIndex = 12;
@@ -115,7 +115,7 @@
             homeBtn.ForeColor = Color.White;
             homeBtn.Image = (Image)resources.GetObject("homeBtn.Image");
             homeBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            homeBtn.Location = new Point(2, 128);
+            homeBtn.Location = new Point(18, 128);
             homeBtn.Name = "homeBtn";
             homeBtn.Size = new Size(220, 60);
             homeBtn.TabIndex = 1;
@@ -132,7 +132,7 @@
             materialBtn.ForeColor = Color.White;
             materialBtn.Image = (Image)resources.GetObject("materialBtn.Image");
             materialBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            materialBtn.Location = new Point(228, 128);
+            materialBtn.Location = new Point(244, 128);
             materialBtn.Name = "materialBtn";
             materialBtn.Size = new Size(262, 60);
             materialBtn.TabIndex = 3;
@@ -150,7 +150,7 @@
             collectionBtn.ForeColor = Color.White;
             collectionBtn.Image = (Image)resources.GetObject("collectionBtn.Image");
             collectionBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            collectionBtn.Location = new Point(927, 128);
+            collectionBtn.Location = new Point(943, 128);
             collectionBtn.Name = "collectionBtn";
             collectionBtn.Size = new Size(265, 60);
             collectionBtn.TabIndex = 6;
@@ -165,7 +165,7 @@
             headerBox.BackgroundImageLayout = ImageLayout.Zoom;
             headerBox.Location = new Point(0, 0);
             headerBox.Name = "headerBox";
-            headerBox.Size = new Size(1192, 125);
+            headerBox.Size = new Size(1224, 125);
             headerBox.SizeMode = PictureBoxSizeMode.StretchImage;
             headerBox.TabIndex = 0;
             headerBox.TabStop = false;
@@ -185,8 +185,9 @@
             navigationPanel.Controls.Add(homeBtn);
             navigationPanel.Location = new Point(0, 0);
             navigationPanel.Name = "navigationPanel";
-            navigationPanel.Size = new Size(1192, 210);
+            navigationPanel.Size = new Size(1224, 210);
             navigationPanel.TabIndex = 30;
+            navigationPanel.Paint += navigationPanel_Paint;
             // 
             // userBtn
             // 
@@ -198,7 +199,7 @@
             userBtn.ForeColor = Color.White;
             userBtn.Image = (Image)resources.GetObject("userBtn.Image");
             userBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            userBtn.Location = new Point(499, 128);
+            userBtn.Location = new Point(515, 128);
             userBtn.Name = "userBtn";
             userBtn.Size = new Size(194, 60);
             userBtn.TabIndex = 4;
@@ -223,7 +224,7 @@
             closeBtn.BackColor = Color.Maroon;
             closeBtn.BackgroundImage = Properties.Resources.baseline_close_white_24dp;
             closeBtn.BackgroundImageLayout = ImageLayout.Center;
-            closeBtn.Location = new Point(1141, 3);
+            closeBtn.Location = new Point(1173, 3);
             closeBtn.Name = "closeBtn";
             closeBtn.Size = new Size(48, 44);
             closeBtn.TabIndex = 0;
@@ -241,7 +242,7 @@
             borrowingBtn.ForeColor = Color.White;
             borrowingBtn.Image = (Image)resources.GetObject("borrowingBtn.Image");
             borrowingBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            borrowingBtn.Location = new Point(699, 128);
+            borrowingBtn.Location = new Point(715, 128);
             borrowingBtn.Name = "borrowingBtn";
             borrowingBtn.Size = new Size(220, 60);
             borrowingBtn.TabIndex = 5;
@@ -255,7 +256,7 @@
             btnsPanel.BackColor = SystemColors.Control;
             btnsPanel.Location = new Point(2, 212);
             btnsPanel.Name = "btnsPanel";
-            btnsPanel.Size = new Size(1190, 518);
+            btnsPanel.Size = new Size(1222, 596);
             btnsPanel.TabIndex = 0;
             btnsPanel.Paint += btnsPanel_Paint;
             // 
@@ -263,10 +264,10 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1192, 727);
+            ClientSize = new Size(1208, 766);
             Controls.Add(btnsPanel);
             Controls.Add(navigationPanel);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             MinimumSize = new Size(1208, 766);
             Name = "MainForm";
             Text = "Bibliotec";

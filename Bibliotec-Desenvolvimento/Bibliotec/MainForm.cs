@@ -109,5 +109,10 @@ namespace Bibliotec
             lastButton = btn;
 
         }
+
+        private void navigationPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

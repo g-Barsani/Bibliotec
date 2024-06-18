@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj": {}
+    "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj": {
+    "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
+        "projectUniqueName": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
         "projectName": "Bibliotec",
-        "projectPath": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
-        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\obj\\",
+        "projectPath": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Bibliotec.csproj",
+        "packagesPath": "C:\\Users\\lucks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucks\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,24 +61,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x86",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -87,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
