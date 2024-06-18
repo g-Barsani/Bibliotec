@@ -1,22 +1,21 @@
 # Bibliotec 📚
 
-<img align="right" src="Logo_Bibliotec.png" width="300"/>  
+> **Sistema Gerencial Bibliotecário - Fatec Guarulhos**  
 
-## Orientações para execução do Software
+<img align="right" src="Logo_Bibliotec.png" width="300" alt="Logo Bibliotec"/>  
 
-> [!IMPORTANT]  
-> Este procedimento deve ser feito ANTES de extrair os arquivos da pasta compactada  
+Este projeto consiste em um aplicativo desktop desenvolvido em C#, com a interface Windows Forms e banco de dados SQL. O software é destinado ao gerenciamento de materiais e livros da Biblioteca da Fatec Guarulhos.
 
-Permitir a execução dos formulários dentro do Visual Studio:  
-- Clicar com o botão direito do mouse no arquivo .zip  
-- Escolher a opção "Propriedades" do menu  
-- Na janela de Propriedades, marcar a checkbox "Desbloquear"  
-- Clicar em "Aplicar" depois em "OK"  
+### Funcionalidades
 
-## Cargos
+- Cadastro/armazenamento de livros e materiais
+- Controle de empréstimos
+- Pesquisa de livros e materiais
 
-**Analistas:** Alan, Geraldo  
-**Banco de Dados:** Alisson, Arthur  
-**Documentação:** Nathan, Luis  
-**Programação:** Bruno, Gabriel, Gabriella, Marlom, Sara  
-**Teste:** Ana, Matheus  
+### Equipe
+
+`Analistas:` Alan, Geraldo  
+`Banco de Dados:` Alisson, Arthur  
+`Documentadores:` Nathan  
+`Programadores:` Bruno, Gabriel, Gabriella, Marlom, Sara  
+`Testers:` Ana, Luis 
