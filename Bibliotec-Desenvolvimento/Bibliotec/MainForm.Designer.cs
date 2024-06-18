@@ -267,7 +267,7 @@
             ClientSize = new Size(1208, 766);
             Controls.Add(btnsPanel);
             Controls.Add(navigationPanel);
-            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MinimumSize = new Size(1208, 766);
             Name = "MainForm";
             Text = "Bibliotec";

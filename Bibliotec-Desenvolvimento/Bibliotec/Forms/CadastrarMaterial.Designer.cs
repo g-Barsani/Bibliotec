@@ -289,7 +289,7 @@
             registerMaterialBtn.ForeColor = Color.White;
             registerMaterialBtn.Image = (Image)resources.GetObject("registerMaterialBtn.Image");
             registerMaterialBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            registerMaterialBtn.Location = new Point(804, 441);
+            registerMaterialBtn.Location = new Point(804, 367);
             registerMaterialBtn.Name = "registerMaterialBtn";
             registerMaterialBtn.Size = new Size(191, 60);
             registerMaterialBtn.TabIndex = 15;

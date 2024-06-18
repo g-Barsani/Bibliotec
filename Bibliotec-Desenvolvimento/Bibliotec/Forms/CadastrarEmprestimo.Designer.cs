@@ -46,7 +46,7 @@
             realizarEmprestimoBtn.ForeColor = Color.White;
             realizarEmprestimoBtn.Image = (Image)resources.GetObject("realizarEmprestimoBtn.Image");
             realizarEmprestimoBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            realizarEmprestimoBtn.Location = new Point(804, 441);
+            realizarEmprestimoBtn.Location = new Point(804, 335);
             realizarEmprestimoBtn.Name = "realizarEmprestimoBtn";
             realizarEmprestimoBtn.Size = new Size(191, 60);
             realizarEmprestimoBtn.TabIndex = 20;

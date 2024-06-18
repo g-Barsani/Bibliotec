@@ -162,7 +162,7 @@
             registerUserlBtn.ForeColor = Color.White;
             registerUserlBtn.Image = (Image)resources.GetObject("registerUserlBtn.Image");
             registerUserlBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            registerUserlBtn.Location = new Point(805, 440);
+            registerUserlBtn.Location = new Point(802, 333);
             registerUserlBtn.Name = "registerUserlBtn";
             registerUserlBtn.Size = new Size(191, 60);
             registerUserlBtn.TabIndex = 32;
