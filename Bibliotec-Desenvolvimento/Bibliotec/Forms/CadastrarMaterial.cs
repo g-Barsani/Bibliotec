@@ -6,11 +6,15 @@ using System.ComponentModel;
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskBand;
 
 namespace Bibliotec.Forms
 {
     public partial class CadastrarMaterial : Form
     {
+        private Form activeForm = null!; // define como não nulo
+        private Button lastButton = null!;
+
         public CadastrarMaterial()
         {
             InitializeComponent();
@@ -32,8 +36,8 @@ namespace Bibliotec.Forms
                 // Obtenção dos valores dos campos do formulário
                 bool tarjaVermelha = true;
 
-                Livro livro = new Livro(titleTextB.Text, keyWordsTextB.Text, subjectTextB.Text, publishLocalTextB.Text, publishDateTextB.Text, availableRBtn.Checked == true, tarjaVermelha, authorTextB.Text,
-                    publisherTextB.Text, acquisitionTextB.Text, isbnTextB.Text, editionTextB.Text, genderTextB.Text, subtitleTextB.Text);
+                Livro livro = new Livro(titleTextB.Text, keyWordsTextB.Text, subjectTextB.Text, publishLocalTextB.Text, publishDateTextB.Text, authorTextB.Text,
+                    publisherTextB.Text, isbnTextB.Text, editionTextB.Text, genderTextB.Text, subtitleTextB.Text);
 
                 // Construção da string SQL para inserir um novo livro
                 string strSQL = livro.cadastrarLivro();
@@ -51,14 +55,11 @@ namespace Bibliotec.Forms
                 authorTextB.Text = "";
                 publisherTextB.Text = "";
                 keyWordsTextB.Text = "";
-                acquisitionTextB.Text = "";
                 isbnTextB.Text = "";
                 editionTextB.Text = "";
                 publishLocalTextB.Text = "";
                 subjectTextB.Text = "";
                 genderTextB.Text = "";
-                availableRBtn.Checked = false;
-                nonAvailableRBtn.Checked = false;
                 publishDateTextB.Text = "";
             }
             catch (Exception er)
@@ -91,6 +92,17 @@ namespace Bibliotec.Forms
         private void subtitleTextB_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        protected void OpenChildForm(Form childForm)
+        {
+           
+        }
+
+        private void manageCopiesBtn_Click(object sender, EventArgs e)
+        {
+            BotoesCrud crud = new BotoesCrud();
+            crud.OpenCopiesForm();
         }
     }
 }

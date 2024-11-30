@@ -47,16 +47,12 @@
             editionTextB = new TextBox();
             isbnLbl = new Label();
             isbnTextB = new TextBox();
-            acquisitionLbl = new Label();
-            acquisitionTextB = new TextBox();
             registerMaterialBtn = new Button();
             publishDateTextB = new TextBox();
             publishDateLbl = new Label();
-            availabilityLbl = new Label();
-            availableRBtn = new RadioButton();
-            nonAvailableRBtn = new RadioButton();
             subtitleLbl = new Label();
             subtitleTextB = new TextBox();
+            manageCopiesBtn = new Button();
             SuspendLayout();
             // 
             // titleTextB
@@ -257,31 +253,9 @@
             isbnTextB.Size = new Size(378, 26);
             isbnTextB.TabIndex = 8;
             // 
-            // acquisitionLbl
-            // 
-            acquisitionLbl.Anchor = AnchorStyles.None;
-            acquisitionLbl.AutoSize = true;
-            acquisitionLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            acquisitionLbl.Location = new Point(617, 304);
-            acquisitionLbl.Name = "acquisitionLbl";
-            acquisitionLbl.Size = new Size(126, 20);
-            acquisitionLbl.TabIndex = 0;
-            acquisitionLbl.Text = "Forma Adquirida";
-            // 
-            // acquisitionTextB
-            // 
-            acquisitionTextB.Anchor = AnchorStyles.None;
-            acquisitionTextB.BorderStyle = BorderStyle.FixedSingle;
-            acquisitionTextB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            acquisitionTextB.Location = new Point(617, 327);
-            acquisitionTextB.Multiline = true;
-            acquisitionTextB.Name = "acquisitionTextB";
-            acquisitionTextB.Size = new Size(378, 26);
-            acquisitionTextB.TabIndex = 12;
-            // 
             // registerMaterialBtn
             // 
-            registerMaterialBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            registerMaterialBtn.Anchor = AnchorStyles.None;
             registerMaterialBtn.AutoSize = true;
             registerMaterialBtn.BackColor = Color.Maroon;
             registerMaterialBtn.FlatStyle = FlatStyle.Popup;
@@ -289,9 +263,9 @@
             registerMaterialBtn.ForeColor = Color.White;
             registerMaterialBtn.Image = (Image)resources.GetObject("registerMaterialBtn.Image");
             registerMaterialBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            registerMaterialBtn.Location = new Point(804, 367);
+            registerMaterialBtn.Location = new Point(818, 304);
             registerMaterialBtn.Name = "registerMaterialBtn";
-            registerMaterialBtn.Size = new Size(191, 60);
+            registerMaterialBtn.Size = new Size(177, 60);
             registerMaterialBtn.TabIndex = 15;
             registerMaterialBtn.TabStop = false;
             registerMaterialBtn.Text = "  Cadastrar";
@@ -320,41 +294,6 @@
             publishDateLbl.TabIndex = 0;
             publishDateLbl.Text = "Data Publicação";
             // 
-            // availabilityLbl
-            // 
-            availabilityLbl.Anchor = AnchorStyles.None;
-            availabilityLbl.AutoSize = true;
-            availabilityLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            availabilityLbl.Location = new Point(617, 376);
-            availabilityLbl.Name = "availabilityLbl";
-            availabilityLbl.Size = new Size(116, 20);
-            availabilityLbl.TabIndex = 0;
-            availabilityLbl.Text = "Disponibilidade";
-            // 
-            // availableRBtn
-            // 
-            availableRBtn.Anchor = AnchorStyles.None;
-            availableRBtn.AutoSize = true;
-            availableRBtn.Location = new Point(617, 408);
-            availableRBtn.Name = "availableRBtn";
-            availableRBtn.Size = new Size(80, 19);
-            availableRBtn.TabIndex = 13;
-            availableRBtn.TabStop = true;
-            availableRBtn.Text = "Disponível";
-            availableRBtn.UseVisualStyleBackColor = true;
-            // 
-            // nonAvailableRBtn
-            // 
-            nonAvailableRBtn.Anchor = AnchorStyles.None;
-            nonAvailableRBtn.AutoSize = true;
-            nonAvailableRBtn.Location = new Point(617, 432);
-            nonAvailableRBtn.Name = "nonAvailableRBtn";
-            nonAvailableRBtn.Size = new Size(105, 19);
-            nonAvailableRBtn.TabIndex = 14;
-            nonAvailableRBtn.TabStop = true;
-            nonAvailableRBtn.Text = "Não Disponível";
-            nonAvailableRBtn.UseVisualStyleBackColor = true;
-            // 
             // subtitleLbl
             // 
             subtitleLbl.Anchor = AnchorStyles.None;
@@ -378,22 +317,37 @@
             subtitleTextB.TabIndex = 2;
             subtitleTextB.TextChanged += subtitleTextB_TextChanged;
             // 
+            // manageCopiesBtn
+            // 
+            manageCopiesBtn.Anchor = AnchorStyles.None;
+            manageCopiesBtn.AutoSize = true;
+            manageCopiesBtn.BackColor = Color.Maroon;
+            manageCopiesBtn.FlatStyle = FlatStyle.Popup;
+            manageCopiesBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            manageCopiesBtn.ForeColor = Color.White;
+            manageCopiesBtn.Image = (Image)resources.GetObject("manageCopiesBtn.Image");
+            manageCopiesBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            manageCopiesBtn.Location = new Point(617, 304);
+            manageCopiesBtn.Name = "manageCopiesBtn";
+            manageCopiesBtn.Size = new Size(193, 60);
+            manageCopiesBtn.TabIndex = 16;
+            manageCopiesBtn.TabStop = false;
+            manageCopiesBtn.Text = "            Gerenciar Exemplares";
+            manageCopiesBtn.UseVisualStyleBackColor = false;
+            manageCopiesBtn.Click += manageCopiesBtn_Click;
+            // 
             // CadastrarMaterial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(1176, 521);
+            Controls.Add(manageCopiesBtn);
             Controls.Add(subtitleLbl);
             Controls.Add(subtitleTextB);
-            Controls.Add(nonAvailableRBtn);
-            Controls.Add(availableRBtn);
-            Controls.Add(availabilityLbl);
             Controls.Add(publishDateLbl);
             Controls.Add(publishDateTextB);
             Controls.Add(registerMaterialBtn);
-            Controls.Add(acquisitionLbl);
-            Controls.Add(acquisitionTextB);
             Controls.Add(publishLocalLbl);
             Controls.Add(publishLocalTextB);
             Controls.Add(editionLbl);
@@ -440,15 +394,11 @@
         private TextBox editionTextB;
         private Label isbnLbl;
         private TextBox isbnTextB;
-        private Label acquisitionLbl;
-        private TextBox acquisitionTextB;
         private Button registerMaterialBtn;
         private TextBox publishDateTextB;
         private Label publishDateLbl;
-        private Label availabilityLbl;
-        private RadioButton availableRBtn;
-        private RadioButton nonAvailableRBtn;
         private Label subtitleLbl;
         private TextBox subtitleTextB;
+        private Button manageCopiesBtn;
     }
 }

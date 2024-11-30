@@ -20,12 +20,11 @@ namespace Bibliotec.Classes.Materiais
         public Livro() { }
 
         public Livro (String titulo, String palavraChave, String assunto, String localPublicacao,
-                        String dataPublicacao, bool disponivel, bool tarjaVermelha, string autor, string editora, 
-                        string aquisicao, string isbn, string edicao, string genero, string subtitulo)
+                        String dataPublicacao, string autor, string editora, string isbn, string edicao, 
+                        string genero, string subtitulo)
         {
             this.autor = autor;
             this.editora = editora;
-            this.aquisicao = aquisicao;
             this.isbn = isbn;
             this.edicao = edicao;
             this.genero = genero;
@@ -35,17 +34,14 @@ namespace Bibliotec.Classes.Materiais
             this.assunto = assunto;
             this.localPublicacao = localPublicacao;
             this.dataPublicacao = dataPublicacao;
-            this.disponivel = disponivel;
-            this.tarjaVermelha = tarjaVermelha;
         }
 
         public Livro(int id, String titulo, String palavraChave, String assunto, String localPublicacao,
-                        String dataPublicacao, bool disponivel, bool tarjaVermelha, string autor, string editora,
-                        string aquisicao, string isbn, string edicao, string genero, string subtitulo)
+                        String dataPublicacao, string autor, string editora,
+                        string isbn, string edicao, string genero, string subtitulo)
         {
             this.autor = autor;
             this.editora = editora;
-            this.aquisicao = aquisicao;
             this.isbn = isbn;
             this.edicao = edicao;
             this.genero = genero;
@@ -56,14 +52,12 @@ namespace Bibliotec.Classes.Materiais
             this.assunto = assunto;
             this.localPublicacao = localPublicacao;
             this.dataPublicacao = dataPublicacao;
-            this.disponivel = disponivel;
-            this.tarjaVermelha = tarjaVermelha;
         }
 
         //métodos CRUD
         public String cadastrarLivro()
         {
-            return $"INSERT INTO tb_livros(titulo, palavra_chave, assunto, local_publicacao, ano_publicacao, disponibilidade, tarja_vermelha, autor, editora, aquisicao, isbn, edicao, genero, subtitulo) VALUES ('{titulo}', '{palavraChave}', '{assunto}', '{localPublicacao}', '{dataPublicacao}', {disponivel}, {tarjaVermelha}, '{autor}', '{editora}', '{aquisicao}', {isbn}, '{edicao}', '{genero}', '{subtitulo}')";
+            return $"INSERT INTO tb_livros(titulo, palavra_chave, assunto, local_publicacao, ano_publicacao, autor, editora, isbn, edicao, genero, subtitulo) VALUES ('{titulo}', '{palavraChave}', '{assunto}', '{localPublicacao}', '{dataPublicacao}', '{autor}', '{editora}', {isbn}, '{edicao}', '{genero}', '{subtitulo}')";
         }
 
         public String getTitulo()

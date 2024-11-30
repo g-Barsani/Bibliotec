@@ -42,25 +42,21 @@ namespace Bibliotec.Forms
                         {
                             if (reader.Read())
                             {
-                                int id = reader.GetInt32("id");
                                 string titulo = reader.GetString("titulo");
                                 string palavraChave = reader.GetString("palavra_chave");
                                 string assunto = reader.GetString("assunto");
                                 string localPublicacao = reader.GetString("local_publicacao");
                                 string anoPublicacao = reader.GetDateTime("ano_publicacao").ToString("yyyy-MM-dd"); // Converte ano para string
-                                bool disponibilidade = reader.GetBoolean("disponibilidade");
-                                bool tarjaVermelha = reader.GetBoolean("tarja_vermelha");
                                 string autor = reader.GetString("autor");
                                 string editora = reader.GetString("editora");
-                                string aquisicao = reader.GetString("aquisicao");
                                 long isbn = reader.GetInt64("isbn");
                                 string edicao = reader.GetString("edicao");
                                 string genero = reader.GetString("genero");
                                 string subtitulo = reader.GetString("subtitulo");
 
                                 // Criar objeto Livro com os dados obtidos
-                                Livro livro = new Livro(id, titulo, palavraChave, assunto, localPublicacao, anoPublicacao,
-                                                         disponibilidade, tarjaVermelha, autor, editora, aquisicao, isbn.ToString(),
+                                Livro livro = new Livro(titulo, palavraChave, assunto, localPublicacao, anoPublicacao,
+                                                         autor, editora, isbn.ToString(),
                                                          edicao, genero, subtitulo);
 
                                 MessageBox.Show("Livro encontrado: " + livro.getTitulo() + ", Ano de Publicação: " + anoPublicacao);

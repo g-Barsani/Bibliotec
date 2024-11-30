@@ -31,6 +31,7 @@
             createBtn = new Button();
             readBtn = new Button();
             crudPanel = new Panel();
+            manageCopiesBtn = new Button();
             SuspendLayout();
             // 
             // createBtn
@@ -78,11 +79,32 @@
             crudPanel.Size = new Size(984, 419);
             crudPanel.TabIndex = 10;
             // 
+            // manageCopiesBtn
+            // 
+            manageCopiesBtn.Anchor = AnchorStyles.Top;
+            manageCopiesBtn.AutoSize = true;
+            manageCopiesBtn.BackColor = Color.Maroon;
+            manageCopiesBtn.BackgroundImageLayout = ImageLayout.Center;
+            manageCopiesBtn.Enabled = false;
+            manageCopiesBtn.FlatStyle = FlatStyle.Popup;
+            manageCopiesBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            manageCopiesBtn.ForeColor = Color.White;
+            manageCopiesBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            manageCopiesBtn.Location = new Point(243, 88);
+            manageCopiesBtn.Name = "manageCopiesBtn";
+            manageCopiesBtn.Size = new Size(495, 37);
+            manageCopiesBtn.TabIndex = 11;
+            manageCopiesBtn.Text = "Gerenciar Exemplares";
+            manageCopiesBtn.UseVisualStyleBackColor = false;
+            manageCopiesBtn.Visible = false;
+            manageCopiesBtn.Click += button1_Click;
+            // 
             // BotoesCrud
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(982, 537);
+            Controls.Add(manageCopiesBtn);
             Controls.Add(crudPanel);
             Controls.Add(readBtn);
             Controls.Add(createBtn);
@@ -98,5 +120,6 @@
         private Button createBtn;
         private Button readBtn;
         private Panel crudPanel;
+        private Button manageCopiesBtn;
     }
 }

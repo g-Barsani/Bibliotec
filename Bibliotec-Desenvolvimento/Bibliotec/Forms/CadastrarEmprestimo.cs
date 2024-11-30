@@ -80,26 +80,26 @@ namespace Bibliotec.Forms
                     if (disponibilidade && emprestimosAluno > 0)
                     {
                         // Cria objeto Emprestimo
-                        Emprestimo emprestimo = new Emprestimo(registroUsuario, isbnLivro, tempoEmprestimo);
-                        string strSQLEmprestimo = emprestimo.realizarEmprestimo(idLivro, idAluno);
-                        string strSQLUpdateAluno = $"UPDATE tb_alunos SET quantidade_emprestimo = {emprestimosAluno - 1} WHERE id = {idAluno}";
-                        string strSQLUpdateLivro = $"UPDATE tb_livros SET disponibilidade = FALSE WHERE id = {idLivro}";
+                        //Emprestimo emprestimo = new Emprestimo(registroUsuario, isbnLivro, tempoEmprestimo);
+                        //string strSQLEmprestimo = emprestimo.realizarEmprestimo(idLivro, idAluno);
+                        //string strSQLUpdateAluno = $"UPDATE tb_alunos SET quantidade_emprestimo = {emprestimosAluno - 1} WHERE id = {idAluno}";
+                        //string strSQLUpdateLivro = $"UPDATE tb_livros SET disponibilidade = FALSE WHERE id = {idLivro}";
 
-                        // Executa as atualizações
-                        using (var insertEmprestimo = new MySqlCommand(strSQLEmprestimo, conec))
-                        {
-                            insertEmprestimo.ExecuteNonQuery();
-                        }
-                        using (var updateAluno = new MySqlCommand(strSQLUpdateAluno, conec))
-                        {
-                            updateAluno.ExecuteNonQuery();
-                        }
-                        using (var updateLivro = new MySqlCommand(strSQLUpdateLivro, conec))
-                        {
-                            updateLivro.ExecuteNonQuery();
-                        }
+                        //// Executa as atualizações
+                        //using (var insertEmprestimo = new MySqlCommand(strSQLEmprestimo, conec))
+                        //{
+                        //    insertEmprestimo.ExecuteNonQuery();
+                        //}
+                        //using (var updateAluno = new MySqlCommand(strSQLUpdateAluno, conec))
+                        //{
+                        //    updateAluno.ExecuteNonQuery();
+                        //}
+                        //using (var updateLivro = new MySqlCommand(strSQLUpdateLivro, conec))
+                        //{
+                        //    updateLivro.ExecuteNonQuery();
+                        //}
 
-                        MessageBox.Show("Empréstimo realizado com sucesso!");
+                        //MessageBox.Show("Empréstimo realizado com sucesso!");
                     }
                     else
                     {

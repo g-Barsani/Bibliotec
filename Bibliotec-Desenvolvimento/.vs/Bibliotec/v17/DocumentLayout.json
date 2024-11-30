@@ -1,62 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\",
+  "WorkspaceRootPath": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\cadastraremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastraremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\botoescrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\botoescrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\pichau\\onedrive\\documentos\\fatec\\bibiliotech\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\cadastraremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastraremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\botoescrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\botoescrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\pichau\\onedrive\\documentos\\fatec\\bibiliotech\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\pichau\\onedrive\\documentos\\fatec\\bibiliotech\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\pichau\\onedrive\\documentos\\fatec\\bibiliotech\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\camposmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\data grid forms\\camposmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\camposmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\data grid forms\\camposmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\cadastraremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastraremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\camposemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\data grid forms\\camposemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\cadastrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\datagridler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\data grid forms\\datagridler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\data grid forms\\datagridler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\datagridler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\botoescrud.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\botoescrud.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\classes\\materiais\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\classes\\materiais\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\camposmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\data grid forms\\camposmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\data grid forms\\camposmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\data grid forms\\camposmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\camposemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\data grid forms\\camposemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\datagridler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\data grid forms\\datagridler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\camposmaterial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\data grid forms\\camposmaterial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\data grid forms\\camposmaterial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\camposusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\camposusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\data grid forms\\camposusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\bibliotec\\forms\\data grid forms\\camposusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\forms\\data grid forms\\camposusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\forms\\data grid forms\\camposusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|c:\\users\\lucks\\onedrive\\desktop\\bibliotec\\bibliotec versao final\\bibliotec\\bibliotec-desenvolvimento\\bibliotec\\classes\\materiais\\exemplarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFDF709-D6EC-4714-A18F-16FC48D015B2}|Bibliotec\\Bibliotec.csproj|solutionrelative:bibliotec\\classes\\materiais\\exemplarlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,138 +102,252 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "DataGridLer.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs",
               "RelativeDocumentMoniker": "Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs",
-              "ToolTip": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs",
               "RelativeToolTip": "Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAD4vywAAAAYAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAIAzwHIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T22:11:19.439Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "DataGridLer.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs",
               "RelativeDocumentMoniker": "Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs",
               "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs [Projeto]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\DataGridLer.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T23:04:45.168Z",
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BotoesCrud.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\BotoesCrud.Designer.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\BotoesCrud.Designer.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\BotoesCrud.Designer.cs",
+              "RelativeToolTip": "Bibliotec\\Forms\\BotoesCrud.Designer.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAIA7wHoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T18:15:08.759Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CadastrarUsuario.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarUsuario.cs",
-              "ToolTip": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs [Projeto]",
-              "RelativeToolTip": "Bibliotec\\Forms\\CadastrarUsuario.cs [Projeto]",
+              "Title": "CadastrarEmprestimo.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarEmprestimo.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarEmprestimo.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarEmprestimo.cs",
+              "RelativeToolTip": "Bibliotec\\Forms\\CadastrarEmprestimo.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAkwFoAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:14:22.543Z",
+              "WhenOpened": "2024-11-16T18:09:46.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pesquisa.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Pesquisa.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\Pesquisa.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Pesquisa.cs [Projeto]",
+              "RelativeToolTip": "Bibliotec\\Forms\\Pesquisa.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T18:08:17.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\MainForm.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.cs",
+              "RelativeToolTip": "Bibliotec\\MainForm.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAIAzwFkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T18:00:55.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BotoesCrud.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\BotoesCrud.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\BotoesCrud.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\BotoesCrud.cs",
+              "RelativeToolTip": "Bibliotec\\Forms\\BotoesCrud.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAawB4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:55:51.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BotoesCrud.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\BotoesCrud.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\BotoesCrud.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\BotoesCrud.cs [Projeto]",
+              "RelativeToolTip": "Bibliotec\\Forms\\BotoesCrud.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:54:08.464Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
+              "Title": "ExemplarLivro.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Materiais\\ExemplarLivro.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Classes\\Materiais\\ExemplarLivro.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Materiais\\ExemplarLivro.cs",
+              "RelativeToolTip": "Bibliotec\\Classes\\Materiais\\ExemplarLivro.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:52:36.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pesquisa.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Pesquisa.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\Pesquisa.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Pesquisa.cs",
+              "RelativeToolTip": "Bibliotec\\Forms\\Pesquisa.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwDMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:38:37.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Livro.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Materiais\\Livro.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Classes\\Materiais\\Livro.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Classes\\Materiais\\Livro.cs",
+              "RelativeToolTip": "Bibliotec\\Classes\\Materiais\\Livro.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAYwDwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Bibliotec\\Classes\\Materiais",
+              "WhenOpened": "2024-11-16T17:14:02.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CadastrarUsuario.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarUsuario.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarUsuario.cs [Projeto]",
+              "RelativeToolTip": "Bibliotec\\Forms\\CadastrarUsuario.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T23:14:22.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "Bibliotec\\MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.Designer.cs",
               "RelativeToolTip": "Bibliotec\\MainForm.Designer.cs",
               "ViewState": "AQIAAPYAAAAAAAAAAAAowA0BAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:07:24.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T23:07:24.733Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainForm.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.cs",
               "RelativeDocumentMoniker": "Bibliotec\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.cs [Projeto]",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\MainForm.cs [Projeto]",
               "RelativeToolTip": "Bibliotec\\MainForm.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:07:21.024Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-06-18T23:07:21.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CadastrarMaterial.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarMaterial.cs",
               "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarMaterial.cs",
-              "ToolTip": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarMaterial.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarMaterial.cs",
               "RelativeToolTip": "Bibliotec\\Forms\\CadastrarMaterial.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAewFEAAAAMAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAvwGgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T22:43:35.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CadastrarMaterial.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarMaterial.cs",
               "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarMaterial.cs",
-              "ToolTip": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarMaterial.cs [Projeto]",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarMaterial.cs [Projeto]",
               "RelativeToolTip": "Bibliotec\\Forms\\CadastrarMaterial.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:43:23.765Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CadastrarEmprestimo.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarEmprestimo.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarEmprestimo.cs",
-              "ToolTip": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarEmprestimo.cs [Projeto]",
-              "RelativeToolTip": "Bibliotec\\Forms\\CadastrarEmprestimo.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:38:36.325Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CamposUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs",
-              "ToolTip": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs",
-              "RelativeToolTip": "Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:26:43.48Z"
+              "WhenOpened": "2024-06-18T22:43:23.765Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CamposMaterial.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs",
-              "RelativeDocumentMoniker": "Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs",
-              "ToolTip": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs",
-              "RelativeToolTip": "Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Title": "CadastrarEmprestimo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarEmprestimo.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\CadastrarEmprestimo.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\CadastrarEmprestimo.cs [Projeto]",
+              "RelativeToolTip": "Bibliotec\\Forms\\CadastrarEmprestimo.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T21:42:06.785Z"
+              "WhenOpened": "2024-06-18T22:38:36.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
+              "Title": "CamposUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs",
+              "RelativeToolTip": "Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T22:26:43.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CamposMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs",
+              "RelativeDocumentMoniker": "Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs",
+              "RelativeToolTip": "Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T21:42:06.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "CamposMaterial.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.Designer.cs",
               "RelativeDocumentMoniker": "Bibliotec\\Forms\\Data grid forms\\CamposMaterial.Designer.cs",
-              "ToolTip": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.Designer.cs",
+              "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.Designer.cs",
               "RelativeToolTip": "Bibliotec\\Forms\\Data grid forms\\CamposMaterial.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -205,34 +355,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "CamposEmprestimo.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposEmprestimo.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposEmprestimo.cs",
               "RelativeDocumentMoniker": "Bibliotec\\Forms\\Data grid forms\\CamposEmprestimo.cs",
               "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposEmprestimo.cs [Projeto]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposEmprestimo.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposEmprestimo.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T23:18:32.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "CamposMaterial.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs",
               "RelativeDocumentMoniker": "Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs",
               "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs [Projeto]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposMaterial.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T22:56:09.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "CamposUsuario.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Pichau\\OneDrive\\Documentos\\Fatec\\Bibiliotech\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Versao Final\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs",
               "RelativeDocumentMoniker": "Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs",
               "ToolTip": "C:\\Users\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs [Projeto]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\lucks\\OneDrive\\Desktop\\Bibliotec\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\Bibliotec Atualizado\\Bibliotec\\Bibliotec-Desenvolvimento\\Bibliotec\\Forms\\Data grid forms\\CamposUsuario.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T23:17:50.689Z"
             }

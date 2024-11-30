@@ -1,41 +1,95 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
-
 
 namespace Bibliotec.Classes.Materiais
 {
-    internal class Emprestimo 
+    internal class Emprestimo
     {
-        private string ra;
-        private long isbn;
-        private DateTime dataEmprestimo;
-        private DateTime dataDevolucao;
-        private DateTime? dataDevolucaoEmprestimo;
+        private int id { get; set; }
+        private int idAluno { get; set; }
+        private int numeroExemplar { get; set; }
+        private string dataEmprestimo { get; set; }
+        private string devolucaoEmprestimo { get; set; }
+        private string dataDevolucaoEmprestimo { get; set; }
 
+        // Construtor vazio
         public Emprestimo() { }
 
-        // Construtor para empréstimo
-        public Emprestimo(string ra, long isbn, int tempoEmprestimo)
+        // Construtor completo
+        public Emprestimo(int id, int idAluno, int numeroExemplar, string dataEmprestimo, string devolucaoEmprestimo, string dataDevolucaoEmprestimo)
         {
-            this.ra = ra;
-            this.isbn = isbn;
-            dataEmprestimo = DateTime.Now;
-            // Conta uma semana apartir da data do Empréstimo
-            dataDevolucao = dataEmprestimo.AddDays(tempoEmprestimo*7);
-            dataDevolucaoEmprestimo = null;
+            this.id = id;
+            this.idAluno = idAluno;
+            this.numeroExemplar = numeroExemplar;
+            this.dataEmprestimo = dataEmprestimo;
+            this.devolucaoEmprestimo = devolucaoEmprestimo;
+            this.dataDevolucaoEmprestimo = dataDevolucaoEmprestimo;
         }
 
-        // Método CRUD
-        public String realizarEmprestimo(int id_aluno, int id_livro)
+        // Métodos CRUD
+        public string CadastrarEmprestimo()
         {
-           
-           return $"INSERT INTO tb_emprestimos(id_aluno, id_livro, data_emprestimo, devolucao_emprestimo, data_devolucao_emprestimo) VALUES ('{id_aluno}', '{id_livro}', '{dataEmprestimo.ToString("yyyy-MM-dd")}', '{dataDevolucao.ToString("yyyy-MM-dd")}', NULL)";
+            return $"INSERT INTO tb_emprestimos (id_aluno, numero_exemplar, data_emprestimo, devolucao_emprestimo) " +
+                   $"VALUES ({idAluno}, {numeroExemplar}, '{dataEmprestimo}', '{devolucaoEmprestimo}')";
+        }
 
+        public string AtualizarEmprestimo()
+        {
+            return $"UPDATE tb_emprestimos SET data_devolucao_emprestimo = '{dataDevolucaoEmprestimo}' WHERE id = {id}";
+        }
+
+        public string RemoverEmprestimo()
+        {
+            return $"DELETE FROM tb_emprestimos WHERE id = {id}";
+        }
+
+        public string RemoverTodosEmprestimos()
+        {
+            return $"DELETE FROM tb_emprestimos";
+        }
+
+        // Métodos de consulta
+
+        // Consultar empréstimo por ID (id do empréstimo)
+        public string ConsultarPorId(int id)
+        {
+            return $"SELECT * FROM tb_emprestimos WHERE id = {id}";
+        }
+
+        // Consultar empréstimos por ID do aluno
+        public string ConsultarPorIdAluno(int idAluno)
+        {
+            return $"SELECT * FROM tb_emprestimos WHERE id_aluno = {idAluno}";
+        }
+
+        // Getters
+        public int GetId()
+        {
+            return id;
+        }
+
+        public int GetIdAluno()
+        {
+            return idAluno;
+        }
+
+        public int GetNumeroExemplar()
+        {
+            return numeroExemplar;
+        }
+
+        public string GetDataEmprestimo()
+        {
+            return dataEmprestimo;
+        }
+
+        public string GetDevolucaoEmprestimo()
+        {
+            return devolucaoEmprestimo;
+        }
+
+        public string GetDataDevolucaoEmprestimo()
+        {
+            return dataDevolucaoEmprestimo;
         }
     }
-
 }

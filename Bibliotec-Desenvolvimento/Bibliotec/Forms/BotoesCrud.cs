@@ -17,10 +17,19 @@ namespace Bibliotec.Forms
         private Form activeForm = null!; // define como não nulo
         private Button lastButton = null!;
 
+        public BotoesCrud()
+        {
+            InitializeComponent();
+        }
+
         public BotoesCrud(string btnPressed)
         {
             this.btnPressed = btnPressed;
             InitializeComponent();
+            if (btnPressed == "materialBtn")
+            {
+                enableCopiesButton();
+            }
         }
 
         private void createBtn_Click(object sender, EventArgs e)
@@ -28,7 +37,7 @@ namespace Bibliotec.Forms
             openCrudForm(this.btnPressed, "create");
         }
 
-        protected void OpenChildForm(Form childForm, Button btn)
+        public void OpenChildForm(Form childForm, Button btn)
         {
             activeForm?.Close(); // se activeForme for diferente de nulo
 
@@ -47,6 +56,20 @@ namespace Bibliotec.Forms
             childForm.Show();
             btn.BackColor = Color.Gray;
             lastButton = btn;
+        }
+
+        public void OpenCopiesForm()
+        {
+            activeForm?.Close(); // se activeForme for diferente de nulo
+            CadastrarEmprestimo copiesForm = new CadastrarEmprestimo();
+            activeForm = copiesForm;
+            copiesForm.TopLevel = false;
+            copiesForm.FormBorderStyle = FormBorderStyle.None;
+            copiesForm.Dock = DockStyle.Fill;
+            this.crudPanel.Controls.Add(copiesForm);
+            this.crudPanel.Tag = copiesForm;
+            copiesForm.BringToFront();
+            copiesForm.Show();
         }
 
         private void BotoesCrud_Load(object sender, EventArgs e)
@@ -71,7 +94,7 @@ namespace Bibliotec.Forms
 
         private void openCrudForm(string btnPressed, string crudType)
         {
-            if(crudType.Equals("create"))
+            if (crudType.Equals("create"))
             {
                 switch (this.btnPressed)
                 {
@@ -89,6 +112,23 @@ namespace Bibliotec.Forms
                         break;
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenCopiesForm();
+        }
+
+        public void enableCopiesButton()
+        {
+            this.manageCopiesBtn.Enabled = true;
+            this.manageCopiesBtn.Visible = true;
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            enableCopiesButton();
         }
     }
 }
