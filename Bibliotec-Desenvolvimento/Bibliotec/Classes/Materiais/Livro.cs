@@ -57,6 +57,10 @@ namespace Bibliotec.Classes.Materiais
         //métodos CRUD
         public String cadastrarLivro()
         {
+            if(dataPublicacao == null)
+            {
+                return $"INSERT INTO tb_livros(titulo, palavra_chave, assunto, local_publicacao, ano_publicacao, autor, editora, isbn, edicao, genero, subtitulo) VALUES ('{titulo}', '{palavraChave}', '{assunto}', '{localPublicacao}', null, '{autor}', '{editora}', {isbn}, '{edicao}', '{genero}', '{subtitulo}')";
+            }
             return $"INSERT INTO tb_livros(titulo, palavra_chave, assunto, local_publicacao, ano_publicacao, autor, editora, isbn, edicao, genero, subtitulo) VALUES ('{titulo}', '{palavraChave}', '{assunto}', '{localPublicacao}', '{dataPublicacao}', '{autor}', '{editora}', {isbn}, '{edicao}', '{genero}', '{subtitulo}')";
         }
 

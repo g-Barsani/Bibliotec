@@ -91,8 +91,12 @@ namespace Bibliotec.Forms
 
         private void SearchBookBtn_Click(object sender, EventArgs e)
         {
-            Pesquisar();  
+            Pesquisar();
         }
 
+        private void titleTextB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

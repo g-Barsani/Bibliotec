@@ -52,7 +52,6 @@
             publishDateLbl = new Label();
             subtitleLbl = new Label();
             subtitleTextB = new TextBox();
-            manageCopiesBtn = new Button();
             SuspendLayout();
             // 
             // titleTextB
@@ -282,6 +281,7 @@
             publishDateTextB.Name = "publishDateTextB";
             publishDateTextB.Size = new Size(378, 26);
             publishDateTextB.TabIndex = 6;
+            publishDateTextB.TextChanged += publishDateTextB_TextChanged;
             // 
             // publishDateLbl
             // 
@@ -317,32 +317,12 @@
             subtitleTextB.TabIndex = 2;
             subtitleTextB.TextChanged += subtitleTextB_TextChanged;
             // 
-            // manageCopiesBtn
-            // 
-            manageCopiesBtn.Anchor = AnchorStyles.None;
-            manageCopiesBtn.AutoSize = true;
-            manageCopiesBtn.BackColor = Color.Maroon;
-            manageCopiesBtn.FlatStyle = FlatStyle.Popup;
-            manageCopiesBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            manageCopiesBtn.ForeColor = Color.White;
-            manageCopiesBtn.Image = (Image)resources.GetObject("manageCopiesBtn.Image");
-            manageCopiesBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            manageCopiesBtn.Location = new Point(617, 304);
-            manageCopiesBtn.Name = "manageCopiesBtn";
-            manageCopiesBtn.Size = new Size(193, 60);
-            manageCopiesBtn.TabIndex = 16;
-            manageCopiesBtn.TabStop = false;
-            manageCopiesBtn.Text = "            Gerenciar Exemplares";
-            manageCopiesBtn.UseVisualStyleBackColor = false;
-            manageCopiesBtn.Click += manageCopiesBtn_Click;
-            // 
             // CadastrarMaterial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(1176, 521);
-            Controls.Add(manageCopiesBtn);
             Controls.Add(subtitleLbl);
             Controls.Add(subtitleTextB);
             Controls.Add(publishDateLbl);
@@ -399,6 +379,5 @@
         private Label publishDateLbl;
         private Label subtitleLbl;
         private TextBox subtitleTextB;
-        private Button manageCopiesBtn;
     }
 }

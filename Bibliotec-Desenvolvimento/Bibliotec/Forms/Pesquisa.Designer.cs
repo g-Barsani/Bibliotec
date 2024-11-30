@@ -151,7 +151,7 @@
             Controls.Add(searchBookBtn);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Pesquisa";
-            Text = "x";
+            Text = "Pesquisa";
             ((System.ComponentModel.ISupportInitialize)resultBookSearch).EndInit();
             ResumeLayout(false);
             PerformLayout();

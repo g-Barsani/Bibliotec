@@ -14,6 +14,7 @@ namespace Bibliotec.Forms
     {
         private Form activeForm = null!; // define como não nulo
         private Button lastButton = null!;
+        private static string lastIsbn = "";
 
         public CadastrarMaterial()
         {
@@ -36,7 +37,9 @@ namespace Bibliotec.Forms
                 // Obtenção dos valores dos campos do formulário
                 bool tarjaVermelha = true;
 
-                Livro livro = new Livro(titleTextB.Text, keyWordsTextB.Text, subjectTextB.Text, publishLocalTextB.Text, publishDateTextB.Text, authorTextB.Text,
+                CheckFields();
+                string publishDate = FormatPublishDate();
+                Livro livro = new Livro(titleTextB.Text, keyWordsTextB.Text, subjectTextB.Text, publishLocalTextB.Text, publishDate, authorTextB.Text,
                     publisherTextB.Text, isbnTextB.Text, editionTextB.Text, genderTextB.Text, subtitleTextB.Text);
 
                 // Construção da string SQL para inserir um novo livro
@@ -48,7 +51,7 @@ namespace Bibliotec.Forms
 
                 // Exibe uma mensagem de sucesso
                 MessageBox.Show("Livro cadastrado com sucesso!");
-
+                lastIsbn = isbnTextB.Text;
                 // Limpa os campos do formulário após o cadastro
                 titleTextB.Text = "";
                 subtitleTextB.Text = "";
@@ -96,13 +99,40 @@ namespace Bibliotec.Forms
 
         protected void OpenChildForm(Form childForm)
         {
-           
+
         }
 
         private void manageCopiesBtn_Click(object sender, EventArgs e)
         {
             BotoesCrud crud = new BotoesCrud();
             crud.OpenCopiesForm();
+        }
+
+        private void publishDateTextB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CheckFields() 
+        { 
+            if (String.IsNullOrWhiteSpace(titleTextB.Text) && String.IsNullOrWhiteSpace(isbnTextB.Text) && String.IsNullOrWhiteSpace(authorTextB.Text))
+            {
+                throw new Exception("Campo título ou ISBN vazios!");
+            }
+        }
+
+        private string FormatPublishDate()
+        {
+            if (String.IsNullOrWhiteSpace(publishDateTextB.Text))
+            {
+                return null;
+            }
+            return publishDateTextB.Text;
+        }
+
+        public static string GetLastIsbn()
+        {
+            return lastIsbn;
         }
     }
 }

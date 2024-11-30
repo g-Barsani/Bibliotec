@@ -61,7 +61,7 @@ namespace Bibliotec.Forms
         public void OpenCopiesForm()
         {
             activeForm?.Close(); // se activeForme for diferente de nulo
-            CadastrarEmprestimo copiesForm = new CadastrarEmprestimo();
+            CadastrarExemplar copiesForm = new CadastrarExemplar();
             activeForm = copiesForm;
             copiesForm.TopLevel = false;
             copiesForm.FormBorderStyle = FormBorderStyle.None;

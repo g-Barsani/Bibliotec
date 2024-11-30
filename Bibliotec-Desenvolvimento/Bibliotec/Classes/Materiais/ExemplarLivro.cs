@@ -1,11 +1,12 @@
+using MySql.Data.MySqlClient;
 using System;
 
 namespace Bibliotec.Classes.Materiais
 {
     internal class ExemplarLivro
     {
-        private int numeroExemplar { get; set; }
-        private long isbn { get; set; }
+        private string numeroExemplar { get; set; }
+        private string isbn { get; set; }
         private bool tarjaVermelha { get; set; }
         private bool disponivel { get; set; }
         private string formaAquisicao { get; set; }
@@ -14,7 +15,7 @@ namespace Bibliotec.Classes.Materiais
         public ExemplarLivro() { }
         
         // Construtor completo
-        public ExemplarLivro(int numeroExemplar, long isbn, bool tarjaVermelha, bool disponivel, string formaAquisicao)
+        public ExemplarLivro(string numeroExemplar, string isbn, bool tarjaVermelha, bool disponivel, string formaAquisicao)
         {
             this.numeroExemplar = numeroExemplar;
             this.isbn = isbn;
@@ -24,10 +25,32 @@ namespace Bibliotec.Classes.Materiais
         }
 
         // Métodos CRUD
-        public string CadastrarExemplarLivro()
+        public void CadastrarExemplarLivro()
         {
-            return $"INSERT INTO tb_exemplar_livro (numero_exemplar, isbn, tarja_vermelha, disponivel, forma_aquisicao) " +
-                   $"VALUES ({numeroExemplar}, {isbn}, {tarjaVermelha}, {disponivel}, '{formaAquisicao}')";
+            String strConection = "server=localhost;uid=root;password=root;pwd=;database=db_bibliotec";
+            MySqlConnection conec = new MySqlConnection(strConection);
+
+            try
+            {
+                conec.Open();
+
+                string strSQL =  $"INSERT INTO tb_exemplar_livro (numero_exemplar, isbn, tarja_vermelha, disponivel, forma_aquisicao) " +
+                  $"VALUES ({numeroExemplar}, {isbn}, {tarjaVermelha}, {disponivel}, '{formaAquisicao}')";
+                MySqlCommand insertSample = new MySqlCommand(strSQL, conec);
+                insertSample.ExecuteNonQuery();
+                MessageBox.Show("Exemplar cadastrado com sucesso!");
+            }
+            catch (Exception er)
+            {
+                // Exibe uma mensagem de erro em caso de falha no cadastro
+                MessageBox.Show($"Erro ao cadastrar exemplar: {er.Message}");
+            }
+
+            finally
+            {
+                // Fecha a conexão com o banco de dados
+                conec.Close();
+            }
         }
 
         public string AtualizarDisponibilidade(bool novaDisponibilidade)
@@ -51,24 +74,24 @@ namespace Bibliotec.Classes.Materiais
             return $"SELECT * FROM tb_exemplar_livro";
         }
 
-        public string ConsultarPorISBN(long isbn)
+        public string ConsultarPorISBN(string isbn)
         {
             return $"SELECT * FROM tb_exemplar_livro WHERE isbn = {isbn}";
         }
 
         // Método de consulta por numeroExemplar
-        public string ConsultarPorNumeroExemplar(int numeroExemplar)
+        public string ConsultarPorNumeroExemplar(string numeroExemplar)
         {
             return $"SELECT * FROM tb_exemplar_livro WHERE numero_exemplar = {numeroExemplar}";
         }
 
         // Getters
-        public int GetNumeroExemplar()
+        public string GetNumeroExemplar()
         {
             return numeroExemplar;
         }
 
-        public long GetIsbn()
+        public string GetIsbn()
         {
             return isbn;
         }

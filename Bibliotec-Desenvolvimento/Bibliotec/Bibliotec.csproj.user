@@ -4,6 +4,9 @@
     <Compile Update="Forms\BotoesCrud.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\CadastrarExemplar.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\CadastrarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
