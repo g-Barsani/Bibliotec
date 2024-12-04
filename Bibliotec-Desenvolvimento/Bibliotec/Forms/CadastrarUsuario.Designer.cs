@@ -36,8 +36,6 @@
             schoolEmailTxtB = new TextBox();
             userNameTxtB = new TextBox();
             RATxtB = new TextBox();
-            userTypeComboB = new ComboBox();
-            userTypeLbl = new Label();
             registerUserlBtn = new Button();
             userPhoneMskTxtB = new MaskedTextBox();
             SuspendLayout();
@@ -129,29 +127,6 @@
             RATxtB.Size = new Size(378, 26);
             RATxtB.TabIndex = 24;
             // 
-            // userTypeComboB
-            // 
-            userTypeComboB.Anchor = AnchorStyles.None;
-            userTypeComboB.ForeColor = Color.Black;
-            userTypeComboB.FormattingEnabled = true;
-            userTypeComboB.Items.AddRange(new object[] { "Aluno", "Professor", "Funcionário" });
-            userTypeComboB.Location = new Point(164, 354);
-            userTypeComboB.Name = "userTypeComboB";
-            userTypeComboB.Size = new Size(210, 23);
-            userTypeComboB.TabIndex = 29;
-            // 
-            // userTypeLbl
-            // 
-            userTypeLbl.Anchor = AnchorStyles.None;
-            userTypeLbl.AutoSize = true;
-            userTypeLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Underline, GraphicsUnit.Point);
-            userTypeLbl.ForeColor = Color.Black;
-            userTypeLbl.Location = new Point(169, 331);
-            userTypeLbl.Name = "userTypeLbl";
-            userTypeLbl.Size = new Size(120, 20);
-            userTypeLbl.TabIndex = 30;
-            userTypeLbl.Text = "Tipo de Usuário";
-            // 
             // registerUserlBtn
             // 
             registerUserlBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
@@ -162,7 +137,7 @@
             registerUserlBtn.ForeColor = Color.White;
             registerUserlBtn.Image = (Image)resources.GetObject("registerUserlBtn.Image");
             registerUserlBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            registerUserlBtn.Location = new Point(802, 333);
+            registerUserlBtn.Location = new Point(860, 331);
             registerUserlBtn.Name = "registerUserlBtn";
             registerUserlBtn.Size = new Size(191, 60);
             registerUserlBtn.TabIndex = 32;
@@ -173,6 +148,7 @@
             // userPhoneMskTxtB
             // 
             userPhoneMskTxtB.Anchor = AnchorStyles.None;
+            userPhoneMskTxtB.BorderStyle = BorderStyle.FixedSingle;
             userPhoneMskTxtB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             userPhoneMskTxtB.Location = new Point(673, 251);
             userPhoneMskTxtB.Mask = "(99)00000-0000";
@@ -188,8 +164,6 @@
             ClientSize = new Size(1176, 521);
             Controls.Add(userPhoneMskTxtB);
             Controls.Add(registerUserlBtn);
-            Controls.Add(userTypeLbl);
-            Controls.Add(userTypeComboB);
             Controls.Add(RATxtB);
             Controls.Add(userNameTxtB);
             Controls.Add(schoolEmailTxtB);
@@ -212,8 +186,6 @@
         private TextBox schoolEmailTxtB;
         private TextBox userNameTxtB;
         private TextBox RATxtB;
-        private ComboBox userTypeComboB;
-        private Label userTypeLbl;
         private Button registerUserlBtn;
         private MaskedTextBox userPhoneMskTxtB;
     }

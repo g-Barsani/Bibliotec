@@ -71,8 +71,12 @@ namespace Bibliotec.Forms
                     switch (btnPressed)
                     {
                         case "materialBtn":
-                            table = "tb_livros";
                             campos = this.camposMaterial.getFieldsValue();
+                            table = "tb_livros";
+                            if (this.camposMaterial.mostrarExemplares())
+                            {
+                                table = "tb_exemplar_livro";
+                            }
                             break;
                         case "userBtn":
                             campos = this.camposUsuario.getFieldsValue();
@@ -100,7 +104,7 @@ namespace Bibliotec.Forms
                     MessageBox.Show(ex.Message);
                 }
             }
-           
+
         }
         private void OpenChildFormField(Form form)
         {
@@ -119,25 +123,23 @@ namespace Bibliotec.Forms
         {
             string query = "";
             //adapta a tabela
-            switch(table)
+            switch (table)
             {
                 case "tb_livros":
                     query = $@"
-                    SELECT 
+                    SELECT
+                    tb_livros.isbn AS 'ISBN',
                     tb_livros.titulo AS 'Titulo',
+                    tb_livros.subtitulo AS 'Subtítulo',
                     tb_livros.palavra_chave AS 'Palavra Chave',
                     tb_livros.assunto AS 'Assunto',
                     tb_livros.local_publicacao AS 'Local Publicação',
                     tb_livros.ano_publicacao AS 'Ano de Publicação',
-                    tb_livros.disponibilidade AS 'Disponivel?',
-                    tb_livros.tarja_vermelha AS 'Tarja Vermelha?',
                     tb_livros.autor AS 'Autor',
                     tb_livros.editora AS 'Editora',
-                    tb_livros.aquisicao AS 'Aquisição',
-                    tb_livros.isbn AS 'ISBN',
                     tb_livros.edicao AS 'Edição',
                     tb_livros.genero AS 'Gênero',
-                    tb_livros.subtitulo AS 'Subtítulo'
+                    tb_livros.total_exemplares AS 'Total de Exemplares'
                     FROM 
                     tb_livros
                     WHERE 
@@ -170,7 +172,7 @@ namespace Bibliotec.Forms
                     {
                         query += $" AND tb_alunos.ra LIKE '%{campos[0]}%'";
                     }
-                    if (!string.IsNullOrEmpty(campos[1]))
+                    if (!string.IsNullOrEmpty(campos[0]))
                     {
                         query += $" AND tb_alunos.email LIKE '%{campos[1]}%'";
                     }
@@ -178,24 +180,51 @@ namespace Bibliotec.Forms
                 case "tb_emprestimos":
                     query = $@"
                     SELECT 
-                    tb_emprestimos.data_emprestimo AS ""Data Emprestimo"",
-                    tb_emprestimos.devolucao_emprestimo AS ""Devolucao Emprestimo"",
-                    tb_emprestimos.data_devolucao_emprestimo AS ""Data Devolucao Emprestimo"",
-                    tb_alunos.nome AS ""Nome do Aluno"",
-                    tb_alunos.email AS ""Email do Aluno"",
-                    tb_alunos.ra AS ""RA Aluno"",
-                    tb_livros.titulo AS ""Titulo do Livro"",
-                    tb_livros.isbn AS ""ISBN""
+                    tb_emprestimos.data_emprestimo AS 'Data Emprestimo',
+                    tb_emprestimos.previsao_devolucao AS 'Previsão Devolução',
+                    tb_emprestimos.data_devolucao_emprestimo AS 'Data Devolução Emprestimo',
+                    tb_alunos.nome AS 'Nome do Aluno',
+                    tb_alunos.email AS 'Email do Aluno',
+                    tb_alunos.ra AS 'RA Aluno',
+                    tb_exemplar_livro.numero_exemplar AS 'Numero Exemplar',
+                    tb_livros.titulo AS 'Titulo do Livro',
+                    tb_livros.isbn AS 'ISBN'
                     FROM 
                     tb_emprestimos
                     INNER JOIN 
-                    tb_alunos ON tb_emprestimos.id_aluno = tb_alunos.id
+                    tb_alunos ON tb_emprestimos.ra_aluno = tb_alunos.ra
                     INNER JOIN 
-                    tb_livros ON tb_emprestimos.id_livro = tb_livros.id;
-                    ";
+                    tb_exemplar_livro ON tb_emprestimos.numero_exemplar = tb_exemplar_livro.numero_exemplar
+                    INNER JOIN 
+                    tb_livros ON tb_exemplar_livro.isbn = tb_livros.isbn
+                    WHERE 
+                    1=1";
+
+                    break;
+
+                case "tb_exemplar_livro":
+                    query = $@"
+                    SELECT 
+                    tb_exemplar_livro.numero_exemplar AS 'Numero Exemplar',
+                    tb_livros.titulo AS 'Titulo do Livro',
+                    tb_livros.isbn AS 'ISBN'
+                    FROM 
+                    tb_exemplar_livro
+                    INNER JOIN 
+                    tb_livros ON tb_exemplar_livro.isbn = tb_livros.isbn
+                    WHERE 
+                    1=1";
+                    if (!string.IsNullOrEmpty(campos[0]))
+                    {
+                        query += $" AND tb_livros.titulo LIKE '%{campos[0]}%'";
+                    }
+                    if (!string.IsNullOrEmpty(campos[1]))
+                    {
+                        query += $" AND tb_livros.isbn LIKE '%{campos[1]}%'";
+                    }
                     break;
             }
-            
+
             return query;
         }
 

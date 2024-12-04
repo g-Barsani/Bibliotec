@@ -48,10 +48,10 @@
             isbnLbl = new Label();
             isbnTextB = new TextBox();
             registerMaterialBtn = new Button();
-            publishDateTextB = new TextBox();
             publishDateLbl = new Label();
             subtitleLbl = new Label();
             subtitleTextB = new TextBox();
+            publishDateTextB = new MaskedTextBox();
             SuspendLayout();
             // 
             // titleTextB
@@ -271,18 +271,6 @@
             registerMaterialBtn.UseVisualStyleBackColor = false;
             registerMaterialBtn.Click += RegisterMaterialBtn_Click;
             // 
-            // publishDateTextB
-            // 
-            publishDateTextB.Anchor = AnchorStyles.None;
-            publishDateTextB.BorderStyle = BorderStyle.FixedSingle;
-            publishDateTextB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            publishDateTextB.Location = new Point(182, 401);
-            publishDateTextB.Multiline = true;
-            publishDateTextB.Name = "publishDateTextB";
-            publishDateTextB.Size = new Size(378, 26);
-            publishDateTextB.TabIndex = 6;
-            publishDateTextB.TextChanged += publishDateTextB_TextChanged;
-            // 
             // publishDateLbl
             // 
             publishDateLbl.Anchor = AnchorStyles.None;
@@ -317,16 +305,28 @@
             subtitleTextB.TabIndex = 2;
             subtitleTextB.TextChanged += subtitleTextB_TextChanged;
             // 
+            // publishDateTextB
+            // 
+            publishDateTextB.Anchor = AnchorStyles.None;
+            publishDateTextB.BorderStyle = BorderStyle.FixedSingle;
+            publishDateTextB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            publishDateTextB.Location = new Point(182, 399);
+            publishDateTextB.Mask = "00/00/0000";
+            publishDateTextB.Name = "publishDateTextB";
+            publishDateTextB.Size = new Size(378, 26);
+            publishDateTextB.TabIndex = 6;
+            publishDateTextB.ValidatingType = typeof(DateTime);
+            // 
             // CadastrarMaterial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(1176, 521);
+            Controls.Add(publishDateTextB);
             Controls.Add(subtitleLbl);
             Controls.Add(subtitleTextB);
             Controls.Add(publishDateLbl);
-            Controls.Add(publishDateTextB);
             Controls.Add(registerMaterialBtn);
             Controls.Add(publishLocalLbl);
             Controls.Add(publishLocalTextB);
@@ -375,9 +375,9 @@
         private Label isbnLbl;
         private TextBox isbnTextB;
         private Button registerMaterialBtn;
-        private TextBox publishDateTextB;
         private Label publishDateLbl;
         private Label subtitleLbl;
         private TextBox subtitleTextB;
+        private MaskedTextBox publishDateTextB;
     }
 }

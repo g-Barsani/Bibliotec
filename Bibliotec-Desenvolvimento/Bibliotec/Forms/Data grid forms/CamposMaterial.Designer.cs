@@ -32,6 +32,7 @@
             isbnTextB = new TextBox();
             titleLbl = new Label();
             titleTextB = new TextBox();
+            mostrarExemplarCheckbox = new CheckBox();
             SuspendLayout();
             // 
             // isbnLbl
@@ -39,7 +40,7 @@
             isbnLbl.Anchor = AnchorStyles.None;
             isbnLbl.AutoSize = true;
             isbnLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            isbnLbl.Location = new Point(550, 115);
+            isbnLbl.Location = new Point(423, 115);
             isbnLbl.Name = "isbnLbl";
             isbnLbl.Size = new Size(53, 20);
             isbnLbl.TabIndex = 10;
@@ -50,18 +51,19 @@
             isbnTextB.Anchor = AnchorStyles.None;
             isbnTextB.BorderStyle = BorderStyle.FixedSingle;
             isbnTextB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            isbnTextB.Location = new Point(550, 138);
+            isbnTextB.Location = new Point(423, 138);
             isbnTextB.Multiline = true;
             isbnTextB.Name = "isbnTextB";
-            isbnTextB.Size = new Size(378, 26);
+            isbnTextB.Size = new Size(295, 26);
             isbnTextB.TabIndex = 14;
+            isbnTextB.TextChanged += isbnTextB_TextChanged;
             // 
             // titleLbl
             // 
             titleLbl.Anchor = AnchorStyles.None;
             titleLbl.AutoSize = true;
             titleLbl.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            titleLbl.Location = new Point(115, 115);
+            titleLbl.Location = new Point(81, 115);
             titleLbl.Name = "titleLbl";
             titleLbl.Size = new Size(53, 20);
             titleLbl.TabIndex = 12;
@@ -72,24 +74,37 @@
             titleTextB.Anchor = AnchorStyles.None;
             titleTextB.BorderStyle = BorderStyle.FixedSingle;
             titleTextB.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            titleTextB.Location = new Point(115, 138);
+            titleTextB.Location = new Point(81, 138);
             titleTextB.Multiline = true;
             titleTextB.Name = "titleTextB";
-            titleTextB.Size = new Size(378, 26);
+            titleTextB.Size = new Size(320, 26);
             titleTextB.TabIndex = 13;
             titleTextB.TextChanged += titleTextB_TextChanged;
+            // 
+            // mostrarExemplarCheckbox
+            // 
+            mostrarExemplarCheckbox.AutoSize = true;
+            mostrarExemplarCheckbox.Location = new Point(738, 143);
+            mostrarExemplarCheckbox.Name = "mostrarExemplarCheckbox";
+            mostrarExemplarCheckbox.Size = new Size(130, 19);
+            mostrarExemplarCheckbox.TabIndex = 15;
+            mostrarExemplarCheckbox.Text = "Mostrar Exemplares";
+            mostrarExemplarCheckbox.UseVisualStyleBackColor = true;
+            mostrarExemplarCheckbox.CheckedChanged += mostrarExemplarCheckbox_CheckedChanged;
             // 
             // CamposMaterial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1051, 176);
+            Controls.Add(mostrarExemplarCheckbox);
             Controls.Add(isbnLbl);
             Controls.Add(isbnTextB);
             Controls.Add(titleLbl);
             Controls.Add(titleTextB);
             Name = "CamposMaterial";
-            Text = "CamposUsuario";
+            Text = "Campos Material";
+            Load += CamposMaterial_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -100,5 +115,6 @@
         private TextBox isbnTextB;
         private Label titleLbl;
         private TextBox titleTextB;
+        private CheckBox mostrarExemplarCheckbox;
     }
 }

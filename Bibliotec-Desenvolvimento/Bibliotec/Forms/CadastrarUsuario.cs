@@ -33,28 +33,11 @@ namespace Bibliotec.Forms
                 conec.Open();
 
                 // Obtenção dos valores dos campos do formulário e criando objeto
-                string tipoUsuario = userTypeComboB.Text; //Pode estar errado
-                string strSQL;
+                string strSQL = "";
 
-                if (tipoUsuario == "Aluno")
-                {
-                    Aluno aluno = new Aluno(userNameTxtB.Text, schoolEmailTxtB.Text, userPhoneMskTxtB.Text, RATxtB.Text);
-                    // Construção da string SQL para inserir um novo livro
-                    strSQL = aluno.cadastrarAluno();
-                }
-                else if (tipoUsuario == "Professor")
-                {
-                    Professor professor = new Professor(userNameTxtB.Text, schoolEmailTxtB.Text, userPhoneMskTxtB.Text, RATxtB.Text);
-                    // Construção da string SQL para inserir um novo livro
-                    strSQL = professor.cadastrarProfessor();
-                }
-                else
-                {
-                    Funcionario funcionario = new Funcionario(userNameTxtB.Text, schoolEmailTxtB.Text, userPhoneMskTxtB.Text, RATxtB.Text);
-                    // Construção da string SQL para inserir um novo livro
-                    strSQL = funcionario.cadastrarFuncionario();
-
-                }
+                Aluno aluno = new Aluno(userNameTxtB.Text, schoolEmailTxtB.Text, userPhoneMskTxtB.Text, RATxtB.Text);
+                // Construção da string SQL para inserir um novo livro
+                strSQL = aluno.cadastrarAluno();
 
                 // Criação do comando SQL e execução
                 var insertBook = new MySqlCommand(strSQL, conec);
@@ -68,7 +51,6 @@ namespace Bibliotec.Forms
                 RATxtB.Text = null;
                 schoolEmailTxtB.Text = null;
                 userPhoneMskTxtB.Text = null;
-                userTypeComboB.Text = null;
             }
             catch (Exception er)
             {

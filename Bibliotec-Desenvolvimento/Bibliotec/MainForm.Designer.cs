@@ -203,7 +203,7 @@
             userBtn.Name = "userBtn";
             userBtn.Size = new Size(194, 60);
             userBtn.TabIndex = 4;
-            userBtn.Text = " Usuário";
+            userBtn.Text = "  Estudantes";
             userBtn.UseVisualStyleBackColor = false;
             userBtn.Click += registerUserBtn_Click;
             // 

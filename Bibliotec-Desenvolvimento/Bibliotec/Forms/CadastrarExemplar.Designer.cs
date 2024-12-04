@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastrarExemplar));
-            registerSamplelBtn = new Button();
             sampleNumberTxt = new TextBox();
             isbnTxt = new TextBox();
             schoolEmailLbl = new Label();
@@ -38,25 +37,9 @@
             availableCheckBox = new CheckBox();
             redTargeCheckBox = new CheckBox();
             acquisitionMethodComboBox = new ComboBox();
+            registerSamplelBtn = new Button();
+            updateSamplelBtn = new Button();
             SuspendLayout();
-            // 
-            // registerSamplelBtn
-            // 
-            registerSamplelBtn.Anchor = AnchorStyles.None;
-            registerSamplelBtn.AutoSize = true;
-            registerSamplelBtn.BackColor = Color.Maroon;
-            registerSamplelBtn.FlatStyle = FlatStyle.Popup;
-            registerSamplelBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            registerSamplelBtn.ForeColor = Color.White;
-            registerSamplelBtn.Image = (Image)resources.GetObject("registerSamplelBtn.Image");
-            registerSamplelBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            registerSamplelBtn.Location = new Point(836, 340);
-            registerSamplelBtn.Name = "registerSamplelBtn";
-            registerSamplelBtn.Size = new Size(191, 60);
-            registerSamplelBtn.TabIndex = 43;
-            registerSamplelBtn.Text = "  Cadastrar";
-            registerSamplelBtn.UseVisualStyleBackColor = false;
-            registerSamplelBtn.Click += registerSamplelBtn_Click;
             // 
             // sampleNumberTxt
             // 
@@ -157,16 +140,53 @@
             acquisitionMethodComboBox.TabIndex = 51;
             acquisitionMethodComboBox.SelectedIndexChanged += acquisitionMethodComboBox_SelectedIndexChanged;
             // 
+            // registerSamplelBtn
+            // 
+            registerSamplelBtn.Anchor = AnchorStyles.None;
+            registerSamplelBtn.AutoSize = true;
+            registerSamplelBtn.BackColor = Color.Maroon;
+            registerSamplelBtn.FlatStyle = FlatStyle.Popup;
+            registerSamplelBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            registerSamplelBtn.ForeColor = Color.White;
+            registerSamplelBtn.Image = (Image)resources.GetObject("registerSamplelBtn.Image");
+            registerSamplelBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            registerSamplelBtn.Location = new Point(649, 324);
+            registerSamplelBtn.Name = "registerSamplelBtn";
+            registerSamplelBtn.Size = new Size(191, 60);
+            registerSamplelBtn.TabIndex = 52;
+            registerSamplelBtn.Text = "           Cadastrar Exemplar";
+            registerSamplelBtn.UseVisualStyleBackColor = false;
+            registerSamplelBtn.Click += registerSamplelBtn_Click;
+            // 
+            // updateSamplelBtn
+            // 
+            updateSamplelBtn.Anchor = AnchorStyles.None;
+            updateSamplelBtn.AutoSize = true;
+            updateSamplelBtn.BackColor = Color.Maroon;
+            updateSamplelBtn.FlatStyle = FlatStyle.Popup;
+            updateSamplelBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            updateSamplelBtn.ForeColor = Color.White;
+            updateSamplelBtn.Image = (Image)resources.GetObject("updateSamplelBtn.Image");
+            updateSamplelBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            updateSamplelBtn.Location = new Point(846, 324);
+            updateSamplelBtn.Name = "updateSamplelBtn";
+            updateSamplelBtn.Size = new Size(191, 60);
+            updateSamplelBtn.TabIndex = 53;
+            updateSamplelBtn.Text = "           Atualizar Exemplar";
+            updateSamplelBtn.UseVisualStyleBackColor = false;
+            updateSamplelBtn.Click += updateSamplelBtn_Click;
+            // 
             // CadastrarExemplar
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1176, 521);
+            Controls.Add(updateSamplelBtn);
+            Controls.Add(registerSamplelBtn);
             Controls.Add(acquisitionMethodComboBox);
             Controls.Add(redTargeCheckBox);
             Controls.Add(availableCheckBox);
             Controls.Add(label1);
-            Controls.Add(registerSamplelBtn);
             Controls.Add(sampleNumberTxt);
             Controls.Add(isbnTxt);
             Controls.Add(schoolEmailLbl);
@@ -178,7 +198,6 @@
         }
 
         #endregion
-        private Button registerSamplelBtn;
         private TextBox sampleNumberTxt;
         private TextBox isbnTxt;
         private Label schoolEmailLbl;
@@ -187,5 +206,7 @@
         private CheckBox availableCheckBox;
         private CheckBox redTargeCheckBox;
         private ComboBox acquisitionMethodComboBox;
+        private Button registerSamplelBtn;
+        private Button updateSamplelBtn;
     }
 }

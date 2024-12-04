@@ -37,6 +37,7 @@
             ClientSize = new Size(1051, 176);
             Name = "CamposEmprestimo";
             Text = "CamposEmprestimo";
+            Load += CamposEmprestimo_Load;
             ResumeLayout(false);
         }
 

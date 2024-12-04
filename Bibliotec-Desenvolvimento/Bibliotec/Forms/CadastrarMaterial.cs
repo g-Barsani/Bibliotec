@@ -1,4 +1,5 @@
-﻿using Bibliotec.Classes.Materiais;
+﻿using Bibliotec.Classes.Helpers;
+using Bibliotec.Classes.Materiais;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -38,7 +39,7 @@ namespace Bibliotec.Forms
                 bool tarjaVermelha = true;
 
                 CheckFields();
-                string publishDate = FormatPublishDate();
+                string publishDate = Helper.ConverterData(publishDateTextB.Text);
                 Livro livro = new Livro(titleTextB.Text, keyWordsTextB.Text, subjectTextB.Text, publishLocalTextB.Text, publishDate, authorTextB.Text,
                     publisherTextB.Text, isbnTextB.Text, editionTextB.Text, genderTextB.Text, subtitleTextB.Text);
 
@@ -100,12 +101,6 @@ namespace Bibliotec.Forms
         protected void OpenChildForm(Form childForm)
         {
 
-        }
-
-        private void manageCopiesBtn_Click(object sender, EventArgs e)
-        {
-            BotoesCrud crud = new BotoesCrud();
-            crud.OpenCopiesForm();
         }
 
         private void publishDateTextB_TextChanged(object sender, EventArgs e)

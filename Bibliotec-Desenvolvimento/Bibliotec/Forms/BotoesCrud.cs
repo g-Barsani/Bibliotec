@@ -58,8 +58,13 @@ namespace Bibliotec.Forms
             lastButton = btn;
         }
 
-        public void OpenCopiesForm()
+        public void OpenCopiesForm(Button btn)
         {
+            if (lastButton != null)
+            {
+                lastButton.BackColor = Color.Maroon;
+            }
+
             activeForm?.Close(); // se activeForme for diferente de nulo
             CadastrarExemplar copiesForm = new CadastrarExemplar();
             activeForm = copiesForm;
@@ -70,6 +75,8 @@ namespace Bibliotec.Forms
             this.crudPanel.Tag = copiesForm;
             copiesForm.BringToFront();
             copiesForm.Show();
+            btn.BackColor = Color.Gray;
+            lastButton = btn;
         }
 
         private void BotoesCrud_Load(object sender, EventArgs e)
@@ -116,7 +123,7 @@ namespace Bibliotec.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OpenCopiesForm();
+            OpenCopiesForm(manageCopiesBtn);
         }
 
         public void enableCopiesButton()

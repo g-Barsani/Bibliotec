@@ -26,7 +26,7 @@ namespace Bibliotec.Classes.Usuarios
 
         }
 
-        //Construtor para leitura
+        //Construtor para leitura (nao vai usar mais fds)
         public Aluno(int id, string nome, string email, string celular, string ra)
         {
             this.id = id;

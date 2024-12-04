@@ -27,5 +27,25 @@ namespace Bibliotec.Forms.Data_grid_forms
             string[] campos = { titleTextB.Text, isbnTextB.Text };
             return campos;
         }
+
+        public bool mostrarExemplares()
+        {
+            return mostrarExemplarCheckbox.Checked;
+        }
+
+        private void isbnTextB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mostrarExemplarCheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CamposMaterial_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

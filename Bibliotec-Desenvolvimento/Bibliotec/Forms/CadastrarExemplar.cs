@@ -37,9 +37,16 @@ namespace Bibliotec.Forms
 
         private void registerSamplelBtn_Click(object sender, EventArgs e)
         {
-            ExemplarLivro exemplarLivro = new ExemplarLivro(sampleNumberTxt.Text, isbnTxt.Text, redTargeCheckBox.Checked, 
+            ExemplarLivro exemplarLivro = new ExemplarLivro(sampleNumberTxt.Text, isbnTxt.Text, redTargeCheckBox.Checked,
                 availableCheckBox.Checked, acquisitionMethodComboBox.Text);
             exemplarLivro.CadastrarExemplarLivro();
+        }
+
+        private void updateSamplelBtn_Click(object sender, EventArgs e)
+        {
+            ExemplarLivro exemplarLivro = new ExemplarLivro(sampleNumberTxt.Text, isbnTxt.Text, redTargeCheckBox.Checked,
+                availableCheckBox.Checked, acquisitionMethodComboBox.Text);
+            exemplarLivro.AtualizarDisponibilidade(redTargeCheckBox.Checked);
         }
     }
 }

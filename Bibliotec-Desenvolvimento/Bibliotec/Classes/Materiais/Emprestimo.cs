@@ -1,80 +1,196 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
+using System.Windows.Forms;
 
 namespace Bibliotec.Classes.Materiais
 {
     internal class Emprestimo
     {
-        private int id { get; set; }
-        private int idAluno { get; set; }
-        private int numeroExemplar { get; set; }
+        private string raAluno { get; set; }
+        private string numeroExemplar { get; set; }
         private string dataEmprestimo { get; set; }
-        private string devolucaoEmprestimo { get; set; }
+        private string previsaoDevolucao { get; set; }
         private string dataDevolucaoEmprestimo { get; set; }
 
         // Construtor vazio
         public Emprestimo() { }
 
         // Construtor completo
-        public Emprestimo(int id, int idAluno, int numeroExemplar, string dataEmprestimo, string devolucaoEmprestimo, string dataDevolucaoEmprestimo)
+        public Emprestimo(string raAluno, string numeroExemplar, string dataEmprestimo, string previsaoDevolucao, string dataDevolucaoEmprestimo)
         {
-            this.id = id;
-            this.idAluno = idAluno;
+            this.raAluno = raAluno;
             this.numeroExemplar = numeroExemplar;
             this.dataEmprestimo = dataEmprestimo;
-            this.devolucaoEmprestimo = devolucaoEmprestimo;
+            this.previsaoDevolucao = previsaoDevolucao;
             this.dataDevolucaoEmprestimo = dataDevolucaoEmprestimo;
         }
 
+        private string strConnection = "server=localhost;uid=root;password=root;database=db_bibliotec";
+
         // Métodos CRUD
-        public string CadastrarEmprestimo()
+        public void CadastrarEmprestimo()
         {
-            return $"INSERT INTO tb_emprestimos (id_aluno, numero_exemplar, data_emprestimo, devolucao_emprestimo) " +
-                   $"VALUES ({idAluno}, {numeroExemplar}, '{dataEmprestimo}', '{devolucaoEmprestimo}')";
+            using (MySqlConnection conec = new MySqlConnection(strConnection))
+            {
+                try
+                {
+                    conec.Open();
+                    string strSQL = "";
+                    if (String.IsNullOrEmpty(dataDevolucaoEmprestimo))
+                    {
+                        strSQL = $"INSERT INTO tb_emprestimos (ra_aluno, numero_exemplar, data_emprestimo, previsao_devolucao) " +
+                                   $"VALUES ('{raAluno}', '{numeroExemplar}', '{dataEmprestimo}', '{previsaoDevolucao}')";
+                    } else {
+                        strSQL = $"INSERT INTO tb_emprestimos (ra_aluno, numero_exemplar, data_emprestimo, previsao_devolucao, data_devolucao_emprestimo) " +
+                                    $"VALUES ('{raAluno}', '{numeroExemplar}', '{dataEmprestimo}', '{previsaoDevolucao}', '{dataDevolucaoEmprestimo}')";
+                    }
+                    MySqlCommand insertLoan = new MySqlCommand(strSQL, conec);
+                    insertLoan.ExecuteNonQuery();
+                    MessageBox.Show("Empréstimo cadastrado com sucesso!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro ao cadastrar empréstimo: {ex.Message}");
+                }
+            }
         }
 
-        public string AtualizarEmprestimo()
+        public void AtualizarEmprestimo()
         {
-            return $"UPDATE tb_emprestimos SET data_devolucao_emprestimo = '{dataDevolucaoEmprestimo}' WHERE id = {id}";
+            using (MySqlConnection conec = new MySqlConnection(strConnection))
+            {
+                try
+                {
+                    string strSQL = "";
+                    conec.Open();
+                    if (String.IsNullOrEmpty(dataDevolucaoEmprestimo))
+                    {
+                        strSQL = $"UPDATE tb_emprestimos SET " +
+                                $"data_emprestimo = '{dataEmprestimo}', " +
+                                $"previsao_devolucao = '{previsaoDevolucao}' " +
+                                $"WHERE ra_aluno = '{raAluno}' AND numero_exemplar = '{numeroExemplar}'";
+                    } else {
+                        strSQL = $"UPDATE tb_emprestimos SET " +
+                                $"data_emprestimo = '{dataEmprestimo}', " +
+                                $"previsao_devolucao = '{previsaoDevolucao}', " +
+                                $"data_devolucao_emprestimo = '{dataDevolucaoEmprestimo}' " +
+                                $"WHERE ra_aluno = '{raAluno}' AND numero_exemplar = '{numeroExemplar}'";
+                    }
+                        
+                    MySqlCommand updateLoan = new MySqlCommand(strSQL, conec);
+                    updateLoan.ExecuteNonQuery();
+                    MessageBox.Show("Empréstimo atualizado com sucesso!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro ao atualizar empréstimo: {ex.Message}");
+                }
+            }
         }
 
-        public string RemoverEmprestimo()
+        public void RegistrarDevolucao()
         {
-            return $"DELETE FROM tb_emprestimos WHERE id = {id}";
+            using (MySqlConnection conec = new MySqlConnection(strConnection))
+            {
+                try
+                {
+                    string strSQL = "";
+                    conec.Open();
+                    strSQL = $"UPDATE tb_emprestimos SET " +
+                            $"data_devolucao_emprestimo = '{dataDevolucaoEmprestimo}' " +
+                            $"WHERE ra_aluno = '{raAluno}' AND numero_exemplar = '{numeroExemplar}'";
+                    MySqlCommand updateLoan = new MySqlCommand(strSQL, conec);
+                    updateLoan.ExecuteNonQuery();
+                    MessageBox.Show("Devolução cadastrada com sucesso!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro ao cadastrar devolução: {ex.Message}");
+                }
+            }
         }
 
-        public string RemoverTodosEmprestimos()
+        public void RemoverEmprestimo()
         {
-            return $"DELETE FROM tb_emprestimos";
+            using (MySqlConnection conec = new MySqlConnection(strConnection))
+            {
+                try
+                {
+                    conec.Open();
+                    string strSQL = $"DELETE FROM tb_emprestimos WHERE ra_aluno = '{raAluno}' AND numero_exemplar = '{numeroExemplar}'";
+                    MySqlCommand deleteLoan = new MySqlCommand(strSQL, conec);
+                    deleteLoan.ExecuteNonQuery();
+                    MessageBox.Show("Empréstimo removido com sucesso!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro ao remover empréstimo: {ex.Message}");
+                }
+            }
         }
 
-        // Métodos de consulta
-
-        // Consultar empréstimo por ID (id do empréstimo)
-        public string ConsultarPorId(int id)
+        public void RemoverTodosEmprestimos()
         {
-            return $"SELECT * FROM tb_emprestimos WHERE id = {id}";
+            using (MySqlConnection conec = new MySqlConnection(strConnection))
+            {
+                try
+                {
+                    conec.Open();
+                    string strSQL = "DELETE FROM tb_emprestimos";
+                    MySqlCommand deleteAllLoans = new MySqlCommand(strSQL, conec);
+                    deleteAllLoans.ExecuteNonQuery();
+                    MessageBox.Show("Todos os empréstimos foram removidos com sucesso!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro ao remover todos os empréstimos: {ex.Message}");
+                }
+            }
         }
 
-        // Consultar empréstimos por ID do aluno
-        public string ConsultarPorIdAluno(int idAluno)
+        public void ConsultarPorRaAluno(string raAluno)
         {
-            return $"SELECT * FROM tb_emprestimos WHERE id_aluno = {idAluno}";
+            using (MySqlConnection conec = new MySqlConnection(strConnection))
+            {
+                try
+                {
+                    conec.Open();
+                    string strSQL = $"SELECT * FROM tb_emprestimos WHERE ra_aluno = '{raAluno}'";
+                    MySqlCommand selectLoan = new MySqlCommand(strSQL, conec);
+                    MySqlDataReader reader = selectLoan.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        // Exemplo: Exibe dados no console
+                        Console.WriteLine($"Número Exemplar: {reader["numero_exemplar"]}, Data Empréstimo: {reader["data_emprestimo"]}");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro ao consultar empréstimos: {ex.Message}");
+                }
+            }
         }
 
-        // Getters
-        public int GetId()
+        // Getters e Setters
+        public string GetRaAluno()
         {
-            return id;
+            return raAluno;
         }
 
-        public int GetIdAluno()
+        public void SetRaAluno(string raAluno)
         {
-            return idAluno;
+            this.raAluno = raAluno;
         }
 
-        public int GetNumeroExemplar()
+        public string GetNumeroExemplar()
         {
             return numeroExemplar;
+        }
+
+        public void SetNumeroExemplar(string numeroExemplar)
+        {
+            this.numeroExemplar = numeroExemplar;
         }
 
         public string GetDataEmprestimo()
@@ -82,14 +198,29 @@ namespace Bibliotec.Classes.Materiais
             return dataEmprestimo;
         }
 
-        public string GetDevolucaoEmprestimo()
+        public void SetDataEmprestimo(string dataEmprestimo)
         {
-            return devolucaoEmprestimo;
+            this.dataEmprestimo = dataEmprestimo;
+        }
+
+        public string GetPrevisaoDevolucao()
+        {
+            return previsaoDevolucao;
+        }
+
+        public void SetPrevisaoDevolucao(string previsaoDevolucao)
+        {
+            this.previsaoDevolucao = previsaoDevolucao;
         }
 
         public string GetDataDevolucaoEmprestimo()
         {
             return dataDevolucaoEmprestimo;
+        }
+
+        public void SetDataDevolucaoEmprestimo(string dataDevolucaoEmprestimo)
+        {
+            this.dataDevolucaoEmprestimo = dataDevolucaoEmprestimo;
         }
     }
 }

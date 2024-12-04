@@ -16,5 +16,10 @@ namespace Bibliotec.Forms.Data_grid_forms
         {
             InitializeComponent();
         }
+
+        private void CamposEmprestimo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
