@@ -52,6 +52,9 @@
             subtitleLbl = new Label();
             subtitleTextB = new TextBox();
             publishDateTextB = new MaskedTextBox();
+            revistasRadioButton = new RadioButton();
+            livroRadioButton = new RadioButton();
+            tgRadioButton = new RadioButton();
             SuspendLayout();
             // 
             // titleTextB
@@ -97,6 +100,7 @@
             authorTextB.Name = "authorTextB";
             authorTextB.Size = new Size(378, 26);
             authorTextB.TabIndex = 3;
+            authorTextB.TextChanged += authorTextB_TextChanged;
             // 
             // subjectLbl
             // 
@@ -262,7 +266,7 @@
             registerMaterialBtn.ForeColor = Color.White;
             registerMaterialBtn.Image = (Image)resources.GetObject("registerMaterialBtn.Image");
             registerMaterialBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            registerMaterialBtn.Location = new Point(818, 304);
+            registerMaterialBtn.Location = new Point(818, 399);
             registerMaterialBtn.Name = "registerMaterialBtn";
             registerMaterialBtn.Size = new Size(177, 60);
             registerMaterialBtn.TabIndex = 15;
@@ -317,12 +321,54 @@
             publishDateTextB.TabIndex = 6;
             publishDateTextB.ValidatingType = typeof(DateTime);
             // 
+            // revistasRadioButton
+            // 
+            revistasRadioButton.Anchor = AnchorStyles.None;
+            revistasRadioButton.AutoSize = true;
+            revistasRadioButton.Location = new Point(928, 306);
+            revistasRadioButton.Name = "revistasRadioButton";
+            revistasRadioButton.Size = new Size(67, 19);
+            revistasRadioButton.TabIndex = 16;
+            revistasRadioButton.TabStop = true;
+            revistasRadioButton.Text = "Revistas";
+            revistasRadioButton.UseVisualStyleBackColor = true;
+            revistasRadioButton.CheckedChanged += revistasRadioButton_CheckedChanged;
+            // 
+            // livroRadioButton
+            // 
+            livroRadioButton.Anchor = AnchorStyles.None;
+            livroRadioButton.AutoSize = true;
+            livroRadioButton.Location = new Point(617, 304);
+            livroRadioButton.Name = "livroRadioButton";
+            livroRadioButton.Size = new Size(51, 19);
+            livroRadioButton.TabIndex = 17;
+            livroRadioButton.TabStop = true;
+            livroRadioButton.Text = "Livro";
+            livroRadioButton.UseVisualStyleBackColor = true;
+            livroRadioButton.CheckedChanged += livroRadioButton_CheckedChanged;
+            // 
+            // tgRadioButton
+            // 
+            tgRadioButton.Anchor = AnchorStyles.None;
+            tgRadioButton.AutoSize = true;
+            tgRadioButton.Location = new Point(725, 306);
+            tgRadioButton.Name = "tgRadioButton";
+            tgRadioButton.Size = new Size(146, 19);
+            tgRadioButton.TabIndex = 18;
+            tgRadioButton.TabStop = true;
+            tgRadioButton.Text = "Trabalho de Graduação";
+            tgRadioButton.UseVisualStyleBackColor = true;
+            tgRadioButton.CheckedChanged += tgRadioButton_CheckedChanged;
+            // 
             // CadastrarMaterial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(1176, 521);
+            Controls.Add(tgRadioButton);
+            Controls.Add(livroRadioButton);
+            Controls.Add(revistasRadioButton);
             Controls.Add(publishDateTextB);
             Controls.Add(subtitleLbl);
             Controls.Add(subtitleTextB);
@@ -379,5 +425,8 @@
         private Label subtitleLbl;
         private TextBox subtitleTextB;
         private MaskedTextBox publishDateTextB;
+        private RadioButton revistasRadioButton;
+        private RadioButton livroRadioButton;
+        private RadioButton tgRadioButton;
     }
 }

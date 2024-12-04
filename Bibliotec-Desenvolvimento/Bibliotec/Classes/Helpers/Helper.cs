@@ -28,5 +28,17 @@ namespace Bibliotec.Classes.Helpers
                 return null;
             }
         }
+
+        public static void disableField(TextBox txtBox)
+        {
+            txtBox.BackColor = Color.DarkGray;
+            txtBox.Enabled = false;
+        }
+
+        public static void enableField(TextBox txtBox)
+        {
+            txtBox.BackColor = Color.White;
+            txtBox.Enabled = true;
+        }
     }
 }
