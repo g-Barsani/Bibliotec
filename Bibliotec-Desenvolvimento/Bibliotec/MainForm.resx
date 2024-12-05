@@ -145,18 +145,6 @@
         QmCC
 </value>
   </data>
-  <data name="collectionBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAWRJREFUaEPt
-        2TFOA1EMRdEps4d0WU/2xGqyAfZDmVT0lIOdXFkUkSw9B54GzZG+lJjPHUM7y263663reoxziXOL89vy
-        GfmsI4+fyVCczzh/LZ85/yMikv8Nlwtr6CJyfbQsrqyhI1QYt7g+Rk5HpzBucX2MnI5OYdzi+hg5HZ3C
-        uMX1MXI6OoVxi+tj5HR0CuMW18fI6egUxi2uj5HT0SmMW1wfI6ejUxi3uD5GTkenMG5xfYycjk5h3OL6
-        GDkdncK4xfUxcjo6hXGL62PkdHQK47v4eorzzjkxvovvL0FOR6cwO8R5i/OVM+TnnB2e/Z4qWyN0fjrH
-        +Xh8fCp/lndegjV0dGxYQ0fHhjV0dGxYQ0fHhjV0dGxYQ0fHhjV0dGxYQ0fHhjV0dGxYQ0fHhjV0dGxY
-        Q0fHhjV0dGxYQ0fHhjV0dGxYQ0fHhjV00dj8C47Nv2La9ku+lKE423zNutv9a8vyDQHKpTS3iE5jAAAA
-        AElFTkSuQmCC
-</value>
-  </data>
   <data name="headerBox.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQ4AAACcCAYAAACOaEVZAAAABGdBTUEAAN0kg7A/zgAAACBjSFJNAACH

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastrarExemplar));
             sampleNumberTxt = new TextBox();
             isbnTxt = new TextBox();
             schoolEmailLbl = new Label();
@@ -148,13 +147,12 @@
             registerSamplelBtn.FlatStyle = FlatStyle.Popup;
             registerSamplelBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             registerSamplelBtn.ForeColor = Color.White;
-            registerSamplelBtn.Image = (Image)resources.GetObject("registerSamplelBtn.Image");
             registerSamplelBtn.ImageAlign = ContentAlignment.MiddleLeft;
             registerSamplelBtn.Location = new Point(649, 324);
             registerSamplelBtn.Name = "registerSamplelBtn";
             registerSamplelBtn.Size = new Size(191, 60);
             registerSamplelBtn.TabIndex = 52;
-            registerSamplelBtn.Text = "           Cadastrar Exemplar";
+            registerSamplelBtn.Text = "Cadastrar Exemplar";
             registerSamplelBtn.UseVisualStyleBackColor = false;
             registerSamplelBtn.Click += registerSamplelBtn_Click;
             // 
@@ -166,13 +164,12 @@
             updateSamplelBtn.FlatStyle = FlatStyle.Popup;
             updateSamplelBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             updateSamplelBtn.ForeColor = Color.White;
-            updateSamplelBtn.Image = (Image)resources.GetObject("updateSamplelBtn.Image");
             updateSamplelBtn.ImageAlign = ContentAlignment.MiddleLeft;
             updateSamplelBtn.Location = new Point(846, 324);
             updateSamplelBtn.Name = "updateSamplelBtn";
             updateSamplelBtn.Size = new Size(191, 60);
             updateSamplelBtn.TabIndex = 53;
-            updateSamplelBtn.Text = "           Atualizar Exemplar";
+            updateSamplelBtn.Text = "Atualizar Exemplar";
             updateSamplelBtn.UseVisualStyleBackColor = false;
             updateSamplelBtn.Click += updateSamplelBtn_Click;
             // 

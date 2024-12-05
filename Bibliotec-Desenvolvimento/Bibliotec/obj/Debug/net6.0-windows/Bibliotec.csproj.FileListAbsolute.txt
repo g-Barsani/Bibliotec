@@ -821,3 +821,10 @@ C:\Users\lucks\OneDrive\Desktop\Bibliotec\Bibliotec Versao Final\Bibliotec\Bibli
 C:\Users\lucks\OneDrive\Desktop\Bibliotec\Bibliotec Versao Final\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.genruntimeconfig.cache
 C:\Users\lucks\OneDrive\Desktop\Bibliotec\Bibliotec Versao Final\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\ref\Bibliotec.dll
 C:\Users\lucks\OneDrive\Desktop\Bibliotec\Bibliotec Versao Final\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.CadastrarExemplar.resources
+G:\Repos\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.BotoesCrud.resources
+G:\Repos\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.CadastrarEmprestimo.resources
+G:\Repos\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.CadastrarExemplar.resources
+G:\Repos\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Data_grid_forms.CamposEmprestimo.resources
+G:\Repos\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Data_grid_forms.CamposMaterial.resources
+G:\Repos\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.Data_grid_forms.CamposUsuario.resources
+G:\Repos\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\obj\Debug\net6.0-windows\Bibliotec.Forms.DataGridLer.resources

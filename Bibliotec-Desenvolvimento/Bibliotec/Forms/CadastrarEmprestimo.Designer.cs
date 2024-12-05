@@ -54,9 +54,9 @@
             registrarDevolucaoBtn.ForeColor = Color.White;
             registrarDevolucaoBtn.Image = (Image)resources.GetObject("registrarDevolucaoBtn.Image");
             registrarDevolucaoBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            registrarDevolucaoBtn.Location = new Point(815, 272);
+            registrarDevolucaoBtn.Location = new Point(791, 272);
             registrarDevolucaoBtn.Name = "registrarDevolucaoBtn";
-            registrarDevolucaoBtn.Size = new Size(191, 60);
+            registrarDevolucaoBtn.Size = new Size(215, 60);
             registrarDevolucaoBtn.TabIndex = 20;
             registrarDevolucaoBtn.TabStop = false;
             registrarDevolucaoBtn.Text = "          Registrar Devolução";
@@ -183,17 +183,17 @@
             realizarEmprestimoBtn.Anchor = AnchorStyles.None;
             realizarEmprestimoBtn.AutoSize = true;
             realizarEmprestimoBtn.BackColor = Color.Maroon;
+            realizarEmprestimoBtn.BackgroundImageLayout = ImageLayout.Zoom;
             realizarEmprestimoBtn.FlatStyle = FlatStyle.Popup;
             realizarEmprestimoBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             realizarEmprestimoBtn.ForeColor = Color.White;
-            realizarEmprestimoBtn.Image = (Image)resources.GetObject("realizarEmprestimoBtn.Image");
             realizarEmprestimoBtn.ImageAlign = ContentAlignment.MiddleLeft;
             realizarEmprestimoBtn.Location = new Point(193, 272);
             realizarEmprestimoBtn.Name = "realizarEmprestimoBtn";
-            realizarEmprestimoBtn.Size = new Size(191, 60);
+            realizarEmprestimoBtn.Size = new Size(215, 60);
             realizarEmprestimoBtn.TabIndex = 27;
             realizarEmprestimoBtn.TabStop = false;
-            realizarEmprestimoBtn.Text = "          Realizar Emprestimo";
+            realizarEmprestimoBtn.Text = "               Realizar Emprestimo";
             realizarEmprestimoBtn.UseVisualStyleBackColor = false;
             realizarEmprestimoBtn.Click += registerMaterialBtn_Click;
             // 
@@ -209,7 +209,7 @@
             atualizarEmprestimoBtn.ImageAlign = ContentAlignment.MiddleLeft;
             atualizarEmprestimoBtn.Location = new Point(193, 370);
             atualizarEmprestimoBtn.Name = "atualizarEmprestimoBtn";
-            atualizarEmprestimoBtn.Size = new Size(191, 60);
+            atualizarEmprestimoBtn.Size = new Size(215, 60);
             atualizarEmprestimoBtn.TabIndex = 28;
             atualizarEmprestimoBtn.TabStop = false;
             atualizarEmprestimoBtn.Text = "          Atualizar Emprestimo";

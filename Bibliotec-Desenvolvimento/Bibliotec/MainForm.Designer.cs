@@ -36,7 +36,6 @@
             helpLabel = new LinkLabel();
             homeBtn = new Button();
             materialBtn = new Button();
-            collectionBtn = new Button();
             headerBox = new PictureBox();
             navigationPanel = new Panel();
             userBtn = new Button();
@@ -115,7 +114,7 @@
             homeBtn.ForeColor = Color.White;
             homeBtn.Image = (Image)resources.GetObject("homeBtn.Image");
             homeBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            homeBtn.Location = new Point(18, 128);
+            homeBtn.Location = new Point(49, 128);
             homeBtn.Name = "homeBtn";
             homeBtn.Size = new Size(220, 60);
             homeBtn.TabIndex = 1;
@@ -132,30 +131,13 @@
             materialBtn.ForeColor = Color.White;
             materialBtn.Image = (Image)resources.GetObject("materialBtn.Image");
             materialBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            materialBtn.Location = new Point(244, 128);
+            materialBtn.Location = new Point(327, 128);
             materialBtn.Name = "materialBtn";
             materialBtn.Size = new Size(262, 60);
             materialBtn.TabIndex = 3;
             materialBtn.Text = "   Material";
             materialBtn.UseVisualStyleBackColor = false;
             materialBtn.Click += CadastrarMaterialBtn_Click;
-            // 
-            // collectionBtn
-            // 
-            collectionBtn.Anchor = AnchorStyles.Top;
-            collectionBtn.AutoSize = true;
-            collectionBtn.BackColor = Color.Maroon;
-            collectionBtn.FlatStyle = FlatStyle.Popup;
-            collectionBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            collectionBtn.ForeColor = Color.White;
-            collectionBtn.Image = (Image)resources.GetObject("collectionBtn.Image");
-            collectionBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            collectionBtn.Location = new Point(943, 128);
-            collectionBtn.Name = "collectionBtn";
-            collectionBtn.Size = new Size(265, 60);
-            collectionBtn.TabIndex = 6;
-            collectionBtn.Text = "Acervo";
-            collectionBtn.UseVisualStyleBackColor = false;
             // 
             // headerBox
             // 
@@ -179,7 +161,6 @@
             navigationPanel.Controls.Add(closeBtn);
             navigationPanel.Controls.Add(optionsPanel);
             navigationPanel.Controls.Add(headerBox);
-            navigationPanel.Controls.Add(collectionBtn);
             navigationPanel.Controls.Add(materialBtn);
             navigationPanel.Controls.Add(borrowingBtn);
             navigationPanel.Controls.Add(homeBtn);
@@ -199,7 +180,7 @@
             userBtn.ForeColor = Color.White;
             userBtn.Image = (Image)resources.GetObject("userBtn.Image");
             userBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            userBtn.Location = new Point(515, 128);
+            userBtn.Location = new Point(662, 128);
             userBtn.Name = "userBtn";
             userBtn.Size = new Size(194, 60);
             userBtn.TabIndex = 4;
@@ -242,7 +223,7 @@
             borrowingBtn.ForeColor = Color.White;
             borrowingBtn.Image = (Image)resources.GetObject("borrowingBtn.Image");
             borrowingBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            borrowingBtn.Location = new Point(715, 128);
+            borrowingBtn.Location = new Point(951, 128);
             borrowingBtn.Name = "borrowingBtn";
             borrowingBtn.Size = new Size(220, 60);
             borrowingBtn.TabIndex = 5;
@@ -289,7 +270,6 @@
         private LinkLabel logInLabel;
         private Button homeBtn;
         private Button materialBtn;
-        private Button collectionBtn;
         private PictureBox headerBox;
         private Panel navigationPanel;
         private Button closeBtn;
