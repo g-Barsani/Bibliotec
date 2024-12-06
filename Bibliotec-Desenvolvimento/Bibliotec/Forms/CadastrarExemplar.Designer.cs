@@ -38,6 +38,8 @@
             acquisitionMethodComboBox = new ComboBox();
             registerSamplelBtn = new Button();
             updateSamplelBtn = new Button();
+            livroRadioButton = new RadioButton();
+            revistasRadioButton = new RadioButton();
             SuspendLayout();
             // 
             // sampleNumberTxt
@@ -126,6 +128,7 @@
             redTargeCheckBox.TabIndex = 50;
             redTargeCheckBox.Text = "Tarja Vermelha";
             redTargeCheckBox.UseVisualStyleBackColor = true;
+            redTargeCheckBox.CheckedChanged += redTargeCheckBox_CheckedChanged;
             // 
             // acquisitionMethodComboBox
             // 
@@ -173,11 +176,39 @@
             updateSamplelBtn.UseVisualStyleBackColor = false;
             updateSamplelBtn.Click += updateSamplelBtn_Click;
             // 
+            // livroRadioButton
+            // 
+            livroRadioButton.Anchor = AnchorStyles.None;
+            livroRadioButton.AutoSize = true;
+            livroRadioButton.Location = new Point(145, 288);
+            livroRadioButton.Name = "livroRadioButton";
+            livroRadioButton.Size = new Size(51, 19);
+            livroRadioButton.TabIndex = 55;
+            livroRadioButton.TabStop = true;
+            livroRadioButton.Text = "Livro";
+            livroRadioButton.UseVisualStyleBackColor = true;
+            livroRadioButton.CheckedChanged += livroRadioButton_CheckedChanged;
+            // 
+            // revistasRadioButton
+            // 
+            revistasRadioButton.Anchor = AnchorStyles.None;
+            revistasRadioButton.AutoSize = true;
+            revistasRadioButton.Location = new Point(337, 288);
+            revistasRadioButton.Name = "revistasRadioButton";
+            revistasRadioButton.Size = new Size(62, 19);
+            revistasRadioButton.TabIndex = 54;
+            revistasRadioButton.TabStop = true;
+            revistasRadioButton.Text = "Revista";
+            revistasRadioButton.UseVisualStyleBackColor = true;
+            revistasRadioButton.CheckedChanged += revistasRadioButton_CheckedChanged;
+            // 
             // CadastrarExemplar
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1176, 521);
+            Controls.Add(livroRadioButton);
+            Controls.Add(revistasRadioButton);
             Controls.Add(updateSamplelBtn);
             Controls.Add(registerSamplelBtn);
             Controls.Add(acquisitionMethodComboBox);
@@ -205,5 +236,7 @@
         private ComboBox acquisitionMethodComboBox;
         private Button registerSamplelBtn;
         private Button updateSamplelBtn;
+        private RadioButton livroRadioButton;
+        private RadioButton revistasRadioButton;
     }
 }

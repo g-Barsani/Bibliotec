@@ -37,9 +37,19 @@ namespace Bibliotec.Forms
 
         private void registerSamplelBtn_Click(object sender, EventArgs e)
         {
-            ExemplarLivro exemplarLivro = new ExemplarLivro(sampleNumberTxt.Text, isbnTxt.Text, redTargeCheckBox.Checked,
-                availableCheckBox.Checked, acquisitionMethodComboBox.Text);
-            exemplarLivro.CadastrarExemplarLivro();
+            if (livroRadioButton.Checked)
+            {
+                ExemplarLivro exemplarLivro = new ExemplarLivro(sampleNumberTxt.Text, isbnTxt.Text, redTargeCheckBox.Checked,
+                    availableCheckBox.Checked, acquisitionMethodComboBox.Text);
+                exemplarLivro.CadastrarExemplarLivro();
+            }
+            else if (revistasRadioButton.Checked)
+            {
+                ExemplarRevista exemplarRevista = new ExemplarRevista(sampleNumberTxt.Text, isbnTxt.Text, availableCheckBox.Checked,
+                    acquisitionMethodComboBox.Text);
+                exemplarRevista.CadastrarExemplarRevista();
+            }
+
         }
 
         private void updateSamplelBtn_Click(object sender, EventArgs e)
@@ -47,6 +57,24 @@ namespace Bibliotec.Forms
             ExemplarLivro exemplarLivro = new ExemplarLivro(sampleNumberTxt.Text, isbnTxt.Text, redTargeCheckBox.Checked,
                 availableCheckBox.Checked, acquisitionMethodComboBox.Text);
             exemplarLivro.AtualizarDisponibilidade(redTargeCheckBox.Checked);
+        }
+
+        private void revistasRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            schoolEmailLbl.Text = "Nome da Revista";
+            redTargeCheckBox.Enabled = false;
+            redTargeCheckBox.Checked = false;
+        }
+
+        private void livroRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            schoolEmailLbl.Text = "ISBN";
+            redTargeCheckBox.Enabled = true;
+        }
+
+        private void redTargeCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

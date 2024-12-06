@@ -10,28 +10,22 @@ namespace Bibliotec.Forms
         public CadastrarEmprestimo()
         {
             InitializeComponent();
-
             Image imagemRealizarEmprestimo = Image.FromFile(
-    @"G:\Repos\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Assets\realizar-emprestimo.png"
-);
-            Image imagemAtualizarEmprestimo = Image.FromFile(
-    @"G:\Repos\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Assets\atualizar-emprestimo.png"
-);
+                $@"{Helper.getPath()}\Assets\realizar-emprestimo.png"
+            );
             Image imagemRegistrarDevolucao = Image.FromFile(
-    @"G:\Repos\Bibliotec\Bibliotec-Desenvolvimento\Bibliotec\Assets\registrar-devolucao.png"
-);
+                $@"{Helper.getPath()}\Assets\registrar-devolucao.png"
+            );
 
             Image resizedImageRealizarEmprestimo = ResizeImage(imagemRealizarEmprestimo, 60, 60); // Resize to 60x60
-            Image resizedImageAtualizarEmprestimo = ResizeImage(imagemAtualizarEmprestimo, 60, 60);
             Image resizedImageRegistrarDevolucao = ResizeImage(imagemRegistrarDevolucao, 60, 60);
 
             // Set the button properties
             realizarEmprestimoBtn.Image = resizedImageRealizarEmprestimo; // Assign the resized image
-            atualizarEmprestimoBtn.Image = resizedImageAtualizarEmprestimo;
             registrarDevolucaoBtn.Image = resizedImageRegistrarDevolucao;
         }
 
-        private void FuncaoCadastrarEmprestimo()
+        private void FuncaoCadastrarEmprestimoLivro()
         {
             // Recebe dados de input
             string ra = raAlunoTxtB.Text;
@@ -44,6 +38,7 @@ namespace Bibliotec.Forms
             previsaoDevolucao = Helper.ConverterData(previsaoDevolucao);
 
             Emprestimo emprestimo = new Emprestimo(
+                "livro",
                 ra,
                 numeroExemplar,
                 dataEmprestimo,
@@ -51,16 +46,75 @@ namespace Bibliotec.Forms
                 dataDevolucao
             );
 
-            emprestimo.CadastrarEmprestimo();
+            emprestimo.CadastrarEmprestimoLivro();
+        }
+
+        private void FuncaoCadastrarEmprestimoRevista()
+        {
+            // Recebe dados de input
+            string ra = raAlunoTxtB.Text;
+            string numeroExemplar = registroTxtB.Text;
+            string dataDevolucao = dataDevolucaoTxtB.Text;
+            string dataEmprestimo = dataEmprestimoTxtB.Text;
+            string previsaoDevolucao = previsaoDevolucaoTxtB.Text;
+            dataDevolucao = Helper.ConverterData(dataDevolucao);
+            dataEmprestimo = Helper.ConverterData(dataEmprestimo);
+            previsaoDevolucao = Helper.ConverterData(previsaoDevolucao);
+
+            Emprestimo emprestimo = new Emprestimo(
+                "revista",
+                ra,
+                numeroExemplar,
+                dataEmprestimo,
+                previsaoDevolucao,
+                dataDevolucao
+            );
+
+            emprestimo.CadastrarEmprestimoRevista();
+        }
+
+        private void FuncaoCadastrarTrabalhoGraduacao()
+        {
+            // Recebe dados de input
+            string ra = raAlunoTxtB.Text;
+            string numeroExemplar = registroTxtB.Text;
+            string dataDevolucao = dataDevolucaoTxtB.Text;
+            string dataEmprestimo = dataEmprestimoTxtB.Text;
+            string previsaoDevolucao = previsaoDevolucaoTxtB.Text;
+            dataDevolucao = Helper.ConverterData(dataDevolucao);
+            dataEmprestimo = Helper.ConverterData(dataEmprestimo);
+            previsaoDevolucao = Helper.ConverterData(previsaoDevolucao);
+
+            Emprestimo emprestimo = new Emprestimo(
+                "trabalho graduacao",
+                ra,
+                numeroExemplar,
+                dataEmprestimo,
+                previsaoDevolucao,
+                dataDevolucao
+            );
+
+            emprestimo.CadastrarEmprestimoTrabalhoGraduacao();
         }
 
         private void registerMaterialBtn_Click(object sender, EventArgs e)
         {
-           
 
             try
             {
-                FuncaoCadastrarEmprestimo();
+                if (livroRadioButton.Checked)
+                {
+                    FuncaoCadastrarEmprestimoLivro();
+                }
+
+                if (revistasRadioButton.Checked)
+                {
+                    FuncaoCadastrarEmprestimoRevista();
+                }
+                if (tgRadioButton.Checked)
+                {
+                    FuncaoCadastrarTrabalhoGraduacao();
+                }
             }
             catch (Exception ex)
             {
@@ -80,8 +134,20 @@ namespace Bibliotec.Forms
             string dataDevolucao = dataDevolucaoTxtB.Text;
 
             dataDevolucao = Helper.ConverterData(dataDevolucao);
+            string material = "";
+            if (livroRadioButton.Checked)
+            {
+                material = "livro";
+            } else if (revistasRadioButton.Checked)
+            {
+                material = "revista";
+            } else if (tgRadioButton.Checked)
+            {
+                material = "trabalho graduacao";
+            }
 
             Emprestimo emprestimo = new Emprestimo(
+                material,
                 ra,
                 numeroExemplar,
                 "",
@@ -117,7 +183,7 @@ namespace Bibliotec.Forms
                 dataDevolucao
             );
 
-            emprestimo.AtualizarEmprestimo();
+            //emprestimo.AtualizarEmprestimo();
         }
 
         private Image ResizeImage(Image img, int width, int height)
@@ -129,6 +195,21 @@ namespace Bibliotec.Forms
                 g.DrawImage(img, 0, 0, width, height);
             }
             return bmp;
+        }
+
+        private void tgRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            registroLbl.Text = "Titulo do Trabalho";
+        }
+
+        private void livroRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            registroLbl.Text = "Numero do Registro";
+        }
+
+        private void revistasRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            registroLbl.Text = "Numero do Registro";
         }
     }
 }

@@ -143,6 +143,38 @@ namespace Bibliotec.Classes.Materiais
             }
         }
 
+        public string PegarIdRevistaPeloTitulo(string titulo)
+        {
+            string idRevista = string.Empty; // Variável para armazenar o id da revista
+            using (MySqlConnection conec = new MySqlConnection(strConnection))
+            {
+                try
+                {
+                    conec.Open();
+                    // A consulta agora busca pelo título da revista, em vez de id_revista
+                    string strSQL = $"SELECT id FROM tb_revistas WHERE titulo = @titulo";
+                    MySqlCommand selectSample = new MySqlCommand(strSQL, conec);
+                    selectSample.Parameters.AddWithValue("@titulo", titulo); // Adiciona o parâmetro do título
+
+                    MySqlDataReader reader = selectSample.ExecuteReader();
+
+                    if (reader.Read()) // Verifica se existe um resultado
+                    {
+                        idRevista = reader["id"].ToString(); // Armazena o id da revista
+                    }
+                    else
+                    {
+                        MessageBox.Show("Revista não encontrada.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro ao consultar revista: {ex.Message}");
+                }
+            }
+            return idRevista; // Retorna o id da revista
+        }
+
         // Getters e Setters
         public string GetTitulo()
         {

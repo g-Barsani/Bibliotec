@@ -139,6 +139,37 @@ namespace Bibliotec.Classes.Materiais
             }
         }
 
+        public int PegarIdTgPeloTitulo(string titulo)
+        {
+            int idTg = 0;
+            using (MySqlConnection conec = new MySqlConnection(strConnection))
+            {
+                try
+                {
+                    conec.Open();
+                    string strSQL = $"SELECT id FROM tb_trabalhos_graduacao WHERE titulo = @titulo";
+                    MySqlCommand selectSample = new MySqlCommand(strSQL, conec);
+                    selectSample.Parameters.AddWithValue("@titulo", titulo);
+
+                    MySqlDataReader reader = selectSample.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        idTg = Int32.Parse(reader["id"].ToString());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Trabalho Graduação não encontrada.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro ao consultar trabalho graduação: {ex.Message}");
+                }
+            }
+            return idTg;
+        }
+
         // Getters e Setters
         public string GetTitulo()
         {

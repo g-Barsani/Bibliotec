@@ -31,9 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             optionsPanel = new Panel();
-            logInLabel = new LinkLabel();
-            accessLabel = new LinkLabel();
-            helpLabel = new LinkLabel();
             homeBtn = new Button();
             materialBtn = new Button();
             headerBox = new PictureBox();
@@ -43,7 +40,6 @@
             closeBtn = new Button();
             borrowingBtn = new Button();
             btnsPanel = new Panel();
-            optionsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)headerBox).BeginInit();
             navigationPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logo).BeginInit();
@@ -55,53 +51,10 @@
             optionsPanel.AutoSize = true;
             optionsPanel.BackColor = Color.Maroon;
             optionsPanel.BorderStyle = BorderStyle.FixedSingle;
-            optionsPanel.Controls.Add(logInLabel);
-            optionsPanel.Controls.Add(accessLabel);
-            optionsPanel.Controls.Add(helpLabel);
             optionsPanel.Location = new Point(16, 191);
             optionsPanel.Name = "optionsPanel";
             optionsPanel.Size = new Size(1192, 25);
             optionsPanel.TabIndex = 12;
-            // 
-            // logInLabel
-            // 
-            logInLabel.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            logInLabel.AutoSize = true;
-            logInLabel.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            logInLabel.ForeColor = Color.White;
-            logInLabel.LinkColor = Color.White;
-            logInLabel.Location = new Point(1111, -1);
-            logInLabel.Name = "logInLabel";
-            logInLabel.Size = new Size(43, 17);
-            logInLabel.TabIndex = 9;
-            logInLabel.TabStop = true;
-            logInLabel.Text = "Entrar";
-            // 
-            // accessLabel
-            // 
-            accessLabel.AutoSize = true;
-            accessLabel.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            accessLabel.ForeColor = Color.White;
-            accessLabel.LinkColor = Color.White;
-            accessLabel.Location = new Point(50, 0);
-            accessLabel.Name = "accessLabel";
-            accessLabel.Size = new Size(88, 17);
-            accessLabel.TabIndex = 8;
-            accessLabel.TabStop = true;
-            accessLabel.Text = "Acessiblidade";
-            // 
-            // helpLabel
-            // 
-            helpLabel.AutoSize = true;
-            helpLabel.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            helpLabel.ForeColor = Color.White;
-            helpLabel.LinkColor = Color.White;
-            helpLabel.Location = new Point(3, 0);
-            helpLabel.Name = "helpLabel";
-            helpLabel.Size = new Size(41, 17);
-            helpLabel.TabIndex = 7;
-            helpLabel.TabStop = true;
-            helpLabel.Text = "Ajuda";
             // 
             // homeBtn
             // 
@@ -116,7 +69,7 @@
             homeBtn.ImageAlign = ContentAlignment.MiddleLeft;
             homeBtn.Location = new Point(49, 128);
             homeBtn.Name = "homeBtn";
-            homeBtn.Size = new Size(220, 60);
+            homeBtn.Size = new Size(260, 60);
             homeBtn.TabIndex = 1;
             homeBtn.Text = "      Home";
             homeBtn.UseVisualStyleBackColor = false;
@@ -131,9 +84,9 @@
             materialBtn.ForeColor = Color.White;
             materialBtn.Image = (Image)resources.GetObject("materialBtn.Image");
             materialBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            materialBtn.Location = new Point(327, 128);
+            materialBtn.Location = new Point(315, 128);
             materialBtn.Name = "materialBtn";
-            materialBtn.Size = new Size(262, 60);
+            materialBtn.Size = new Size(294, 60);
             materialBtn.TabIndex = 3;
             materialBtn.Text = "   Material";
             materialBtn.UseVisualStyleBackColor = false;
@@ -180,9 +133,9 @@
             userBtn.ForeColor = Color.White;
             userBtn.Image = (Image)resources.GetObject("userBtn.Image");
             userBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            userBtn.Location = new Point(662, 128);
+            userBtn.Location = new Point(615, 128);
             userBtn.Name = "userBtn";
-            userBtn.Size = new Size(194, 60);
+            userBtn.Size = new Size(266, 60);
             userBtn.TabIndex = 4;
             userBtn.Text = "  Estudantes";
             userBtn.UseVisualStyleBackColor = false;
@@ -205,7 +158,7 @@
             closeBtn.BackColor = Color.Maroon;
             closeBtn.BackgroundImage = Properties.Resources.baseline_close_white_24dp;
             closeBtn.BackgroundImageLayout = ImageLayout.Center;
-            closeBtn.Location = new Point(1173, 3);
+            closeBtn.Location = new Point(1160, 3);
             closeBtn.Name = "closeBtn";
             closeBtn.Size = new Size(48, 44);
             closeBtn.TabIndex = 0;
@@ -223,9 +176,9 @@
             borrowingBtn.ForeColor = Color.White;
             borrowingBtn.Image = (Image)resources.GetObject("borrowingBtn.Image");
             borrowingBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            borrowingBtn.Location = new Point(951, 128);
+            borrowingBtn.Location = new Point(887, 128);
             borrowingBtn.Name = "borrowingBtn";
-            borrowingBtn.Size = new Size(220, 60);
+            borrowingBtn.Size = new Size(284, 60);
             borrowingBtn.TabIndex = 5;
             borrowingBtn.Text = "Empréstimos";
             borrowingBtn.UseVisualStyleBackColor = false;
@@ -253,8 +206,6 @@
             Name = "MainForm";
             Text = "Bibliotec";
             Load += MainForm_Load;
-            optionsPanel.ResumeLayout(false);
-            optionsPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)headerBox).EndInit();
             navigationPanel.ResumeLayout(false);
             navigationPanel.PerformLayout();
@@ -265,9 +216,6 @@
         #endregion
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Panel optionsPanel;
-        private LinkLabel accessLabel;
-        private LinkLabel helpLabel;
-        private LinkLabel logInLabel;
         private Button homeBtn;
         private Button materialBtn;
         private PictureBox headerBox;

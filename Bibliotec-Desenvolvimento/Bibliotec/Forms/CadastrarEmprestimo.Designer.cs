@@ -41,7 +41,9 @@
             previsaoDevolucaoTxtB = new MaskedTextBox();
             label3 = new Label();
             realizarEmprestimoBtn = new Button();
-            atualizarEmprestimoBtn = new Button();
+            livroRadioButton = new RadioButton();
+            revistasRadioButton = new RadioButton();
+            tgRadioButton = new RadioButton();
             SuspendLayout();
             // 
             // registrarDevolucaoBtn
@@ -181,9 +183,7 @@
             // realizarEmprestimoBtn
             // 
             realizarEmprestimoBtn.Anchor = AnchorStyles.None;
-            realizarEmprestimoBtn.AutoSize = true;
             realizarEmprestimoBtn.BackColor = Color.Maroon;
-            realizarEmprestimoBtn.BackgroundImageLayout = ImageLayout.Zoom;
             realizarEmprestimoBtn.FlatStyle = FlatStyle.Popup;
             realizarEmprestimoBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             realizarEmprestimoBtn.ForeColor = Color.White;
@@ -197,31 +197,53 @@
             realizarEmprestimoBtn.UseVisualStyleBackColor = false;
             realizarEmprestimoBtn.Click += registerMaterialBtn_Click;
             // 
-            // atualizarEmprestimoBtn
+            // livroRadioButton
             // 
-            atualizarEmprestimoBtn.Anchor = AnchorStyles.None;
-            atualizarEmprestimoBtn.AutoSize = true;
-            atualizarEmprestimoBtn.BackColor = Color.Maroon;
-            atualizarEmprestimoBtn.FlatStyle = FlatStyle.Popup;
-            atualizarEmprestimoBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            atualizarEmprestimoBtn.ForeColor = Color.White;
-            atualizarEmprestimoBtn.Image = (Image)resources.GetObject("atualizarEmprestimoBtn.Image");
-            atualizarEmprestimoBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            atualizarEmprestimoBtn.Location = new Point(193, 370);
-            atualizarEmprestimoBtn.Name = "atualizarEmprestimoBtn";
-            atualizarEmprestimoBtn.Size = new Size(215, 60);
-            atualizarEmprestimoBtn.TabIndex = 28;
-            atualizarEmprestimoBtn.TabStop = false;
-            atualizarEmprestimoBtn.Text = "          Atualizar Emprestimo";
-            atualizarEmprestimoBtn.UseVisualStyleBackColor = false;
-            atualizarEmprestimoBtn.Click += atualizarEmprestimoBtn_Click;
+            livroRadioButton.Anchor = AnchorStyles.None;
+            livroRadioButton.AutoSize = true;
+            livroRadioButton.Location = new Point(193, 236);
+            livroRadioButton.Name = "livroRadioButton";
+            livroRadioButton.Size = new Size(51, 19);
+            livroRadioButton.TabIndex = 30;
+            livroRadioButton.TabStop = true;
+            livroRadioButton.Text = "Livro";
+            livroRadioButton.UseVisualStyleBackColor = true;
+            livroRadioButton.CheckedChanged += livroRadioButton_CheckedChanged;
+            // 
+            // revistasRadioButton
+            // 
+            revistasRadioButton.Anchor = AnchorStyles.None;
+            revistasRadioButton.AutoSize = true;
+            revistasRadioButton.Location = new Point(509, 236);
+            revistasRadioButton.Name = "revistasRadioButton";
+            revistasRadioButton.Size = new Size(62, 19);
+            revistasRadioButton.TabIndex = 29;
+            revistasRadioButton.TabStop = true;
+            revistasRadioButton.Text = "Revista";
+            revistasRadioButton.UseVisualStyleBackColor = true;
+            revistasRadioButton.CheckedChanged += revistasRadioButton_CheckedChanged;
+            // 
+            // tgRadioButton
+            // 
+            tgRadioButton.Anchor = AnchorStyles.None;
+            tgRadioButton.AutoSize = true;
+            tgRadioButton.Location = new Point(300, 236);
+            tgRadioButton.Name = "tgRadioButton";
+            tgRadioButton.Size = new Size(146, 19);
+            tgRadioButton.TabIndex = 31;
+            tgRadioButton.TabStop = true;
+            tgRadioButton.Text = "Trabalho de Graduação";
+            tgRadioButton.UseVisualStyleBackColor = true;
+            tgRadioButton.CheckedChanged += tgRadioButton_CheckedChanged;
             // 
             // CadastrarEmprestimo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1176, 521);
-            Controls.Add(atualizarEmprestimoBtn);
+            Controls.Add(tgRadioButton);
+            Controls.Add(livroRadioButton);
+            Controls.Add(revistasRadioButton);
             Controls.Add(realizarEmprestimoBtn);
             Controls.Add(previsaoDevolucaoTxtB);
             Controls.Add(label3);
@@ -254,6 +276,8 @@
         private MaskedTextBox previsaoDevolucaoTxtB;
         private Label label3;
         private Button realizarEmprestimoBtn;
-        private Button atualizarEmprestimoBtn;
+        private RadioButton livroRadioButton;
+        private RadioButton revistasRadioButton;
+        private RadioButton tgRadioButton;
     }
 }

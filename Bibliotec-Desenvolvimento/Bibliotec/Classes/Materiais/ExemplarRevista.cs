@@ -8,19 +8,20 @@ namespace Bibliotec.Classes.Materiais
     {
         private string numeroExemplar { get; set; }
         private string idRevista { get; set; }
+        private string nomeRevista { get; set; }
         private bool disponivel { get; set; }
-        private string dataAquisicao { get; set; }
+        private string formaAquisicao { get; set; }
 
         // Construtor vazio
         public ExemplarRevista() { }
 
         // Construtor completo
-        public ExemplarRevista(string numeroExemplar, string idRevista, bool disponivel, string dataAquisicao)
+        public ExemplarRevista(string numeroExemplar, string nomeRevista, bool disponivel, string formaAquisicao)
         {
             this.numeroExemplar = numeroExemplar;
-            this.idRevista = idRevista;
+            this.nomeRevista = nomeRevista;
             this.disponivel = disponivel;
-            this.dataAquisicao = dataAquisicao;
+            this.formaAquisicao = formaAquisicao;
         }
 
         private string strConnection = "server=localhost;uid=root;password=root;database=db_bibliotec";
@@ -33,8 +34,9 @@ namespace Bibliotec.Classes.Materiais
                 try
                 {
                     conec.Open();
-                    string strSQL = $"INSERT INTO tb_exemplar_revistas (numero_exemplar, id_revista, disponibilidade, data_aquisicao) " +
-                                    $"VALUES ('{numeroExemplar}', '{idRevista}', {disponivel}, '{dataAquisicao}')";
+                    int idRevista = PegarIdRevistaPeloTitulo(nomeRevista);
+                    string strSQL = $"INSERT INTO tb_exemplar_revistas (numero_exemplar, id_revista, forma_aquisicao, disponibilidade) " +
+                                    $"VALUES ('{numeroExemplar}', '{idRevista}', '{formaAquisicao}', {disponivel})";
                     MySqlCommand insertSample = new MySqlCommand(strSQL, conec);
                     insertSample.ExecuteNonQuery();
                     MessageBox.Show("Exemplar de revista cadastrado com sucesso!");
@@ -127,6 +129,39 @@ namespace Bibliotec.Classes.Materiais
             }
         }
 
+        public int PegarIdRevistaPeloTitulo(string titulo)
+        {
+            int idRevista = 0; // Variável para armazenar o id da revista
+            using (MySqlConnection conec = new MySqlConnection(strConnection))
+            {
+                try
+                {
+                    conec.Open();
+                    // A consulta agora busca pelo título da revista, em vez de id_revista
+                    string strSQL = $"SELECT id FROM tb_revistas WHERE titulo = @titulo";
+                    MySqlCommand selectSample = new MySqlCommand(strSQL, conec);
+                    selectSample.Parameters.AddWithValue("@titulo", titulo); // Adiciona o parâmetro do título
+
+                    MySqlDataReader reader = selectSample.ExecuteReader();
+
+                    if (reader.Read()) // Verifica se existe um resultado
+                    {
+                        idRevista = Int32.Parse(reader["id"].ToString()); // Armazena o id da revista
+                    }
+                    else
+                    {
+                        MessageBox.Show("Revista não encontrada.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro ao consultar revista: {ex.Message}");
+                }
+            }
+            return idRevista; // Retorna o id da revista
+        }
+
+
         // Getters e Setters
         public string GetNumeroExemplar()
         {
@@ -156,16 +191,6 @@ namespace Bibliotec.Classes.Materiais
         public void SetDisponivel(bool disponivel)
         {
             this.disponivel = disponivel;
-        }
-
-        public string GetDataAquisicao()
-        {
-            return dataAquisicao;
-        }
-
-        public void SetDataAquisicao(string dataAquisicao)
-        {
-            this.dataAquisicao = dataAquisicao;
         }
     }
 }

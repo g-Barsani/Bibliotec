@@ -1,3 +1,4 @@
+using Bibliotec.Classes.Helpers;
 using Bibliotec.Forms;
 
 namespace Bibliotec

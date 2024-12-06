@@ -9,6 +9,7 @@ namespace Bibliotec.Classes.Helpers
 {
     internal class Helper
     {
+        static string workingDirectory = Environment.CurrentDirectory;
         public static string ConverterData(string data)
         {
             if (string.IsNullOrWhiteSpace(data) || data == "__/__/____")
@@ -39,6 +40,11 @@ namespace Bibliotec.Classes.Helpers
         {
             txtBox.BackColor = Color.White;
             txtBox.Enabled = true;
+        }
+
+        public static string getPath()
+        {
+            return Directory.GetParent(workingDirectory).Parent.Parent.FullName;
         }
     }
 }
