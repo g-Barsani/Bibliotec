@@ -10,20 +10,41 @@ namespace Bibliotec.Forms
         public CadastrarEmprestimo()
         {
             InitializeComponent();
-            Image imagemRealizarEmprestimo = Image.FromFile(
-                $@"{Helper.getPath()}\Assets\realizar-emprestimo.png"
-            );
-            Image imagemRegistrarDevolucao = Image.FromFile(
-                $@"{Helper.getPath()}\Assets\registrar-devolucao.png"
-            );
-
-            Image resizedImageRealizarEmprestimo = ResizeImage(imagemRealizarEmprestimo, 60, 60); // Resize to 60x60
-            Image resizedImageRegistrarDevolucao = ResizeImage(imagemRegistrarDevolucao, 60, 60);
-
-            // Set the button properties
-            realizarEmprestimoBtn.Image = resizedImageRealizarEmprestimo; // Assign the resized image
-            registrarDevolucaoBtn.Image = resizedImageRegistrarDevolucao;
+            LoadButtonImages();
         }
+
+        private void LoadButtonImages()
+        {
+            TryLoadButtonImage(realizarEmprestimoBtn, "realizar-emprestimo.png");
+            TryLoadButtonImage(registrarDevolucaoBtn, "registrar-devolucao.png");
+        }
+
+        private void TryLoadButtonImage(Button button, string imageName)
+        {
+            string imagePath = Helper.GetAssetPath(imageName);
+            MessageBox.Show(imagePath);
+            if (File.Exists(imagePath))
+            {
+                try
+                {
+                    using (Image originalImage = Image.FromFile(imagePath))
+                    {
+                        button.Image = ResizeImage(originalImage, 60, 60);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Erro ao carregar a imagem {imageName}: {ex.Message}");
+                    // Opcionalmente, defina uma imagem padrão ou deixe o botão sem imagem
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Imagem não encontrada: {imagePath}");
+                // Opcionalmente, defina uma imagem padrão ou deixe o botão sem imagem
+            }
+        }
+
 
         private void FuncaoCadastrarEmprestimoLivro()
         {

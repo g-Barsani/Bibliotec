@@ -42,9 +42,15 @@ namespace Bibliotec.Classes.Helpers
             txtBox.Enabled = true;
         }
 
-        public static string getPath()
+        public static string GetExecutablePath()
         {
-            return Directory.GetParent(workingDirectory).Parent.Parent.FullName;
+            return AppDomain.CurrentDomain.BaseDirectory;
+        }
+
+        public static string GetAssetPath(string assetName)
+        {
+            string assetsFolder = Path.Combine(GetExecutablePath(), "Assets");
+            return Path.Combine(assetsFolder, assetName);
         }
     }
 }
